@@ -1,0 +1,57 @@
+
+LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v.2.3 
+
+
+Input files:
+  i                                               Input tree file : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/gene_specific_analysis/gene_trees/10044_GeneTrees/Pgene_canine_10044.nwk
+  d                                               Input date file : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/gene_specific_analysis/gene_trees/10044_GeneTrees/Pgene_LSD.tab
+  p                                                Partition file : No
+  g                                               Given outgroups : No
+Output file:
+  o                                                  Output file  : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/gene_specific_analysis/gene_trees/10044_GeneTrees/P_LSD2
+Parameters:
+  a                                                     Root date : No
+  z                                                     Tips date : No
+  c                                              With constraints : Yes
+  t                                      Lower bound for the rate : 1e-10
+  v                                                With variances : Yes, use variances based on input branch lengths
+  b                              Adjusted parameter for variances : To estimate
+  r                                             Estimate the root : Use fast method to search on all branches
+  w                                       Given substitution rate : No
+  n                                             Multiple data set : No
+  f                                  Compute confidence intervals : Yes, sampling 1000 times
+  q                  Standard deviation of lognormal relaxed clock: 0.2 (for computing confidence intervals)
+  s                                               Sequence length : 1353
+  e                                          Exclude outlier tips : Yes, detect and exclude outliers from the analysis
+  m                   Number of sampling nodes to detect outliers : 10
+  e                       The Zscore threshold to detect outliers : 3
+  u                Min internal branch length of time scaled tree : 0
+  U                Min external branch length of time scaled tree : 0
+  l                        Collapsed internal branch length limit : 0.000369549
+  D                                            Output date format : Based on input date format
+  E  Estimate rates for external and internal branches separately : No
+
+  h to print Help 
+  y to accept or type a letter to change an option (x = Exit) 
+Tree 1 
+Parameter to adjust variances was set to 0.00739098 (settable via option -b)
+Minimum branch length of time scaled tree (settable via option -u and -U): 0
+
+*WARNINGS:
+- There's not enough input date information to have a unique solution. 
+The reported results show the upper solution: upper_rate and upper_dates.
+For any coefficient k<=1, there's a corresponding solution where the rate is upper_rate*k,
+and the date of any node i is upper_dates[i]/k+2014.4*(k-1)/k
+
+*RESULTS:
+- The input dates associated with the following 50 nodes are considered as
+ outliers, so the nodes were excluded from the analysis:
+ KX148185 KX148190 JQ944704 KX148150 KX148159 KX148140 MF197742 KX148161 JQ685970 KX148261 EU293111 KX148244 KC196743 KF977826 KX148240 KX148228 MN534895 KF154996 MK540994 MK540982 JQ944707 KX954123 KU198476 KX148105 KC171645 KY982922 KY860613 KX148101 MK760768 EU886631 MH660455 MK111075 KX148211 KX148206 KX148204 KT336436 KX148203 KT336437 KT336435 KX148103 KP723638 KX148200 KF155001 KX148196 KX148194 KX148193 KX148212 MK760766 KY860612 KX148186
+- Dating results:
+ rate NA:0.000241892, tMRCA NA:1151-08-31 , objective function 0.455363
+- Results with confidence intervals:
+ rate 0:0.000241892 [0.000195864; 0.0002623], tMRCA :1151-08-31 [1250-06-22; 1469-12-15], objective function 0.455363
+
+*********************************************************
+
+TOTAL ELAPSED TIME: 14165.5 seconds

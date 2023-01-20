@@ -1,0 +1,208 @@
+---
+title: "Deciphering global spread of canine rabies virus in the modern era using concatenated gene sequences"
+author: "Andrew Holtz, Guy Baele, Hervé Bourhy, Anna Zhukova"
+output: html_document
+---
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(tidyr))
+suppressPackageStartupMessages(library(knitr))
+suppressPackageStartupMessages(library(stringr))
+suppressPackageStartupMessages(library(RColorBrewer))
+suppressPackageStartupMessages(library(plotly))
+suppressPackageStartupMessages(library(lubridate))
+suppressPackageStartupMessages(require(DT))
+suppressPackageStartupMessages(require(readr))
+suppressPackageStartupMessages(require(data.table))
+suppressPackageStartupMessages(require(ape))
+```
+
+January 2023
+
+
+
+```{r message=FALSE, warning=FALSE, out.width = '150%', out.height = '150%', echo=FALSE}
+
+`%notin%` <- Negate(`%in%`)
+
+setwd("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/github_scripts/")
+
+meta <- read.delim("meta_full_exclusion_clade_simple.tab")
+
+```
+## Total Sequences used in analysis including Bats, Skunks Racoons, and Canine
+
+```{r message=FALSE, warning=FALSE, out.width = '150%', out.height = '150%', echo=FALSE}
+DT::datatable(meta, extensions = 'Buttons', options = list(
+  autoWidth = TRUE, 
+  pageLength = 10,
+  dom = 'Bfrtip',
+  buttons = c('copy', 'csv', 'excel', 'pdf', 'print')),
+  filter = list(
+    position = 'top', clear = FALSE))
+
+host <- meta %>% group_by(host_simple) %>% tally() %>% 
+  arrange(n)
+
+host$host_simple <- factor(host$host_simple, levels = 
+                            host$host_simple[order(-host$n)])
+
+host <- ggplot(host, aes(host_simple,n)) + geom_bar(stat = "identity", fill = "#00879f") +
+  labs(title = "Host Species Full Data Set", x = "Host Species", y =  "Count") + theme_bw() +
+  theme(axis.text.x = element_text(angle = 70)) 
+
+ggplotly()
+
+country<- meta %>% group_by(Country) %>% tally() %>% 
+  arrange(n) 
+
+country$Country <- factor(country$Country, levels = 
+                            country$Country[order(-country$n)])
+
+country <- ggplot(country, aes(Country,n)) + geom_bar(stat = "identity", fill = "#2DA37F") +
+  labs(title = "Country of Isolation Full Data Set", x = "Country of Isolation", y =  "Count") + theme_bw() +
+  theme(axis.text.x = element_text(angle = 70)) 
+
+ggplotly()
+
+
+gene <- meta %>% group_by(fragment) %>% tally() %>% 
+  arrange(n) 
+
+gene$fragment <- factor(gene$fragment, levels = 
+                            gene$fragment[order(-gene$n)])
+
+gene <- ggplot(gene, aes(fragment, n)) + geom_bar(stat = "identity", fill = "#745185") +
+  labs(title = "RABV Sequence Fragment (>200bp) Full Data Set", x = "Gene(s)", y =  "Count") +
+  theme_bw()
+
+ggplotly()
+
+```
+
+```{r message=FALSE, warning=FALSE, out.width = '150%' , echo=FALSE}
+
+clade <- meta %>% group_by(clade_simple) %>% tally() %>% 
+  arrange(n) 
+
+clade$clade_simple <- factor(clade$clade_simple, levels = 
+                            clade$clade_simple[order(-clade$n)])
+
+clade <- ggplot(clade, aes(clade_simple, n)) + geom_bar(stat = "identity", fill = "#c6f754") +
+  labs(title = "RABV Clade Classification Full Data Set", x = "Clade", y =  "Count") +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 70)) 
+
+ggplotly()
+
+```
+
+## Canine-subtree sequences: Cosmopolitan, Africa-2, Asian, Africa-3, and Arctic Clade
+
+```{r message=FALSE, warning=FALSE, , echo=FALSE, out.width = '150%'}
+
+nwk <- read.tree("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/github_scripts/TempestRooted1327_WGSRate_OutRem.date.nwk")
+
+meta_canine <- meta %>% filter(Accession %in% nwk$tip.label)
+
+DT::datatable(meta_canine, extensions = 'Buttons', options = list(
+  autoWidth = TRUE, 
+  pageLength = 10,
+  dom = 'Bfrtip',
+  buttons = c('copy', 'csv', 'excel', 'pdf', 'print')),
+  filter = list(
+    position = 'top', clear = FALSE))
+
+
+host <- meta_canine %>% group_by(host_simple) %>% tally() %>% 
+  arrange(n)
+
+host$host_simple <- factor(host$host_simple, levels = 
+                            host$host_simple[order(-host$n)])
+
+host <- ggplot(host, aes(host_simple,n)) + geom_bar(stat = "identity", fill = "#00879f") +
+  labs(title = "Host Species: Canine Tree", x = "Host Species", y =  "Count") + theme_bw() +
+  theme(axis.text.x = element_text(angle = 70)) 
+
+ggplotly()
+
+country<- meta_canine %>% group_by(Country) %>% tally() %>% 
+  arrange(n) 
+
+country$Country <- factor(country$Country, levels = 
+                            country$Country[order(-country$n)])
+
+country <- ggplot(country, aes(Country,n)) + geom_bar(stat = "identity", fill = "#2DA37F") +
+  labs(title = "Country of Isolation: Canine Tree", x = "Country of Isolation", y =  "Count") + theme_bw() +
+  theme(axis.text.x = element_text(angle = 70)) 
+
+ggplotly()
+
+
+gene <- meta_canine %>% group_by(fragment) %>% tally() %>% 
+  arrange(n) 
+
+gene$fragment <- factor(gene$fragment, levels = 
+                            gene$fragment[order(-gene$n)])
+
+gene <- ggplot(gene, aes(fragment, n)) + geom_bar(stat = "identity", fill = "#745185") +
+  labs(title = "RABV Sequence Fragment (>200bp): Canine Tree", x = "Gene(s)", y =  "Count") +
+  theme_bw()
+
+ggplotly()
+
+```
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, out.width = '150%'}
+
+
+clade <- meta_canine %>% group_by(clade_simple) %>% tally() %>% 
+  arrange(n) 
+
+clade$clade_simple <- factor(clade$clade_simple, levels = 
+                            clade$clade_simple[order(-clade$n)])
+
+clade <- ggplot(clade, aes(clade_simple, n)) + geom_bar(stat = "identity", fill = "#c6f754") +
+  labs(title = "RABV Clade Classification: Canine Tree", x = "Clade", y =  "Count") +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 70)) 
+
+ggplotly()
+
+```
+
+## ACR Results by Clade of Interest (country, region, dates)
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, out.width = '150%'}
+
+CladeTable <- read_csv("Clade Table - Sheet1.csv")
+
+DT::datatable(CladeTable, extensions = 'Buttons', options = list(
+  autoWidth = 100, 
+  pageLength = 10,
+  dom = 'Bfrtip',
+  buttons = c('copy', 'csv', 'excel', 'pdf', 'print')),
+  filter = list(
+    position = 'top', clear = FALSE))
+
+```
+
+
+## Inferred Human-Mediated RABV Transmissions
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, out.width = '150%'}
+
+intro <- read.csv("FULLTREE_annotations_table_intro_nonneigh.csv")
+
+DT::datatable(intro, extensions = 'Buttons', options = list(
+  autoWidth = TRUE, 
+  pageLength = 10,
+  dom = 'Bfrtip',
+  buttons = c('copy', 'csv', 'excel', 'pdf', 'print')),
+  filter = list(
+    position = 'top', clear = FALSE))
+
+```
+

@@ -1,0 +1,58 @@
+
+LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v.2.3 
+
+
+Input files:
+  i                                               Input tree file : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/gene_specific_analysis/gene_trees/10044_GeneTrees/Mgene_canine_10044.nwk
+  d                                               Input date file : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/gene_specific_analysis/gene_trees/10044_GeneTrees/Mgene_LSD.tab
+  p                                                Partition file : No
+  g                                               Given outgroups : No
+Output file:
+  o                                                  Output file  : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/gene_specific_analysis/gene_trees/10044_GeneTrees/M_LSD2
+Parameters:
+  a                                                     Root date : No
+  z                                                     Tips date : No
+  c                                              With constraints : Yes
+  t                                      Lower bound for the rate : 1e-10
+  v                                                With variances : Yes, use variances based on input branch lengths
+  b                              Adjusted parameter for variances : To estimate
+  r                                             Estimate the root : Use fast method to search on all branches
+  w                                       Given substitution rate : No
+  n                                             Multiple data set : No
+  f                                  Compute confidence intervals : Yes, sampling 1000 times
+  q                  Standard deviation of lognormal relaxed clock: 0.2 (for computing confidence intervals)
+  s                                               Sequence length : 1353
+  e                                          Exclude outlier tips : Yes, detect and exclude outliers from the analysis
+  m                   Number of sampling nodes to detect outliers : 10
+  e                       The Zscore threshold to detect outliers : 3
+  u                Min internal branch length of time scaled tree : 0
+  U                Min external branch length of time scaled tree : 0
+  l                        Collapsed internal branch length limit : 0.000369549
+  D                                            Output date format : Based on input date format
+  E  Estimate rates for external and internal branches separately : No
+
+  h to print Help 
+  y to accept or type a letter to change an option (x = Exit) 
+Tree 1 
+Parameter to adjust variances was set to 0.00739098 (settable via option -b)
+Minimum branch length of time scaled tree (settable via option -u and -U): 0
+
+*WARNINGS:
+- The tips KC197866 KC197962 KC197920 KC197914 KC197901 KC197900 KC197899 KC197894 KC197885 KC197882 KC197881 KC197880 KC197879 KC197878 KC197877 KC197876 KC197874 KC197873 KC197872 KC197871 KC197870 KC197869 KC197868 KC197867 KC197865 KC197864 KC197863 KC197861 KC197860 KC197859 KC197858 KC197857 KC197856 KC197862 KC197940 KC197917 KC197927 KC197968 KC197967 KC197966 KC197965 KC197964 KC197963 KC197961 KC197960 KC197959 KC197957 KC197956 KC197955 KC197954 KC197953 KC197952 KC197951 KC197950 KC197949 KC197948 KC197947 KC197946 KC197945 KC197944 KC197943 KC197942 KC197941 KC197939 KC197938 KC197937 KC197935 KC197934 KC197933 KC197932 KC197931 KC197930 KC197928 KC197926 KC197925 KC197924 KC197923 KC197922 KC197921 KC197919 KC197918 KC197916 KC197913 KC197912 KC197911 KC197910 KC197909 KC197908 KC197907 KC197906 KC197905 KC197904 KC197903 KC197902 KC197898 KC197897 KC197896 KC197895 KC197893 KC197892 KC197891 KC197890 KC197889 KC197888 KC197887 KC197886 KC197884 KC197883 KC197875 KC197915 KC197958 KC197936 MG869104 MG869103 MG869102 MG869101 do not have temporal constraint, their dates will be infered.
+- There's not enough input date information to have a unique solution. 
+The reported results show the upper solution: upper_rate and upper_dates.
+For any coefficient k<=1, there's a corresponding solution where the rate is upper_rate*k,
+and the date of any node i is upper_dates[i]/k+2014.67*(k-1)/k
+
+*RESULTS:
+- The input dates associated with the following 42 nodes are considered as
+ outliers, so the nodes were excluded from the analysis:
+ KX148190 KX148161 KX148159 MK760723 MF197742 JQ944704 KX148150 KX148212 MK760766 MH660455 MK111075 KF977826 MK689676 KX148265 EU293107 MN075931 KX148261 KF154996 KX148228 MN534895 MK540992 MK540986 MK540897 MK540977 KX148105 KC171645 KY982922 MG458308 KX148101 MK760768 JQ685970 KX148196 KR906738 KX148103 KX148204 KT336437 KT336435 KP723638 KX148200 KX148211 KX148186 KX148185
+- Dating results:
+ rate NA:0.000199067, tMRCA NA:948-06-01 , objective function 0.448842
+- Results with confidence intervals:
+ rate 0:0.000199067 [0.000133201; 0.000187416], tMRCA :948-06-01 [1154-05-23; 1430-02-25], objective function 0.448842
+
+*********************************************************
+
+TOTAL ELAPSED TIME: 8099.19 seconds
