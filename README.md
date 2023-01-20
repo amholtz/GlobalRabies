@@ -5,7 +5,7 @@ This repository contains scripts and data that were used to analyze the global s
 Although viral sequencing continues to increase rapidly, novel statistical methods struggle to cope with historical viral endemic diseases, which have large databases of underutilized partial sequences. We propose a phylogenetic pipeline harnessing full genome and partial sequences to investigate historical pathogen spread between countries. Its application to Rabies virus (RABV) yields precise dating and confident estimations of geographic dispersal. By using full genome and partial sequences, we limit both geographic and genetic bias which often hinder studies that focus on specific genes. Our method reveals an emergence of the present canine-rabies virus between 1301 and 1401 and estimates global regional-introductions over a 700-year period. This geographic reconstruction enables us to locate episodes of human-mediated introductions of RABV around the globe and reveal how European colonization impacted the spread of canine rabies. This work offers a pipeline for accurate phylogeographic reconstruction on large and diverse datasets for many viral pathogens.
 
 ---
-# Working Flow Description
+# Work Flow Description
 
 **Links to download data is either given or can be found in [data folder]**
 
@@ -31,7 +31,7 @@ mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments 
 concat -i N_gene_aln.fasta P_gene_aln.fasta M_gene_aln.fasta G_gene_aln.fasta L_gene_aln.fasta -o concat_seq_genes.fasta
 ```
 
-![Alt text](/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/concatenation_genes.png)
+![Alt text](https://github.com/amholtz/GlobalRabies/blob/main/concatenation_genes.png)
 
 ### Tree Reconstruction & Dating
 1. FastTree reconstruction on all sequences - [iTol link to tree result](https://itol.embl.de/tree/15799174202126551652369486#)
@@ -84,7 +84,7 @@ iqtree2 -s subsampled_5000_5.fa -st DNA -nt 8 -alrt 0 -m GTR+I+G4 -B 1000 -p gen
 ```
 lsd2 -i TempEstRooted_subsampled_5000_5_OutRem.treefile -d fullCanine_lsd2.tab -s 10860 -o sub1_CI -f 1000 -e 3 -w rate.txt
 ```
-3. Triplet Distance Calculation with full-tree with custom script[triplet_distance.R](https://github.com/amholtz/GlobalRabies/blob/main/R/triplet_distance.R)
+3. Triplet Distance Calculation with full-tree with custom script [triplet_distance.R](https://github.com/amholtz/GlobalRabies/blob/main/R/triplet_distance.R)
 
 ### PastML Country Level (Subsample 5 example)
 ```
@@ -93,7 +93,7 @@ named.tree_Subsample5000_5_TempestRooted1327_WGSRate_OutRem.date.nexus -d meta_R
 **[iTol Tree with ACR Estimation annotations](https://itol.embl.de/tree/15799174109116831658497579)** & **[PastML Visualization- ACR Country Results](https://github.com/amholtz/GlobalRabies/blob/main/data/ACR_Results/Country/Sub5)**
 
 ### Country Level ACR Consensus Tree
-Consensus tree was created by comparing country estimations for each node across all subsamples and the full canine tree following [ACR_Sub_comparsion.R](https://github.com/amholtz/GlobalRabies/blob/main/R/ACR_Sub_comparison.R)
+Consensus tree was created by comparing country estimations for each node across all subsamples and the full canine tree following custom script [ACR_Sub_comparsion.R](https://github.com/amholtz/GlobalRabies/blob/main/R/ACR_Sub_comparison.R)
 
 ###### PastML Consensus ACR
 
@@ -125,6 +125,8 @@ named.tree_dated.Fullpruned_subsampledTips.nwk -d meta_full_exclusion_clade_simp
 
 ### Human-Mediated Introductions
 Human-mediated transmission were inferred using the custom script [introduction_events_FullTree.R](https://github.com/amholtz/GlobalRabies/blob/main/R/introduction_events_FullTree.R)
+
+## Interactive Visulizations and Tables can be viewed **[here](https://amholtz.github.io/GlobalRabies/)**
 
 # Get in touch
 
