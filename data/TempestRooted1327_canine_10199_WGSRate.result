@@ -1,0 +1,54 @@
+
+LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v.2.3 
+
+
+Input files:
+  i                                               Input tree file : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/complete_tree/complete_dating/canine/TempestRooted1327_canine_10199Taxa_collapsed.nwk
+  d                                               Input date file : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/complete_tree/complete_dating/canine/fullCanine_lsd2.tab
+  p                                                Partition file : No
+  g                                               Given outgroups : No
+Output file:
+  o                                                  Output file  : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/complete_tree/complete_dating/canine/TempestRooted1327_canine_10199_WGSRate.result
+Parameters:
+  a                                                     Root date : No
+  z                                                     Tips date : No
+  c                                              With constraints : Yes
+  t                                      Lower bound for the rate : 1e-10
+  v                                                With variances : Yes, use variances based on input branch lengths
+  b                              Adjusted parameter for variances : To estimate
+  r                                             Estimate the root : No
+  w                                       Given substitution rate : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/complete_tree/complete_dating/canine/rate.txt
+  n                                             Multiple data set : No
+  f                                  Compute confidence intervals : Yes, sampling 1000 times
+  q                  Standard deviation of lognormal relaxed clock: 0.2 (for computing confidence intervals)
+  s                                               Sequence length : 10860
+  e                                          Exclude outlier tips : Yes, detect and exclude outliers from the analysis
+  m                   Number of sampling nodes to detect outliers : 10
+  e                       The Zscore threshold to detect outliers : 5
+  u                Min internal branch length of time scaled tree : 0
+  U                Min external branch length of time scaled tree : 0
+  l                        Collapsed internal branch length limit : 4.60405e-05
+  D                                            Output date format : Based on input date format
+  E  Estimate rates for external and internal branches separately : No
+
+  h to print Help 
+  y to accept or type a letter to change an option (x = Exit) 
+Tree 1 
+Parameter to adjust variances was set to 0.001587 (settable via option -b)
+Minimum branch length of time scaled tree (settable via option -u and -U): 0
+
+*WARNINGS:
+- The tips GU731669 AB628213 JN936723 JQ699259 JN936721 JN936722 JN936724 EU004706 MH258797 HM368121 EU296444 EU296445 EU296446 GU644960 KT381839 KT381851 JQ434314 JQ434305 JQ434303 KT381836 KT381837 KT381842 KT381840 KT381841 HQ829842 JN561129 JN561128 KT381849 KT381848 AB614392 JF972381 GU816002 MK534449 MK534455 JF972383 JF972389 JF972388 JF972384 JF972386 LC114262 MT684780 KF831520 KF539842 GU644964 GU644965 FJ465388 KC535504 FJ465393 KC535506 GU936878 FJ465384 FJ465397 KU312293 KU050058 MG950235 KY595100 KY595099 KY595095 MG950229 KY595101 MG950227 MG950225 KX685270 KX685269 KX685267 MG950224 MG950231 KY595094 MG950228 MG950226 KY595093 KY595098 KY595097 KY595092 MG950230 KY595096 MG950233 MG950234 MW055114 EU296434 EU296441 EU643570 LC380121 MF773574 KU050062 KU050063 GU371905 JQ886095 JF950551 GU371880 GU371895 KC787056 MW302195 MK858227 KT381838 KJ018785 KJ018783 KJ018782 KJ018784 KJ018779 KJ018780 KJ018781 KJ018778 KT381853 KT381845 KT381850 KT381852 AY987478 FJ228674 EU530728 EU530727 EU530726 MZ418100 do not have temporal constraint, their dates will be infered.
+
+*RESULTS:
+- The input dates associated with the following 43 nodes are considered as
+ outliers, so those nodes were removed from the analysis:
+ KF150723 AY987484 MH258837 JQ768456 EU159385 KP221203 EU004753 EU004779 FJ719750 EU004696 JF972387 AY854600 EU038107 JN258518 MH258792 AM689534 KU050066 GU371881 GU731660 KJ201896 JQ692993 HQ266632 HQ266614 JQ692992 FJ228687 KU050056 KJ201898 GU646813 JN897318 AB628212 AB614383 FJ228494 FJ032330 KU055541 EU643572 EU643571 EU643589 EU643562 LC380154 LC380128 JQ434340 JQ005079 JQ005077
+- Dating results:
+ rate 0.000199876, tMRCA 1356-09-29 , objective function 10.0401
+- Results with confidence intervals:
+ rate 0.000199876 [0.000199876; 0.000199876], tMRCA 1356-09-29 [1301-05-20; 1403-01-27], objective function 10.0401
+
+*********************************************************
+
+TOTAL ELAPSED TIME: 33553.9 seconds

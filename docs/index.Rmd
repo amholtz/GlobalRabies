@@ -27,10 +27,9 @@ January 2023
 
 `%notin%` <- Negate(`%in%`)
 
-setwd("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/github_scripts/")
+setwd("/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/")
 
-meta <- read.delim("meta_full_exclusion_clade_simple.tab")
-
+meta <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/meta_full_exclusion_clade_simple.tab")
 ```
 ## Total Sequences used in analysis including Bats, Skunks Racoons, and Canine
 
@@ -103,7 +102,7 @@ ggplotly()
 
 ```{r message=FALSE, warning=FALSE, , echo=FALSE, out.width = '150%'}
 
-nwk <- read.tree("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/github_scripts/TempestRooted1327_WGSRate_OutRem.date.nwk")
+nwk <- read.tree("/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/TempestRooted1327_WGSRate_OutRem.date.nwk")
 
 meta_canine <- meta %>% filter(Accession %in% nwk$tip.label)
 
@@ -177,7 +176,7 @@ ggplotly()
 
 ```{r message=FALSE, warning=FALSE,echo=FALSE, out.width = '150%'}
 
-CladeTable <- read_csv("Clade Table - Sheet1.csv")
+CladeTable <- read_csv("/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/CladeTable.csv")
 
 DT::datatable(CladeTable, extensions = 'Buttons', options = list(
   autoWidth = 100, 
@@ -194,7 +193,7 @@ DT::datatable(CladeTable, extensions = 'Buttons', options = list(
 
 ```{r message=FALSE, warning=FALSE,echo=FALSE, out.width = '150%'}
 
-intro <- read.csv("FULLTREE_annotations_table_intro_nonneigh.csv")
+intro <- read_csv("/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/FULLTREE_annotations_table_intro_nonneigh.csv")
 
 DT::datatable(intro, extensions = 'Buttons', options = list(
   autoWidth = TRUE, 
