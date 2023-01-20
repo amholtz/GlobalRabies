@@ -7,7 +7,7 @@ Although viral sequencing continues to increase rapidly, novel statistical metho
 ---
 # Work Flow Description
 
-**Links to download data is either given or can be found in [data folder]**
+**Data can either be downloaded from a link or found in [data folder](https://github.com/amholtz/GlobalRabies/tree/main/data)**
 
 ### Set up
 1. Download fasta and metadata file from [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Lyssavirus%20rabies,%20taxid:11292)
