@@ -18,24 +18,42 @@ library(dplyr)
 library(stringr)
 library(data.table)
 library(taxize)
+library(optparse)
+
+##Parsing
 
 
-setwd("/Volumes/NGS_Viroscreen/aholtz/euroME")
-source("/Volumes/NGS_Viroscreen/aholtz/euroME/R/helperFunctions.R")
 
+option_list = list(
+  make_option(c("-m", "--meta"), type="character", default=NULL, 
+              help="metadata file path", metavar="character"),
+  make_option(c("-a", "--aln"), type="character", default=NULL, 
+              help="alignment file", metavar="character"),
+  make_option(c("-n", "--out_n_text"), type="character", default=NULL, 
+              help="output N gene file", metavar="character"),
+  make_option(c("-p", "--out_p_text"), type="character", default=NULL, 
+              help="output P gene file", metavar="character"),
+  make_option(c("-m", "--out_m_text"), type="character", default=NULL, 
+              help="output M gene file", metavar="character"),
+  make_option(c("-g", "--out_g_text"), type="character", default=NULL, 
+              help="output G gene file", metavar="character"),
+  make_option(c("-l", "--out_l_text"), type="character", default=NULL, 
+              help="output L gene file", metavar="character")
+);
+
+
+opt_parser = OptionParser(option_list=option_list)
+opt = parse_args(opt_parser)
+
+
+
+setwd("/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/")
 
 ##
-meta <- read_csv("total/allRABV.csv")
-clade_metadata <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/total/clade_metadata.txt")
-
-clade_metadata <- select(clade_metadata, sequence.sequenceID, alignment.name)
-names(clade_metadata)[1] <- 'Accession'
-names(clade_metadata)[2] <- 'Clade'
-
+meta <- read.delim(opt$meta)
+#/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data
 meta <- meta %>% filter(!is.na(Country)) %>% filter(!is.na(Collection_Date)) %>% 
   filter(Collection_Date > 1971) %>% filter(Length > 99)
-
-meta <- left_join(meta, clade_metadata, by = 'Accession')
 
 meta$clade_simple <- ifelse(str_detect(meta$Clade, "Bats"), "Bat_Clade", 
                             ifelse(str_detect(meta$Clade, "Africa_2"), "Africa2_Clade", 
@@ -44,10 +62,6 @@ meta$clade_simple <- ifelse(str_detect(meta$Clade, "Bats"), "Bat_Clade",
                                                  ifelse(str_detect(meta$Clade, "Cosmo"), "Cosmopolitan_Clade", 
                                                         ifelse(str_detect(meta$Clade, "Asian"), "Asian_Clade", meta$Clade))))))
 
-meta$species_simple <- ifelse(new$host == 'Canis lupus familiaris', "dog",
-                              ifelse(new$host == 'Vulpes vulpes', "fox",
-                                     ifelse(new$host == 'Nyctereutes procyonoides', "raccoon dog",
-                                            ifelse(new$host == 'Canidae', new$species.y, 'other'))))
 
 host_species <- unique(meta$Host)
 
@@ -68,8 +82,8 @@ meta$host_simple <- ifelse(meta$Host %in% family$species, family$keep, "other")
 
 ##
 
-#aln = read.fasta("/Volumes/NGS_Viroscreen/aholtz/euroME/total/with_keeplength_RABV.fasta")
-aln = read.fasta("/Users/aholtz/Downloads/with_keeplength_RABV.fasta")
+#aln = read.fasta("/Users/aholtz/Dropbox/rabies/new_classification/with_keeplength_RABV.fasta")
+aln = read.fasta(opt$aln)
 
 # Convert alignment
 aln = as.alignment(
@@ -147,6 +161,9 @@ Lgenes = unlist(sapply(aln$nam, function(x) {
 }
 ))
 
+
+
+#######
 meta$fragment <- ifelse(meta$Length > 10000, 'WGS',
                         ifelse(meta$Accession %in% Ngenes, 'NGene',
                                ifelse(meta$Accession %in% Pgenes, 'PGene',
@@ -154,32 +171,25 @@ meta$fragment <- ifelse(meta$Length > 10000, 'WGS',
                                              ifelse(meta$Accession %in% Ggenes, 'GGene',
                                                     ifelse(meta$Accession %in% Lgenes, 'LGene', 'removed'))))))
 
-write.csv(meta, "/Volumes/NGS_Viroscreen/aholtz/euroME/total/meta_RABV_cleaned_clade_gene.txt",
-          row.names = FALSE, quote = FALSE, col.names = FALSE)
-write_delim(meta, "/Volumes/NGS_Viroscreen/aholtz/euroME/total/meta_RABV_cleaned_clade_gene.tab", delim = '\t', quote = 'none')
-
-#date file format
-meta %>% select(Accession, Collection_Date) %>% 
-  write.csv("/Volumes/NGS_Viroscreen/aholtz/euroME/total/meta_RABV_cleaned_clade_gene_dates_treetime.txt",
-            row.names = FALSE, quote = FALSE, col.names = FALSE)
+#write_delim(meta, opt$meta_out, delim = '\t', quote = 'none')
 
 meta_n <- meta %>% filter(meta$fragment == 'NGene') %>% select(Accession) %>% 
-  write.csv("/Volumes/NGS_Viroscreen/aholtz/euroME/total/meta_n.txt",
+  write.csv(opt$out_n_text,
             row.names = FALSE, quote = FALSE, col.names = FALSE)
 meta_p <- meta %>% filter(meta$fragment == 'PGene') %>% select(Accession) %>% 
-  write.csv("/Volumes/NGS_Viroscreen/aholtz/euroME/total/meta_p.txt",
+  write.csv(opt$out_p_text,
             row.names = FALSE, quote = FALSE, col.names = FALSE)
 meta_m <- meta %>% filter(meta$fragment == 'MGene') %>% select(Accession) %>% 
-  write.csv("/Volumes/NGS_Viroscreen/aholtz/euroME/total/meta_m.txt",
+  write.csv(opt$out_m_text,
             row.names = FALSE, quote = FALSE, col.names = FALSE)
 meta_g <- meta %>% filter(meta$fragment == 'GGene') %>% select(Accession) %>% 
-  write.csv("/Volumes/NGS_Viroscreen/aholtz/euroME/total/meta_g.txt",
+  write.csv(opt$out_g_text,
             row.names = FALSE, quote = FALSE, col.names = FALSE)
 meta_l <- meta %>% filter(meta$fragment == 'LGene') %>% select(Accession) %>% 
-  write.csv("/Volumes/NGS_Viroscreen/aholtz/euroME/total/meta_l.txt",
+  write.csv(opt$out_l_text,
             row.names = FALSE, quote = FALSE, col.names = FALSE)
 meta_wgs <- meta %>% filter(meta$fragment == 'WGS') %>% select(Accession) %>% 
-  write.csv("/Volumes/NGS_Viroscreen/aholtz/euroME/total/meta_wgs.txt",
+  write.csv(opt$out_wgs_text,
             row.names = FALSE, quote = FALSE, col.names = FALSE)
 
 
