@@ -9,7 +9,7 @@ Despite the rapid growth in viral sequencing, statistical methods face challenge
 ---
 # Work Flow Description
 
-**Data can either be downloaded from a link or found in [data folder](https://github.com/amholtz/GlobalRabies/tree/main/data). Large alignment files can be downloaded [here](https://www.dropbox.com/scl/fo/nnaz349rkwqew3qsf2fhp/h?dl=0&rlkey=bd0b65ql5ewy8szn29j4wndvu)**
+**Data can either be downloaded from a link or found in [data folder](https://github.com/amholtz/GlobalRabies/tree/main/data). Large alignment files can be downloaded [here](https://www.dropbox.com/scl/fo/nnaz349rkwqew3qsf2fhp/h?dl=0&rlkey=bd0b65ql5ewy8szn29j4wndvu)
 ### Set up
 1. Download fasta and metadata file from [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Lyssavirus%20rabies,%20taxid:11292)
 2. Initial Data cleaning was done using [clean_rabv.R](https://github.com/amholtz/GlobalRabies/blob/main/R/clean_RABV.R) to remove sequences with data integrity issues (see methods)
@@ -50,7 +50,6 @@ mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments 
 5. [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign) concat was then used to concatenate the aligned sequences back together (without noncoding regions)
 ```
 goalign concat -i Ngene_aln.fa Pgene_aln.fa Mgene_aln.fa Ggene_aln.fa Lgene_aln.fa -o concat_seq_genes.fa
-
 ```
 
 ![Alt text](https://github.com/amholtz/GlobalRabies/blob/main/concatenation_genes.png)
@@ -67,16 +66,16 @@ gotree prune -i genewise_aln_RABV.nwk -f canine_ids.txt -r -o RABV_canine10209.n
 
 3. Rooting via [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007) residual-mean square function to infer the best-fitting root)
 
-  **Input**: RABV_canine10209.nwk
+  **Input**: [RABV_canine10209.nwk](https://github.com/amholtz/GlobalRabies/blob/main/data/RABV_canine10209.nwk)
 
-  **Input**: Tempest_fullCanine.tab
+  **Input**: [Tempest_fullCanine.tab](https://github.com/amholtz/GlobalRabies/blob/main/data/Tempest_fullCanine.tab)
 
-  **Output**: TempestRooted_RABV_canine.nwk
+  **Output**: [TempestRooted_RABV_canine.nwk](https://github.com/amholtz/GlobalRabies/blob/main/data/TempestRooted_RABV_canine.nwk)
 
-3.  Canine Tree Dating - Evolutionary rate from tree of just canine-WGS
+4.  Canine Tree Dating - Evolutionary rate from tree of just canine-WGS
 ###### Pruning Canine Tree for just WGS
 ```
-gotree prune -i genewise_aln_RABV_canine.nwk -f wgs.txt -r -o wgs_TempestRooted1327_canine.nwk
+gotree prune -i TempestRooted_RABV_canine.nwk -f wgs.txt -r -o wgs_TempestRooted1327_canine.nwk
 ```
 ###### Evolutionary Rate from WGS Pruned Tree estimated by [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068)
 ```
@@ -84,9 +83,9 @@ lsd2 -i wgs_TempestRooted1327_canine.nwk -d canine_lsd2_dates.txt -o wgs_Tempest
 ```
 Evolutionary rate: 0.000199876 [0.000194762; 0.000221632]
 
-4. Rate used on entire canine-RABV Tree
+5. Rate used on entire canine-RABV Tree
 ```
-lsd2 -i TempestRooted_RABV_canine.nwk -d fullCanine_lsd2.tab -o TempestRooted1327_WGSRate_OutRem.date.nwk -e 5 -s 10860 -f 1000 -w rate.txt
+lsd2 -i TempestRooted_RABV_canine.nwk -d canine_lsd2_dates.txt -o TempestRooted1327_WGSRate_OutRem.date.nwk -e 5 -s 10860 -f 1000 -w rate.txt
 ```
 
 ### Purification and Diversifying Selection
