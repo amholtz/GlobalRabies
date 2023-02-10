@@ -54,23 +54,37 @@ goalign concat -i Ngene_aln.fa Pgene_aln.fa Mgene_aln.fa Ggene_aln.fa Lgene_aln.
 ![Alt text](https://github.com/amholtz/GlobalRabies/blob/main/concatenation_genes.png)
 
 ### Phylogenetic Tree Reconstruction & Dating
-1. FastTree reconstruction on all sequences - [iTol link to tree result](https://itol.embl.de/tree/15799174202126551652369486#)
+1. [FastTree(v2.1.11)](https://doi.org/10.1371/journal.pone.0009490) reconstruction on all sequences - [iTol link to tree result](https://itol.embl.de/tree/15799174202126551652369486#)
 ```
 ~/FastTreeMP -gtr -gamma -nt concat_seq_genes.fasta > genewise_aln_RABV.nwk
 ```
-2.  Canine Cluster Subsected- Sequences IDs under cluster defining node were identified in itol and saved as a text file (canine_ids.txt)
+2.  Canine Cluster Subsected- Sequences IDs under cluster defining node were identified in [iTOL](https://doi.org/10.1093/nar/gkab301) and saved as a text file (canine_ids.txt)
 ```
-Gotree prune -f canine_ids.txt -r -i genewise_aln_RABV.nwk -o genewise_aln_RABV_canine.nwk
+gotree prune -i genewise_aln_RABV.nwk -f canine_ids.txt -r -o RABV_canine10209.nwk
 ```
+
+3. Rooting via [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007) residual-mean square function to infer the best-fitting root)
+
+  **Input**: RABV_canine10209.nwk
+
+  **Input**: Tempest_fullCanine.tab
+
+  **Output**: TempestRooted_RABV_canine.nwk
+
 3.  Canine Tree Dating - Evolutionary rate from tree of just canine-WGS
+###### Pruning Canine Tree for just WGS
+```
+gotree prune -i genewise_aln_RABV_canine.nwk -f wgs.txt -r -o wgs_TempestRooted1327_canine.nwk
+```
+###### Evolutionary Rate from WGS Pruned Tree estimated by [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068)
 ```
 lsd2 -i wgs_TempestRooted1327_canine.nwk -d canine_lsd2_dates.txt -o wgs_TempestRooted1327_canine_CI.result -e 3 -s 10860 -f 1000
 ```
-  **Evolutionary rate: 0.000199876 [0.000194762; 0.000221632]**
+Evolutionary rate: 0.000199876 [0.000194762; 0.000221632]
 
 4. Rate used on entire canine-RABV Tree
 ```
-lsd2 -i TempestRooted1327_canine_10199Taxa_collapsed.nwk-d fullCanine_lsd2.tab -o TempestRooted1327_canine_10199_WGSRate.result-e 5 -s 10860 -f 1000 -w rate.txt
+lsd2 -i TempestRooted_RABV_canine.nwk -d fullCanine_lsd2.tab -o TempestRooted1327_WGSRate_OutRem.date.nwk -e 5 -s 10860 -f 1000 -w rate.txt
 ```
 
 ### Purification and Diversifying Selection

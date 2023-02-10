@@ -1,0 +1,54 @@
+
+LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v.2.3 
+
+
+Input files:
+  i                                               Input tree file : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/complete_tree/complete_dating/canine/wgs_dating/wgs_TempestRooted1327_canine.nwk
+  d                                               Input date file : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/complete_tree/complete_dating/canine/canine_lsd2_dates.txt
+  p                                                Partition file : No
+  g                                               Given outgroups : No
+Output file:
+  o                                                  Output file  : /pasteur/zeus/projets/p02/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/complete_tree/complete_dating/canine/wgs_dating/wgs_TempestRooted1327_canine_CI.result
+Parameters:
+  a                                                     Root date : No
+  z                                                     Tips date : No
+  c                                              With constraints : Yes
+  t                                      Lower bound for the rate : 1e-10
+  v                                                With variances : Yes, use variances based on input branch lengths
+  b                              Adjusted parameter for variances : To estimate
+  r                                             Estimate the root : No
+  w                                       Given substitution rate : No
+  n                                             Multiple data set : No
+  f                                  Compute confidence intervals : Yes, sampling 1000 times
+  q                  Standard deviation of lognormal relaxed clock: 0.2 (for computing confidence intervals)
+  s                                               Sequence length : 10860
+  e                                          Exclude outlier tips : Yes, detect and exclude outliers from the analysis
+  m                   Number of sampling nodes to detect outliers : 1000
+  e                       The Zscore threshold to detect outliers : 3
+  u                Min internal branch length of time scaled tree : 0
+  U                Min external branch length of time scaled tree : 0
+  l                        Collapsed internal branch length limit : 4.60405e-05
+  D                                            Output date format : Based on input date format
+  E  Estimate rates for external and internal branches separately : No
+
+  h to print Help 
+  y to accept or type a letter to change an option (x = Exit) 
+Tree 1 
+Parameter to adjust variances was set to 0.00092081 (settable via option -b)
+Minimum branch length of time scaled tree (settable via option -u and -U): 0
+
+*WARNINGS:
+- 19.198% internal branches were collapsed.
+
+*RESULTS:
+- The input dates associated with the following 21 nodes are considered as
+ outliers, so those nodes were removed from the analysis:
+ FJ712193 FJ712194 EU293111 FJ712195 EU643590 MH514973 MH514970 KY982922 KC171645 KY964322 JQ685970 KX708501 EU886632 MH660455 MK111075 KY210275 KX148206 KR906757 MG458319 KX148190 KX148159
+- Dating results:
+ rate 0.000199876, tMRCA 1335-10-02 , objective function 0.187513
+- Results with confidence intervals:
+ rate 0.000199876 [0.000194762; 0.000221632], tMRCA 1335-10-02 [1290-09-22; 1426-04-12], objective function 0.187513
+
+*********************************************************
+
+TOTAL ELAPSED TIME: 706.73 seconds

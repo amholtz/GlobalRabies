@@ -51,7 +51,7 @@ setwd("/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/")
 
 ##
 meta <- read.delim(opt$meta)
-#/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data
+#meta <- read.delim('/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/meta_full_exclusion_clade_simple.tab')
 meta <- meta %>% filter(!is.na(Country)) %>% filter(!is.na(Collection_Date)) %>% 
   filter(Collection_Date > 1971) %>% filter(Length > 99)
 
@@ -165,36 +165,32 @@ Lgenes = unlist(sapply(aln$nam, function(x) {
 
 #######
 meta$fragment <- ifelse(meta$Length > 10000, 'WGS',
-                        ifelse(meta$Accession %in% Ngenes, 'NGene',
-                               ifelse(meta$Accession %in% Pgenes, 'PGene',
-                                      ifelse(meta$Accession %in% Mgenes, 'MGene',
-                                             ifelse(meta$Accession %in% Ggenes, 'GGene',
-                                                    ifelse(meta$Accession %in% Lgenes, 'LGene', 'removed'))))))
+                        ifelse(meta$Accession %in% Ngenes, 'N',
+                               ifelse(meta$Accession %in% Pgenes, 'P',
+                                      ifelse(meta$Accession %in% Mgenes, 'M',
+                                             ifelse(meta$Accession %in% Ggenes, 'G',
+                                                    ifelse(meta$Accession %in% Lgenes, 'L', 'removed'))))))
 
 #write_delim(meta, opt$meta_out, delim = '\t', quote = 'none')
 
-meta_n <- meta %>% filter(meta$fragment == 'NGene') %>% select(Accession) %>% 
+meta_n <- meta %>% filter(meta$fragment == 'N') %>% select(Accession) %>% 
   write.csv(opt$out_n_text,
-            row.names = FALSE, quote = FALSE, col.names = FALSE)
-meta_p <- meta %>% filter(meta$fragment == 'PGene') %>% select(Accession) %>% 
+            row.names = FALSE, quote = FALSE, col.names = NA)
+meta_p <- meta %>% filter(meta$fragment == 'P') %>% select(Accession) %>% 
   write.csv(opt$out_p_text,
             row.names = FALSE, quote = FALSE, col.names = FALSE)
-meta_m <- meta %>% filter(meta$fragment == 'MGene') %>% select(Accession) %>% 
+meta_m <- meta %>% filter(meta$fragment == 'M') %>% select(Accession) %>% 
   write.csv(opt$out_m_text,
             row.names = FALSE, quote = FALSE, col.names = FALSE)
-meta_g <- meta %>% filter(meta$fragment == 'GGene') %>% select(Accession) %>% 
+meta_g <- meta %>% filter(meta$fragment == 'G') %>% select(Accession) %>% 
   write.csv(opt$out_g_text,
             row.names = FALSE, quote = FALSE, col.names = FALSE)
-meta_l <- meta %>% filter(meta$fragment == 'LGene') %>% select(Accession) %>% 
+meta_l <- meta %>% filter(meta$fragment == 'L') %>% select(Accession) %>% 
   write.csv(opt$out_l_text,
             row.names = FALSE, quote = FALSE, col.names = FALSE)
 meta_wgs <- meta %>% filter(meta$fragment == 'WGS') %>% select(Accession) %>% 
   write.csv(opt$out_wgs_text,
             row.names = FALSE, quote = FALSE, col.names = FALSE)
-
-
-
-
 
 
 
