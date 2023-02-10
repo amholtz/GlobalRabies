@@ -101,31 +101,43 @@ $mpirun -np 6 HYPHYMPI fel --alignment NT_macse_out.fa --tree troupin_tree.nwk -
 ### Phylogeography
 
 
-#### PastML Country Level (Full Tree)
+#### Ancestral Character Reconstruction on Country Level (Full Tree) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
 ```
-Final_Full_10044_FinalACR_WGSrate_OutRemove.LSD2.nwk -d meta_RABV_cleaned_clade_gene.tab -c Country --prediction_method MPPA --root_date 1356.74 --html_compressed HTML_compressed_canine_MPPA_nexus_100.html --upload_to_itol -o canine_MPPA_nexus_pastML --parameters --tip_size_threshold 100
+pastml -t TempestRooted1327_WGSRate_OutRem.date.nwk -d meta_RABV_cleaned_clade_gene.tab -c Country --prediction_method MPPA --root_date 1356.74 --html_compressed HTML_compressed_canine_MPPA_nexus_100.html --upload_to_itol -o canine_MPPA_nexus_pastML --parameters --tip_size_threshold 100
 ```
 **[iTol Tree with ACR Estimation annotations](https://itol.embl.de/tree/1579917420235811657296942#)** & **[PastML Visualization- ACR Country Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Country/Full_Tree)**
 
 #### Subsampling by country
 Subsampling was done using the custom script [py_subsampling.py](https://github.com/amholtz/GlobalRabies/blob/main/python/py_subsampling.py)
 
+```
+python3 py_subsampling.py --input_tree TempestRooted1327_WGSRate_OutRem.date.nwk --input_locs meta_RABV_cleaned_clade_gene.tab --size 5500 --output_ids subsampled_5500_1 subsampled_5500_2 subsampled_5500_3 subsampled_5500_4 subsampled_5500_5
+```
+
 
 #### Tree Reconstruction, dating, and comparison of subsampled tree (Subsample 5 example)
 
 1.  IQTREE2 Reconstruction
 ```
-iqtree2 -s subsampled_5000_5.fa -st DNA -nt 8 -alrt 0 -m GTR+I+G4 -B 1000 -p gene_partition.txt
+iqtree2 -s subsampled_5000_5.fa -st DNA -nt 8 -alrt 0 -m GTR+I+G4 -B 1000 -p gene_partition.txt -pre
 ```
-2.  LSD2 Dating
+2. Rooting via [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007) residual-mean square function to infer the best-fitting root)
+
+  **Input**: [subsample5.fa.treefile]()
+
+  **Input**: [Tempest_fullCanine.tab](https://github.com/amholtz/GlobalRabies/blob/main/data/Tempest_fullCanine.tab)
+
+  **Output**: [TempEstRooted_subsampled_5000_5.fa.treefile]()
+
+3.  LSD2 Dating
 ```
-lsd2 -i TempEstRooted_subsampled_5000_5_OutRem.treefile -d fullCanine_lsd2.tab -s 10860 -o sub1_CI -f 1000 -e 3 -w rate.txt
+lsd2 -i TempEstRooted_subsampled_5000_5.fa.treefile -d fullCanine_lsd2.tab -s 10860 -o sub1_CI -f 1000 -e 3 -w rate.txt
 ```
-3. Triplet Distance Calculation with full-tree with custom script [triplet_distance.R](https://github.com/amholtz/GlobalRabies/blob/main/R/triplet_distance.R)
+4. Triplet Distance Calculation with full-tree with custom script [triplet_distance.R](https://github.com/amholtz/GlobalRabies/blob/main/R/triplet_distance.R)
 
 #### PastML Country Level (Subsample 5 example)
 ```
-named.tree_Subsample5000_5_TempestRooted1327_WGSRate_OutRem.date.nexus -d meta_RABV_cleaned_clade_gene.tab -c Country --prediction_method MPPA --root_date 1365 --html_compressed HTML_compressed_canine_5000_5_MPPA_nexus_100.html --upload_to_itol -o canine_5000_5_subsample_MPPA_nexus_pastML --tip_size_threshold 100
+TempEstRooted_subsampled_5000_5_OutRem.nwk.result.nwk -d meta_RABV_cleaned_clade_gene.tab -c Country --prediction_method MPPA --root_date 1365 --html_compressed HTML_compressed_canine_5000_5_MPPA_nexus_100.html --upload_to_itol -o canine_5000_5_subsample_MPPA_nexus_pastML --tip_size_threshold 100
 ```
 **[iTol Tree with ACR Estimation annotations](https://itol.embl.de/tree/15799174109116831658497579)** & **[PastML Visualization- ACR Country Results](https://github.com/amholtz/GlobalRabies/blob/main/data/ACR_Results/Country/Sub5)**
 
