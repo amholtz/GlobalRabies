@@ -9,8 +9,7 @@ Despite the rapid growth in viral sequencing, statistical methods face challenge
 ---
 # Work Flow Description
 
-**Data can either be downloaded from a link or found in [data folder](https://github.com/amholtz/GlobalRabies/tree/main/data)**
-
+**Data can either be downloaded from a link or found in [data folder](https://github.com/amholtz/GlobalRabies/tree/main/data). Large alignment files can be downloaded [here](https://www.dropbox.com/scl/fo/nnaz349rkwqew3qsf2fhp/h?dl=0&rlkey=bd0b65ql5ewy8szn29j4wndvu)**
 ### Set up
 1. Download fasta and metadata file from [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Lyssavirus%20rabies,%20taxid:11292)
 2. Initial Data cleaning was done using [clean_rabv.R](https://github.com/amholtz/GlobalRabies/blob/main/R/clean_RABV.R) to remove sequences with data integrity issues (see methods)
@@ -34,6 +33,8 @@ mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments 
 Rscript --vanilla clean_rabv.R --meta ../data/meta_full_exclusion_clade_simple.tab --aln ../data/with_keeplength_RABV.fasta --out_wgs_text ../data/sequence_alignments/gene_specific_analysis/wgs.txt --out_n ../data/sequence_alignments/gene_specific_analysis/n.txt --out_p ../data/sequence_alignments/gene_specific_analysis/p.txt --out_m ../data/sequence_alignments/gene_specific_analysis/m.txt --out_g ../data/sequence_alignments/gene_specific_analysis/g.txt --out_l ../data/sequence_alignments/gene_specific_analysis/l.txt
   ```
 
+
+
 3.  Original alignment is then subsected according to genetic categorization by [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign) (G gene example)
 
   ```
@@ -49,6 +50,7 @@ mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments 
 5. [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign) concat was then used to concatenate the aligned sequences back together (without noncoding regions)
 ```
 goalign concat -i Ngene_aln.fa Pgene_aln.fa Mgene_aln.fa Ggene_aln.fa Lgene_aln.fa -o concat_seq_genes.fa
+
 ```
 
 ![Alt text](https://github.com/amholtz/GlobalRabies/blob/main/concatenation_genes.png)
