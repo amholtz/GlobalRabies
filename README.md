@@ -203,6 +203,12 @@ pastml -t named.tree_dated.Fullpruned_subsampledTips.nwk -d meta_full_exclusion_
 ### Human-Mediated Introductions
 Human-mediated transmission were inferred using the custom script [introduction_events_FullTree.R](https://github.com/amholtz/GlobalRabies/blob/main/R/introduction_events_FullTree.R)
 
+```
+Rscript --vanilla introduction_events_FullTree.R 
+--meta ../data/meta_full_exclusion_clade_simple.tab" --tree ../data/ACR_Results/Country/Full_Tree/named.tree_TempestRooted1327_WGSRate_OutRem.date.nexus --annotations ../data/ACR_Results/Country/Full_Tree/combined_ancestral_states.tab" --probabilities ../data/ACR_Results/Country/Full_Tree/marginal_probabilities.character_Country.model_F81.tab --newick ../data/ACR_Results/Country/Full_Tree/named.tree_TempestRooted1327_WGSRate_OutRem.date.nwk --prefix fulltree7347
+```
+
+
 ## Interactive Visualizations and Tables can be viewed **[here](https://amholtz.github.io/GlobalRabies/)**
 
 # Get in touch
