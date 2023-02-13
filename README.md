@@ -148,7 +148,7 @@ lsd2 -i TempEstRooted_subsampled_5000_5.fa.treefile -d fullCanine_lsd2.tab -s 10
 
 1. Prune the full-tree so the tips match the tips contained in the subsample
 ```
-gotree prune -i TempestRooted_RABV_canine.nwk -f subsampled_5500_5.txt -r -o full_tree_Sub5Tips_bi.nwk
+gotree prune -i TempestRooted_RABV_canine.nwk -f subsampled_5500_5.txt -r -o full_tree_Sub5Tips.nwk
 ```
 2.  Resolve multifurcations with [Gotree(v0.4.4)][https://github.com/evolbioinfo/gotree]
 ```
