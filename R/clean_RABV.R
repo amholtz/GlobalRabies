@@ -28,17 +28,17 @@ option_list = list(
   make_option(c("-m", "--meta"), type="character", default=NULL, 
               help="metadata file path", metavar="character"),
   make_option(c("-a", "--aln"), type="character", default=NULL, 
-              help="alignment file", metavar="character"),
+              help="alignment file path", metavar="character"),
   make_option(c("-n", "--out_n_text"), type="character", default=NULL, 
-              help="output N gene file", metavar="character"),
+              help="output N gene file path", metavar="character"),
   make_option(c("-p", "--out_p_text"), type="character", default=NULL, 
-              help="output P gene file", metavar="character"),
+              help="output P gene file path", metavar="character"),
   make_option(c("-m", "--out_m_text"), type="character", default=NULL, 
-              help="output M gene file", metavar="character"),
+              help="output M gene file path", metavar="character"),
   make_option(c("-g", "--out_g_text"), type="character", default=NULL, 
-              help="output G gene file", metavar="character"),
+              help="output G gene file path", metavar="character"),
   make_option(c("-l", "--out_l_text"), type="character", default=NULL, 
-              help="output L gene file", metavar="character")
+              help="output L gene file path", metavar="character")
 );
 
 
