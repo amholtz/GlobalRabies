@@ -1,0 +1,8486 @@
+node	Country
+root	Bosnia and Herzegovina
+root	Bulgaria
+root	Burkina Faso
+root	Canada
+root	China
+root	Croatia
+root	Estonia
+root	France
+root	Georgia
+root	Germany
+root	Ghana
+root	Greece
+root	Greenland
+root	Hungary
+root	India
+root	Iran
+root	Italy
+root	Latvia
+root	Lithuania
+root	Mali
+root	Mexico
+root	Nigeria
+root	Pakistan
+root	Poland
+root	Russia
+root	Senegal
+root	Slovenia
+root	South Africa
+root	Tanzania
+root	Thailand
+root	USA
+root	Ukraine
+root	United Arab Emirates
+root	Viet Nam
+root	Zambia
+n0	Bosnia and Herzegovina
+n0	Bulgaria
+n0	Burkina Faso
+n0	Canada
+n0	China
+n0	Croatia
+n0	Estonia
+n0	France
+n0	Georgia
+n0	Germany
+n0	Ghana
+n0	Greece
+n0	Greenland
+n0	Hungary
+n0	India
+n0	Iran
+n0	Italy
+n0	Latvia
+n0	Lithuania
+n0	Mali
+n0	Mexico
+n0	Nigeria
+n0	Pakistan
+n0	Poland
+n0	Russia
+n0	Senegal
+n0	Slovenia
+n0	South Africa
+n0	Tanzania
+n0	Thailand
+n0	USA
+n0	Ukraine
+n0	United Arab Emirates
+n0	Viet Nam
+n0	Zambia
+n263	Bosnia and Herzegovina
+n263	Bulgaria
+n263	Burkina Faso
+n263	Canada
+n263	China
+n263	Croatia
+n263	Estonia
+n263	France
+n263	Georgia
+n263	Germany
+n263	Ghana
+n263	Greece
+n263	Greenland
+n263	Hungary
+n263	India
+n263	Iran
+n263	Italy
+n263	Latvia
+n263	Lithuania
+n263	Mali
+n263	Mexico
+n263	Nigeria
+n263	Pakistan
+n263	Poland
+n263	Russia
+n263	Senegal
+n263	Slovenia
+n263	South Africa
+n263	Tanzania
+n263	Thailand
+n263	USA
+n263	Ukraine
+n263	United Arab Emirates
+n263	Viet Nam
+n263	Zambia
+n00	China
+n217	Croatia
+n217	Hungary
+n217	India
+n217	Italy
+n217	Latvia
+n217	Nepal
+n217	Poland
+n263263	Bosnia and Herzegovina
+n263263	Cameroon
+n263263	Canada
+n263263	China
+n263263	Croatia
+n263263	Georgia
+n263263	Ghana
+n263263	Guinea
+n263263	Hungary
+n263263	Iran
+n263263	Italy
+n263263	Latvia
+n263263	Lithuania
+n263263	Nigeria
+n263263	Poland
+n263263	Russia
+n263263	Senegal
+n263263	Slovenia
+n263263	USA
+n263263	Viet Nam
+n378378	Bosnia and Herzegovina
+n378378	Canada
+n378378	China
+n378378	Croatia
+n378378	Georgia
+n378378	Ghana
+n378378	Greece
+n378378	Greenland
+n378378	Hungary
+n378378	India
+n378378	Iran
+n378378	Italy
+n378378	Latvia
+n378378	Lithuania
+n378378	Mali
+n378378	Mexico
+n378378	Pakistan
+n378378	Poland
+n378378	Russia
+n378378	Senegal
+n378378	Slovenia
+n378378	South Africa
+n378378	USA
+n378378	Ukraine
+n378378	Viet Nam
+n1	China
+n178	China
+n217217	India
+n258258	Nepal
+n264	Nigeria
+n373	Guinea
+n373	Senegal
+n379	Canada
+n379	China
+n379	Croatia
+n379	Hungary
+n379	India
+n379	Iran
+n379	Italy
+n379	Latvia
+n379	Lithuania
+n379	Nepal
+n379	Poland
+n379	Russia
+n379	USA
+n379	Viet Nam
+n568	Bosnia and Herzegovina
+n568	Canada
+n568	China
+n568	Croatia
+n568	Georgia
+n568	Ghana
+n568	Hungary
+n568	Iran
+n568	Italy
+n568	Latvia
+n568	Lithuania
+n568	Mexico
+n568	Poland
+n568	Russia
+n568	South Africa
+n568	USA
+n568	Viet Nam
+n11	China
+n11	Thailand
+n8080	China
+n8080	Taiwan
+n178178	China
+n216216	China
+n218	India
+n256	India
+n259	Nepal
+JX944595	Nepal
+n264264	Nigeria
+n369	Cameroon
+n373373	Guinea
+n378	Senegal
+n379379	Canada
+n379379	China
+n379379	Croatia
+n379379	Hungary
+n379379	India
+n379379	Iran
+n379379	Italy
+n379379	Latvia
+n379379	Nepal
+n379379	Poland
+n379379	Russia
+n379379	USA
+n379379	Viet Nam
+n536536	China
+n568568	South Africa
+n600	USA
+n2	China
+n2	Thailand
+n78	Myanmar
+n81	China
+n81	Croatia
+n81	Hungary
+n81	Italy
+n81	Taiwan
+n169	China
+n179	China
+n213213	China
+KT221093	China
+KT221097	China
+n218218	India
+n224	Sri Lanka
+n256256	India
+KF150735	India
+n259259	Nepal
+JX944576	Nepal
+n265	Nigeria
+n327327	Nigeria
+n369369	Cameroon
+KF734738	Central African Republic
+MK471247	Guinea
+n374	Guinea
+EU853595	Sierra Leone
+EU853591	Gambia
+KU055529	Senegal
+EU853592	Senegal
+n380	India
+n380	Iran
+n380	Nepal
+n456456	Canada
+n456456	USA
+n537	China
+n566	China
+n569	South Africa
+n592	South Africa
+n600600	USA
+n13521352	Egypt
+n22	China
+n22	Thailand
+EU004769	China
+KU055596	Cambodia
+n7878	Myanmar
+n79	Myanmar
+KU055595	Myanmar
+KU055591	Myanmar
+KU055597	Myanmar
+n8181	Philippines
+n129	Taiwan
+n169169	China
+EU086214	China
+n179179	China
+n190190	China
+n214	Viet Nam
+n215	China
+n219	India
+KX434508	India
+n224224	Sri Lanka
+AB635373	Sri Lanka
+n257	India
+n258	India
+KF150723	India
+n260	Nepal
+n262262	Nepal
+n265265	Cote d'Ivoire
+n324	Nigeria
+n328	Nigeria
+n366	Nigeria
+n370	Cameroon
+n372372	Chad
+n374374	Guinea
+KU055539	Guinea
+n380380	India
+n443	India
+n443	Iran
+n443	Nepal
+n457	USA
+n513513	Canada
+n537537	China
+AB571004	Mongolia
+n566566	China
+JQ685983	Russia
+n569569	South Africa
+n589	South Africa
+n592592	Zimbabwe
+n597597	South Africa
+n601	USA
+n12161216	USA
+n1353	Egypt
+n13531353	Egypt
+n3	China
+n3	Thailand
+n7272	Thailand
+KX148247	Myanmar
+EU086164	Myanmar
+n7979	Myanmar
+n80	Myanmar
+n82	Philippines
+n123123	Philippines
+n129129	Taiwan
+n162	Taiwan
+n170	China
+n176176	China
+n180	China
+n189189	China
+n191	China
+n213	China
+n214214	Viet Nam
+AB614391	Viet Nam
+n215215	China
+GU186397	China
+n219219	India
+n221221	India
+n225	Sri Lanka
+n242242	Sri Lanka
+KF831535	Sri Lanka
+n247	Sri Lanka
+n250	Sri Lanka
+AB817142	Sri Lanka
+n255	Sri Lanka
+MH258803	India
+n257257	India
+AY987477	India
+AY987479	India
+n260260	Nepal
+EU086156	Sri Lanka
+n261261	Nepal
+n262	Nepal
+JX944569	Nepal
+JX944597	Nepal
+n266	Cote d'Ivoire
+KU055530	Senegal
+KU055502	Senegal
+KU055542	Niger
+KU055528	Senegal
+n324324	Benin
+n324324	Nigeria
+n327	Nigeria
+n328328	Nigeria
+n365365	Nigeria
+n366366	Nigeria
+n367367	Nigeria
+n370370	Cameroon
+KT119767	Central African Republic
+KT119779	Chad
+FJ545683	Chad
+n375	Guinea
+EU853593	Guinea
+n381	India
+n423423	India
+n443443	Nepal
+n455	Iran
+n457457	USA
+n512512	USA
+n514	Canada
+n535535	Canada
+n538	China
+n540	South Korea
+n567	China
+DQ521237	India
+n570	South Africa
+n574574	South Africa
+n589589	South Africa
+JQ692989	South Africa
+n593	Zimbabwe
+n596596	Zimbabwe
+n598	South Africa
+HQ266613	South Africa
+n598598	South Africa
+n599	South Africa
+n601601	USA
+n1208	Peru
+n1217	USA
+n13091309	Brazil
+MK760768	Egypt
+KX148101	Egypt
+n1354	Egypt
+n13551355	Egypt
+n33	China
+n33	Thailand
+n72	Viet Nam
+n73	Thailand
+n7777	Thailand
+KX148248	Myanmar
+EU086166	Myanmar
+EU086165	Myanmar
+EU086129	Myanmar
+n8282	Philippines
+n121	Philippines
+n124	Philippines
+LC018584	Philippines
+n130	Taiwan
+n158	Taiwan
+n162162	Taiwan
+n168	Taiwan
+n170170	China
+n176	China
+KT894558	China
+n177	China
+n180180	Indonesia
+GU815995	China
+n190	China
+KU055506	China
+n191191	China
+n212212	China
+KY428871	China
+KP319235	China
+AB614379	Viet Nam
+AB614389	Viet Nam
+AB628214	Viet Nam
+AB614382	Viet Nam
+AB614381	Viet Nam
+AB614387	Viet Nam
+AB614390	Viet Nam
+AB614380	Viet Nam
+AB614388	Viet Nam
+KT221117	China
+n216	China
+n220	India
+n221	India
+n222	India
+EU086191	India
+n225225	Sri Lanka
+n240	Sri Lanka
+n243	Sri Lanka
+n244244	Sri Lanka
+n245245	Sri Lanka
+AB817081	Sri Lanka
+n247247	Sri Lanka
+n249249	Sri Lanka
+n250250	Sri Lanka
+n254	Sri Lanka
+AB817114	Sri Lanka
+n255255	Sri Lanka
+AB817133	Sri Lanka
+KC791848	USA
+KC792205	India
+MN534894	Nepal
+n261	Nepal
+JX944578	Nepal
+JX944588	Nepal
+KX148245	Nepal
+KU888644	Nepal
+JX987721	Nepal
+KC792234	Nepal
+JX987737	Nepal
+n266266	Cote d'Ivoire
+n310	Niger
+n325	Benin
+n325325	Ghana
+KF022176	Nigeria
+EU888648	Nigeria
+n329	Nigeria
+n358358	Chad
+EU888729	Nigeria
+KR080522	Nigeria
+EU888720	Nigeria
+n367	Nigeria
+EU888696	Nigeria
+n368	Nigeria
+KF022171	Nigeria
+EU888663	Nigeria
+n371	Central African Republic
+KT119774	Cameroon
+n375375	Guinea
+FJ545660	Sierra Leone
+n381381	India
+n414	India
+n424	India
+n437437	Pakistan
+n442442	India
+n444	Nepal
+KF831559	Nepal
+AY854597	Nepal
+n455455	Iran
+KP723593	Iran
+n458	USA
+n506506	Russia
+n512	USA
+n513	USA
+JN258432	USA
+n514514	Canada
+n523523	Canada
+MK540896	Canada
+n536	Canada
+n538538	China
+n539	China
+n540540	South Korea
+n565	South Korea
+n567567	China
+KY997452	China
+n570570	South Africa
+n571571	South Africa
+n575	South Africa
+HQ266632	South Africa
+n590	South Africa
+FJ392385	South Africa
+n593593	Zimbabwe
+n594	Zimbabwe
+n597	Zimbabwe
+FJ465408	Zimbabwe
+FJ392372	South Africa
+FJ392386	South Africa
+HQ266631	South Africa
+FJ392382	South Africa
+FJ392392	Namibia
+n599599	South Africa
+FJ465400	South Africa
+n602	Iraq
+n602	Russia
+n602	Serbia
+n602	USA
+n602	Zambia
+n1167	USA
+n12081208	Peru
+n1216	Peru
+n12171217	USA
+n13081308	Mexico
+n1310	Brazil
+n13501350	Paraguay
+n13541354	Egypt
+MT036063	Egypt
+MT036061	Egypt
+MT036062	Egypt
+n1356	Egypt
+n13621362	Egypt
+n13631363	Egypt
+n4	China
+n4	Thailand
+n66	China
+n66	Thailand
+MW055234	Viet Nam
+AB614375	Viet Nam
+AB614376	Viet Nam
+n7373	Thailand
+DQ275537	Thailand
+LC071936	Thailand
+KY678613	Thailand
+KY678621	Thailand
+n83	Philippines
+AB738088	Philippines
+n121121	Philippines
+n122122	Philippines
+n124124	Philippines
+n127	Philippines
+n128128	Philippines
+n130130	Taiwan
+n144144	Taiwan
+n158158	Taiwan
+KF544960	Taiwan
+n161161	Taiwan
+n163	Taiwan
+n164164	Taiwan
+n168168	Taiwan
+KP860230	Taiwan
+n171	China
+n173173	China
+GQ472503	China
+AB428334	China
+n177177	China
+EU159378	China
+FJ866830	China
+n181	Indonesia
+n182182	Indonesia
+KU845610	China
+KU845614	China
+n192	China
+n210	China
+KU845609	China
+EU004772	China
+MF113389	China
+MF113391	China
+GU186387	China
+GU186396	China
+n220220	India
+MT826963	India
+MG993207	India
+MH258841	India
+n222222	India
+n223223	India
+n226	Sri Lanka
+AB817121	Sri Lanka
+n240240	Sri Lanka
+AB817143	Sri Lanka
+n243243	Sri Lanka
+AB817094	Sri Lanka
+AB817080	Sri Lanka
+n245	Sri Lanka
+n246	Sri Lanka
+LC110311	Sri Lanka
+AB817084	Sri Lanka
+AB638772	Sri Lanka
+n248	Sri Lanka
+n248248	Sri Lanka
+AB817136	Sri Lanka
+AB817137	Sri Lanka
+LC110303	Sri Lanka
+n251	Sri Lanka
+n253	Sri Lanka
+AB817102	Sri Lanka
+n254254	Sri Lanka
+AB817106	Sri Lanka
+AB817115	Sri Lanka
+KX148108	Nepal
+JX987740	Nepal
+JX987724	Nepal
+n267	Cote d'Ivoire
+n285285	Cote d'Ivoire
+n310310	Niger
+FJ545674	Niger
+KX148107	Benin
+FJ545673	Benin
+HM368095	Ghana
+n326	Ghana
+HM368116	Ghana
+HM368119	Ghana
+HM368100	Ghana
+n329329	Nigeria
+n358	Cameroon
+n359	Chad
+EU853655	Chad
+EU853657	Chad
+EU853656	Chad
+KJ921997	Nigeria
+KJ922002	Nigeria
+KF022170	Nigeria
+n368368	Nigeria
+KF022190	Nigeria
+EU888714	Nigeria
+n371371	Central African Republic
+n372	Central African Republic
+n376	Guinea
+EU853594	Guinea
+n382	India
+MF474263	India
+n397397	India
+n414414	India
+n422	Bhutan
+n424424	India
+n434	India
+n438	Pakistan
+KP723629	Pakistan
+MK697346	India
+MF474306	India
+n444444	Nepal
+EU836832	Italy
+MK760702	Iran
+n456	Iran
+n458458	USA
+n505505	Greenland
+n507	Russia
+KY002904	Russia
+KC791814	USA
+KC792157	USA
+JN258419	USA
+JN258586	USA
+n515	Canada
+n517517	Canada
+n524	Canada
+n534	Canada
+KU198465	Canada
+KF831561	Canada
+MN642581	China
+MN384722	Russia
+MN642582	China
+n539539	China
+n541	South Korea
+n563563	South Korea
+n565565	South Korea
+DQ076124	South Korea
+DQ076123	South Korea
+KY952219	China
+KY175230	China
+JQ692981	South Africa
+n571	South Africa
+JQ692986	South Africa
+n572	South Africa
+n575575	South Africa
+JQ692991	South Africa
+n590590	South Africa
+FJ465402	South Africa
+KY553255	Zimbabwe
+KY553266	Zimbabwe
+FJ392391	Zimbabwe
+n594594	Zimbabwe
+HQ266615	South Africa
+KY553273	Zimbabwe
+KY553278	Zimbabwe
+FJ465390	South Africa
+FJ465403	South Africa
+n602602	China
+n602602	Ethiopia
+n602602	Iraq
+n602602	Madagascar
+n602602	Morocco
+n602602	Russia
+n602602	Serbia
+n602602	Tunisia
+n602602	USA
+n602602	Zambia
+n821	Iraq
+n821	Russia
+n821	Serbia
+n821	USA
+n821	Zambia
+n11671167	USA
+n1197	USA
+n1209	Peru
+KF831564	Peru
+FJ228501	Peru
+EU530729	Peru
+n1218	USA
+n1300	USA
+n1309	Mexico
+KX708500	Mexico
+n13101310	Brazil
+HQ116829	Chile
+n1351	Paraguay
+n13511351	Paraguay
+n1355	Egypt
+MT036069	Egypt
+n13561356	Egypt
+n13611361	Egypt
+n1363	Egypt
+HG764581	Egypt
+MT036066	Egypt
+n1364	Egypt
+n13641364	Egypt
+n44	Malaysia
+FJ594278	China
+n7	China
+n7	Thailand
+DQ849069	China
+n6666	Laos
+n7070	Cambodia
+n74	Thailand
+HQ232301	Thailand
+n8383	Philippines
+n118	Philippines
+n122	Philippines
+AB563825	Philippines
+AB683643	Philippines
+n123	Philippines
+n125	Philippines
+n126126	Philippines
+n127127	Philippines
+n128	Philippines
+KC792096	Philippines
+AB563899	Philippines
+n131	Taiwan
+n133	Taiwan
+n138138	Taiwan
+n145	Taiwan
+n156	Taiwan
+n159	Taiwan
+n160160	Taiwan
+KP860162	Taiwan
+KP860181	Taiwan
+n163163	Taiwan
+n164	Taiwan
+n165	Taiwan
+n167167	Taiwan
+MH481078	Taiwan
+KP860211	Taiwan
+n171171	China
+GQ472569	China
+n174	China
+n175	China
+JF972382	China
+JF972387	China
+n181181	Malaysia
+JX462633	Indonesia
+n182	Indonesia
+n183	Indonesia
+n186186	Indonesia
+n192192	China
+n201	China
+KF663516	China
+n209209	China
+GU186385	China
+MK124758	China
+n210210	China
+n211211	China
+MT826959	India
+MH258839	India
+n223	India
+GU731661	India
+GU731662	India
+GU731663	India
+n226226	Sri Lanka
+n239239	Sri Lanka
+n241	Sri Lanka
+AB817128	Sri Lanka
+AB817124	Sri Lanka
+LC110294	Sri Lanka
+n244	Sri Lanka
+AB817083	Sri Lanka
+AB817098	Sri Lanka
+AB817088	Sri Lanka
+n246246	Sri Lanka
+LC110307	Sri Lanka
+AB817103	Sri Lanka
+AB817125	Sri Lanka
+n249	Sri Lanka
+AB817146	Sri Lanka
+AB817122	Sri Lanka
+n251251	Sri Lanka
+AB817101	Sri Lanka
+AB817113	Sri Lanka
+n252252	Sri Lanka
+AB817099	Sri Lanka
+n253253	Sri Lanka
+LC110312	Sri Lanka
+AB817138	Sri Lanka
+AB817145	Sri Lanka
+n267267	Senegal
+n280	Cote d'Ivoire
+n286	Cote d'Ivoire
+GU815997	Cote d'Ivoire
+n311	Niger
+HM368097	Ghana
+HM368131	Ghana
+HM368126	Ghana
+HM368125	Ghana
+HM368140	Ghana
+HM368122	Ghana
+HM368139	Ghana
+HM368132	Ghana
+HM368146	Ghana
+HM368118	Ghana
+HM368102	Ghana
+HM368153	Ghana
+HM368151	Ghana
+HM368091	Ghana
+HM368098	Ghana
+HM368152	Ghana
+HM368127	Ghana
+HM368124	Ghana
+HM368093	Ghana
+n326326	Ghana
+n330	Nigeria
+KF022186	Nigeria
+KX148243	Cameroon
+KT119773	Cameroon
+FJ545671	Cameroon
+FJ545675	Cameroon
+KU055546	Cameroon
+KU055547	Cameroon
+n359359	Chad
+EU853654	Niger
+EU038108	Nigeria
+EU038109	Nigeria
+KT119755	Central African Republic
+FJ545662	Central African Republic
+KF734686	Central African Republic
+KF734725	Central African Republic
+KF734715	Central African Republic
+KF734704	Central African Republic
+KF734736	Central African Republic
+KF734706	Central African Republic
+EU853651	Central African Republic
+KF734688	Central African Republic
+KF734710	Central African Republic
+KF734703	Central African Republic
+n376376	Guinea
+MK471250	Guinea
+n382382	India
+n397	India
+n398	India
+n407	India
+JN258573	India
+KU534940	Pakistan
+n410410	India
+n415	Bangladesh
+MF414580	India
+n422422	Bhutan
+HQ166021	Bhutan
+HQ166012	Bhutan
+HQ166017	Bhutan
+HQ166004	Bhutan
+HQ166002	Bhutan
+HQ166020	Bhutan
+HQ166013	Bhutan
+HQ166022	Bhutan
+HQ166016	Bhutan
+HQ166010	Bhutan
+HQ166015	Bhutan
+HQ166018	Bhutan
+HQ166024	Bhutan
+HQ166019	Bhutan
+HQ166005	Bhutan
+HQ166023	Bhutan
+HQ166014	Bhutan
+n423	Bhutan
+n425	Afghanistan
+KF150744	India
+KX434518	India
+n434434	Afghanistan
+n434434	India
+n438438	Afghanistan
+KP723628	Pakistan
+n445	Nepal
+n453	Nepal
+KF831534	Nepal
+MK760729	Iran
+MK760735	Iran
+n459	USA
+n463	Greenland
+JN258418	USA
+n506	Greenland
+JN258519	Greenland
+n507507	Russia
+KU198464	Canada
+HM543738	Norway
+n511511	USA
+KU899138	Russia
+n515515	Canada
+n517	Canada
+n518	Canada
+n520	Canada
+KF831556	Canada
+n524524	Canada
+n531531	Canada
+MK540920	Canada
+n534534	Canada
+KY860613	Russia
+KT895592	China
+n541541	South Korea
+DQ076131	South Korea
+n564	South Korea
+DQ076105	South Korea
+DQ076121	South Korea
+DQ076122	South Korea
+FJ392366	South Africa
+DQ194899	South Africa
+n572572	South Africa
+n573573	South Africa
+n576	South Africa
+n582582	South Africa
+n591	South Africa
+JN899142	South Africa
+n595	Botswana
+HQ266633	Zimbabwe
+n603	China
+n603	Ethiopia
+n603	Gabon
+n603	Iraq
+n603	Morocco
+n603	Nigeria
+n603	Russia
+n603	Sudan
+n603	Tunisia
+n603	USA
+n603	Zambia
+n667	China
+n667	Iraq
+n667	Madagascar
+n667	Morocco
+n667	Russia
+n667	Serbia
+n667	Tunisia
+n667	USA
+n667	Zambia
+n821821	Iraq
+n821821	Montenegro
+n821821	Russia
+n821821	Serbia
+n821821	USA
+n821821	Zambia
+n1136	Iraq
+n1136	Russia
+n1136	Serbia
+n1136	USA
+n1136	Zambia
+n1168	USA
+n1192	USA
+n11971197	USA
+n1206	Dominican Republic
+n12091209	Peru
+FJ228498	Peru
+n12181218	USA
+n1299	Mexico
+n13001300	USA
+n1308	USA
+KX708499	Mexico
+KX708501	Mexico
+n1311	Brazil
+n1329	Brazil
+KU312285	Paraguay
+KU312286	Paraguay
+n1352	Paraguay
+KU312290	Paraguay
+KU312291	Paraguay
+KU312294	Paraguay
+KU312296	Paraguay
+MT036067	Egypt
+MT036068	Egypt
+n1357	Egypt
+n13601360	Egypt
+n1362	Egypt
+DQ837463	Egypt
+DQ837461	Egypt
+MT036064	Egypt
+MT036065	Egypt
+KP119662	Egypt
+KP119663	Egypt
+MT684779	Egypt
+MT684781	Egypt
+n5	Malaysia
+MW690142	Malaysia
+n77	Thailand
+MW055078	Viet Nam
+n67	Laos
+n69	Laos
+KM366268	Cambodia
+n71	Cambodia
+n7474	Thailand
+n7676	Thailand
+n84	Philippines
+AB563821	Philippines
+AB563807	Philippines
+n118118	Philippines
+MN726841	Philippines
+AB698023	Philippines
+AB683646	Philippines
+AB683652	Philippines
+n125125	Philippines
+AB683611	Philippines
+EU086203	Philippines
+EU086204	Philippines
+AB563891	Philippines
+AB563917	Philippines
+AB563912	Philippines
+AB563914	Philippines
+AB563966	Philippines
+n131131	Taiwan
+KP860185	Taiwan
+n133133	Taiwan
+n135135	Taiwan
+n139	Taiwan
+n141141	Taiwan
+n145145	Taiwan
+n155155	Taiwan
+n156156	Taiwan
+n157157	Taiwan
+n159159	Taiwan
+n160	Taiwan
+n161	Taiwan
+KP860178	Taiwan
+MH481059	Taiwan
+KP860227	Taiwan
+MH481072	Taiwan
+KP860209	Taiwan
+KP860210	Taiwan
+n165165	Taiwan
+n166166	Taiwan
+KP860189	Taiwan
+KP881357	Taiwan
+KP319201	China
+n172	China
+n174174	China
+EU004738	China
+n175175	China
+EU004696	China
+MW690143	Malaysia
+MW690145	Malaysia
+MW690146	Malaysia
+MW690149	Malaysia
+MW690153	Malaysia
+MW690151	Malaysia
+MW690148	Malaysia
+MW690147	Malaysia
+MW690144	Malaysia
+MF620996	Malaysia
+MW690150	Malaysia
+JX462637	Indonesia
+JX462639	Indonesia
+JX462638	Indonesia
+n183183	Indonesia
+n185185	Indonesia
+n187	Indonesia
+JQ768456	Indonesia
+n193	China
+n200200	China
+JN974836	China
+JN974837	China
+MK124742	China
+n201201	China
+KT894576	China
+JQ040606	China
+JN974826	China
+n211	China
+EU086136	China
+KT221130	China
+GQ472501	China
+n212	China
+GU731659	India
+GU731665	India
+n227	Sri Lanka
+n233233	Sri Lanka
+n238238	Sri Lanka
+AB817107	Sri Lanka
+AB817130	Sri Lanka
+n241241	Sri Lanka
+n242	Sri Lanka
+LC110310	Sri Lanka
+AB817093	Sri Lanka
+LC110302	Sri Lanka
+LC110317	Sri Lanka
+LC110320	Sri Lanka
+AB817105	Sri Lanka
+AB817117	Sri Lanka
+n252	Sri Lanka
+AB817087	Sri Lanka
+AB817100	Sri Lanka
+AB817119	Sri Lanka
+LC110305	Sri Lanka
+LC110315	Sri Lanka
+n268	Senegal
+n269	Senegal
+FJ545664	Mauritania
+FJ545666	Senegal
+n280280	Cote d'Ivoire
+n285	Burkina Faso
+n285	Cote d'Ivoire
+n285	Mali
+n286286	Cote d'Ivoire
+n308308	Cote d'Ivoire
+n311311	Niger
+EU853650	Niger
+HM368111	Ghana
+HM368154	Ghana
+n330330	Nigeria
+n349	Cameroon
+n352352	Nigeria
+n357357	Chad
+n360	Chad
+n365	Chad
+n377	Guinea
+FJ545663	Guinea
+n383	India
+n396396	India
+KM492765	India
+KF150729	India
+n398398	India
+n405	India
+MF474305	India
+n406406	India
+n407407	India
+MF375725	India
+GU363414	India
+n411	India
+n412	India
+KP723626	Pakistan
+n415415	Bangladesh
+n421	Nepal
+KU050069	India
+AB910532	Bhutan
+HQ166006	Bhutan
+HQ166009	Bhutan
+HQ166011	Bhutan
+HQ166008	Bhutan
+HQ166007	Bhutan
+n425425	Afghanistan
+n427427	Pakistan
+n431431	Afghanistan
+n432432	Afghanistan
+n435	Afghanistan
+KP723627	Pakistan
+n439	Afghanistan
+KC791981	Afghanistan
+KC791999	Afghanistan
+n445445	Nepal
+n449449	Nepal
+n450	Nepal
+JX987722	Nepal
+JX944579	Nepal
+n453453	Nepal
+KU055587	Nepal
+KU055586	Nepal
+n459459	USA
+KC792177	USA
+n463463	Greenland
+n488488	Greenland
+KX148105	Greenland
+JX987745	Greenland
+JX987730	Greenland
+JX987731	Greenland
+n508	Russia
+n511	Russia
+KU198461	Canada
+JN258431	USA
+MK540891	Canada
+n516	Canada
+n516516	Canada
+MK540892	Canada
+MK540903	Canada
+n518518	Canada
+n519	Canada
+n520520	Canada
+n521	Canada
+n525	Canada
+n526	Canada
+n532	Canada
+n533533	Canada
+n535	Canada
+MK540966	Canada
+n542	South Korea
+DQ076099	South Korea
+n564564	South Korea
+DQ076104	South Korea
+JQ692995	South Africa
+n573	South Africa
+JX088731	South Africa
+n574	South Africa
+n576576	South Africa
+n577	South Africa
+n583	South Africa
+KT892013	South Africa
+n591591	South Africa
+HQ266616	South Africa
+KX148218	Botswana
+n595595	Botswana
+KU055532	Botswana
+n603603	China
+n603603	Ethiopia
+n603603	Iraq
+n603603	Morocco
+n603603	Russia
+n603603	Sudan
+n603603	Tunisia
+n603603	USA
+n603603	Zambia
+n649	China
+n649	Ethiopia
+n649	Gabon
+n649	Iraq
+n649	Italy
+n649	Morocco
+n649	Nigeria
+n649	Russia
+n649	Sudan
+n649	Tunisia
+n649	USA
+n649	Zambia
+n667667	Zambia
+n813	Madagascar
+n822	Iraq
+n822	Serbia
+n11351135	Montenegro
+n11361136	Iran
+n11361136	Iraq
+n11361136	Russia
+n11611161	Grenada
+n11681168	USA
+n11811181	France
+n11921192	USA
+n1194	USA
+n1198	USA
+KC792219	USA
+n12061206	Dominican Republic
+n1207	Dominican Republic
+n1210	Brazil
+n1213	Peru
+n12141214	Peru
+n1215	Peru
+n12151215	Peru
+n1219	Mexico
+n1282	USA
+FJ228543	Mexico
+n12991299	Mexico
+n1301	USA
+n13041304	USA
+KC791802	USA
+KC791807	USA
+n13111311	Brazil
+n1316	Brazil
+n13291329	Brazil
+n13301330	Brazil
+KU312287	Paraguay
+KU312288	Paraguay
+KU312297	Paraguay
+KU312295	Paraguay
+n13571357	Egypt
+n1360	Egypt
+n1361	Egypt
+MT134106	Egypt
+MG458315	Egypt
+MG458317	Egypt
+n55	Malaysia
+MW690152	Malaysia
+n6	Malaysia
+n8	Thailand
+n6464	Thailand
+n65	Laos
+n6767	Laos
+EU086194	Laos
+n6969	Laos
+AB981669	Laos
+n70	Laos
+n7171	Viet Nam
+EU086170	Cambodia
+n75	Thailand
+n76	Thailand
+DQ275538	Thailand
+DQ275545	Thailand
+n8484	Philippines
+n117117	Philippines
+AB563877	Philippines
+n119	Philippines
+n126	Philippines
+AB683649	Philippines
+n132	Taiwan
+n132132	Taiwan
+n134	Taiwan
+n134134	Taiwan
+n136	Taiwan
+KP860148	Taiwan
+n139139	Taiwan
+n140140	Taiwan
+KP860221	Taiwan
+n142	Taiwan
+n143143	Taiwan
+KP860197	Taiwan
+n146	Taiwan
+n153153	Taiwan
+KF544964	Taiwan
+KF544965	Taiwan
+n157	Taiwan
+KP860204	Taiwan
+KP860233	Taiwan
+KP860234	Taiwan
+KP860140	Taiwan
+KP881353	Taiwan
+KP860179	Taiwan
+KF501180	Taiwan
+KP860180	Taiwan
+KP860160	Taiwan
+KP860161	Taiwan
+MH481062	Taiwan
+MH481069	Taiwan
+KF501174	Taiwan
+MH481076	Taiwan
+MH481073	Taiwan
+MH481071	Taiwan
+n166	Taiwan
+KP860232	Taiwan
+MH481066	Taiwan
+n167	Taiwan
+MH481077	Taiwan
+n172172	China
+FJ719754	China
+GQ472518	China
+AB428320	China
+MG201916	China
+GQ472612	China
+n184	Indonesia
+n184184	Indonesia
+JX462634	Indonesia
+n186	Indonesia
+n187187	Indonesia
+JX462619	Indonesia
+n193193	China
+n200	China
+EU086190	China
+KP319215	China
+EU086188	China
+n202	China
+n209	China
+KU845606	China
+KJ776466	China
+AB458798	China
+EU004764	China
+n227227	Sri Lanka
+n233	Sri Lanka
+n234	Sri Lanka
+AB817135	Sri Lanka
+LC110313	Sri Lanka
+n239	Sri Lanka
+AB817104	Sri Lanka
+AB817134	Sri Lanka
+AB817110	Sri Lanka
+AB817112	Sri Lanka
+AB817141	Sri Lanka
+LC110321	Sri Lanka
+KF154999	United Kingdom
+JN968375	United Kingdom
+AB638767	Sri Lanka
+n268268	Senegal
+EU853643	Senegal
+n269269	Senegal
+n278	Senegal
+n279	Senegal
+n281	Mauritania
+EU853624	Mauritania
+KU739038	Burkina Faso
+FJ545668	Mali
+n287	Cote d'Ivoire
+n299	Cote d'Ivoire
+n299	Mauritania
+n309	Cote d'Ivoire
+FJ545677	Cote d'Ivoire
+n312	Niger
+n316	Burkina Faso
+EU827276	Burkina Faso
+n331	Nigeria
+KX874611	Nigeria
+n344344	Nigeria
+n345	Nigeria
+n346346	Nigeria
+KF022183	Nigeria
+EU038098	Nigeria
+KF022175	Nigeria
+n347	Nigeria
+n348	Nigeria
+n348348	Nigeria
+n349349	Chad
+KX148242	Cameroon
+KT119784	Cameroon
+n353	Cameroon
+n357	Nigeria
+DQ275559	Chad
+DQ275560	Chad
+n360360	Chad
+n362	Chad
+KX148240	Chad
+KT119778	Chad
+EU853652	Chad
+FJ545679	Niger
+DQ275561	Chad
+n377377	Guinea
+FJ545685	Guinea
+n383383	India
+n390	India
+n394394	India
+n395	India
+KT381828	India
+KF660245	India
+n399	India
+n404404	India
+n405405	India
+n406	India
+MF144114	India
+KT381833	India
+GU363397	India
+n408	India
+n408	Oman
+KX434511	India
+GU371877	India
+n411411	Nepal
+MG950232	India
+n412412	Nepal
+n413	United Kingdom
+n416	Bangladesh
+n418	Bangladesh
+JX944567	Nepal
+n421421	Nepal
+n426	Afghanistan
+EU086162	Afghanistan
+n428	Pakistan
+n429429	Pakistan
+n432	Afghanistan
+KC791998	Afghanistan
+n433	Afghanistan
+JX987719	Afghanistan
+n435435	Afghanistan
+n437	Afghanistan
+n439439	Afghanistan
+KU055507	Afghanistan
+n440440	Afghanistan
+KU055520	Afghanistan
+n446	Nepal
+KM979373	Nepal
+KM979371	Nepal
+KM979368	Nepal
+JX944585	Nepal
+JX944580	Nepal
+JX944589	Nepal
+JX987726	Nepal
+KC792226	Nepal
+KM979367	Nepal
+KM979372	Nepal
+KM979370	Nepal
+JX944582	Nepal
+JX944591	Nepal
+JX944590	Nepal
+KM979369	Nepal
+n450450	Nepal
+KC792235	Nepal
+KC792236	Nepal
+JX944592	Nepal
+JX944581	Nepal
+JX944577	Nepal
+n451	Nepal
+n451451	Nepal
+KX148228	Nepal
+JX944565	Nepal
+n454	Nepal
+AY854598	Nepal
+KU739036	Italy
+EU086153	Nepal
+EU086154	Nepal
+n454454	Nepal
+n460	USA
+n461461	USA
+n464	Greenland
+n483	Greenland
+DQ275551	Greenland
+DQ010133	Greenland
+DQ010136	Greenland
+DQ010138	Greenland
+DQ010137	Greenland
+DQ010145	Greenland
+DQ010140	Greenland
+DQ010139	Greenland
+DQ010142	Greenland
+DQ010144	Greenland
+DQ010143	Greenland
+n489	Greenland
+n505	Greenland
+n508508	Svalbard
+n509509	Russia
+DQ010127	Russia
+JN258592	USA
+DQ010125	Russia
+MG869103	Russia
+MG869104	Russia
+MK540894	Canada
+MK540905	Canada
+MK540899	Canada
+MK540907	Canada
+DQ118245	Canada
+MK540900	Canada
+MK540919	Canada
+MK540902	Canada
+n519519	Canada
+MK540932	Canada
+MK540938	Canada
+n521521	Canada
+n523	Canada
+n525525	Canada
+MK540927	Canada
+n526526	Canada
+n530	Canada
+n532532	Canada
+n533	Canada
+MK540930	Canada
+MK540964	Canada
+MK540950	Canada
+MK540972	Canada
+n542542	South Korea
+n546	South Korea
+n551	South Korea
+n552552	South Korea
+DQ076096	South Korea
+n555555	South Korea
+DQ076095	South Korea
+DQ076100	South Korea
+DQ076101	South Korea
+DQ076102	South Korea
+DQ076103	South Korea
+JX088732	South Africa
+FJ392370	South Africa
+FJ392375	South Africa
+DQ194898	South Africa
+MK858229	South Africa
+FJ392376	South Africa
+n577577	South Africa
+FJ465386	South Africa
+n583583	South Africa
+FJ392383	South Africa
+MG458307	South Africa
+JQ692983	South Africa
+n596	Botswana
+KU055533	Botswana
+n604	China
+n604	Ethiopia
+n604	Morocco
+n604	Russia
+n604	Spain
+n604	Sudan
+n604	Tunisia
+n604	USA
+n604	Zambia
+n648648	China
+n648648	Croatia
+n648648	Ethiopia
+n648648	Hungary
+n648648	Italy
+n648648	Morocco
+n648648	Russia
+n648648	Sudan
+n648648	Tunisia
+n648648	USA
+n648648	Zambia
+n649649	Cameroon
+n649649	China
+n649649	Croatia
+n649649	Gabon
+n649649	Italy
+n649649	Nigeria
+n649649	Russia
+n649649	Zambia
+n666666	China
+n666666	Croatia
+n666666	Ethiopia
+n666666	Gabon
+n666666	Hungary
+n666666	Italy
+n666666	Morocco
+n666666	Nigeria
+n666666	Russia
+n666666	Tunisia
+n666666	USA
+n666666	Zambia
+n668	Zambia
+n810810	Zambia
+n813813	Madagascar
+KC787072	Madagascar
+n822822	Iraq
+n822822	Serbia
+n1119	Turkey
+MG458309	Serbia
+KX148104	Montenegro
+JF973749	Montenegro
+JF973781	Montenegro
+n1137	Iraq
+n1137	Russia
+n11601160	Iran
+n1162	Grenada
+KJ957443	Grenada
+n1169	USA
+n1181	Haiti
+n1182	France
+KU055563	France
+n1193	USA
+DQ275585	USA
+DQ275565	USA
+n11941194	USA
+n11981198	USA
+JQ685987	USA
+KC791962	USA
+KC792058	Dominican Republic
+KC792056	Dominican Republic
+KC792059	Dominican Republic
+n12071207	Dominican Republic
+KC792057	Dominican Republic
+KC792060	Dominican Republic
+n12101210	Argentina
+n1211	Brazil
+n12131213	Peru
+FJ228499	Peru
+EU530698	Peru
+EU530710	Peru
+EU530702	Peru
+EU530709	Peru
+EU530707	Peru
+EU530711	Peru
+EU530704	Peru
+EU530703	Peru
+EU530713	Peru
+EU530717	Peru
+EU530723	Peru
+EU530722	Peru
+EU530721	Peru
+EU530714	Peru
+EU530715	Peru
+n12191219	Mexico
+n12781278	Mexico
+n12821282	USA
+n12931293	USA
+FJ228544	Mexico
+FJ228545	Mexico
+n13011301	USA
+n13031303	USA
+n1305	USA
+n13071307	USA
+n1312	Brazil
+n13141314	Brazil
+n13161316	Brazil
+n13221322	Brazil
+n1327	Brazil
+n1330	Brazil
+JX217794	Brazil
+n1331	Brazil
+n13451345	Brazil
+n1358	Egypt
+n13581358	Egypt
+MG458316	Egypt
+DQ837462	Egypt
+MT134104	Egypt
+MT134105	Egypt
+MW690139	Malaysia
+MW690140	Malaysia
+MW690141	Malaysia
+MW690154	Malaysia
+MW690155	Malaysia
+n88	Thailand
+n5454	Thailand
+n5555	Cambodia
+n56	Thailand
+n6262	Cambodia
+n6262	Laos
+n6262	Thailand
+n63	Cambodia
+KY678614	Thailand
+KY678628	Thailand
+KY678626	Thailand
+KY678619	Thailand
+KY678630	Thailand
+KY678617	Thailand
+KY678632	Thailand
+KY678618	Thailand
+AB981663	Laos
+n6565	Laos
+n68	Laos
+n6868	Laos
+AB981664	Laos
+AB981665	Laos
+AB981672	Laos
+AB981675	Laos
+AB981670	Laos
+AB981666	Laos
+AB981668	Laos
+AB981667	Laos
+AB981673	Laos
+AB981671	Laos
+AB614377	Viet Nam
+AB628211	Viet Nam
+AB614378	Viet Nam
+EU086208	Thailand
+EU086216	Thailand
+n7575	Thailand
+EU293111	Thailand
+EU293100	Thailand
+KU055545	Thailand
+n85	Philippines
+n112	Philippines
+AB563794	Philippines
+AB683587	Philippines
+AB563923	Philippines
+n119119	Philippines
+AB683609	Philippines
+AB683612	Philippines
+KP892527	Taiwan
+KP860155	Taiwan
+KP860138	Taiwan
+KP881356	Taiwan
+KP860137	Taiwan
+KP860139	Taiwan
+n135	Taiwan
+KP860172	Taiwan
+n136136	Taiwan
+n137	Taiwan
+n140	Taiwan
+KP860188	Taiwan
+MH481065	Taiwan
+n141	Taiwan
+KP860222	Taiwan
+n142142	Taiwan
+n143	Taiwan
+n144	Taiwan
+KP860192	Taiwan
+KP860194	Taiwan
+n146146	Taiwan
+n150150	Taiwan
+KP860203	Taiwan
+KP860200	Taiwan
+KP860149	Taiwan
+KP860205	Taiwan
+n151	Taiwan
+n153	Taiwan
+n154	Taiwan
+KP860208	Taiwan
+KP860199	Taiwan
+KP860207	Taiwan
+MH481074	Taiwan
+MH481079	Taiwan
+KP860187	Taiwan
+MH481070	Taiwan
+KP860229	Taiwan
+MH481075	Taiwan
+KP860228	Taiwan
+n173	China
+MF158983	China
+KX148266	Indonesia
+EU086192	Indonesia
+KU055512	Indonesia
+EU086151	Indonesia
+n185	Indonesia
+JX462642	Indonesia
+JX462643	Indonesia
+JX462635	Indonesia
+JX462636	Indonesia
+n188	Indonesia
+JX462616	Indonesia
+JX448340	Indonesia
+JX462625	Indonesia
+JX462617	Indonesia
+n189	Indonesia
+JX462623	Indonesia
+JX462631	Indonesia
+n194	China
+EU159380	China
+EU159379	China
+EU086141	China
+EU086140	China
+n202202	China
+n203	China
+EU086146	China
+EU086148	China
+n228	Sri Lanka
+AB817085	Sri Lanka
+n231231	Sri Lanka
+LC110308	Sri Lanka
+AB817091	Sri Lanka
+AB817116	Sri Lanka
+AB817108	Sri Lanka
+AB817127	Sri Lanka
+AB817123	Sri Lanka
+AB817118	Sri Lanka
+AB817131	Sri Lanka
+n234234	Sri Lanka
+n238	Sri Lanka
+AB817095	Sri Lanka
+AB817097	Sri Lanka
+MH514968	Senegal
+EU853644	Senegal
+FJ545661	Senegal
+KU055527	Senegal
+KU055531	Senegal
+n270	Senegal
+n270270	Senegal
+n278278	Senegal
+KX148239	Senegal
+n279279	Senegal
+EU853642	Mauritania
+KP976113	Mali
+n281281	Burkina Faso
+n282	Mali
+n284284	Burkina Faso
+FJ545682	Mauritania
+n287287	Cote d'Ivoire
+n298298	Burkina Faso
+n299299	Mauritania
+n308	Mali
+n309309	Cote d'Ivoire
+EU853621	Cote d'Ivoire
+n312312	Niger
+EU853647	Niger
+EU853646	Niger
+EU853648	Niger
+KX148231	Niger
+n316316	Burkina Faso
+n319319	Burkina Faso
+EU478508	Burkina Faso
+n331331	Nigeria
+n342	Nigeria
+n342342	Nigeria
+n343	Nigeria
+n344	Nigeria
+EU038083	Nigeria
+KF022174	Nigeria
+KF022182	Nigeria
+n345345	Nigeria
+KF022180	Nigeria
+KF022185	Nigeria
+KC196743	Nigeria
+MN166229	Nigeria
+n347347	Nigeria
+EU038096	Nigeria
+MF538630	Chad
+MF538631	Chad
+MF577065	Chad
+EU888642	Nigeria
+EU888703	Nigeria
+EU038099	Nigeria
+n350	Chad
+n351	Chad
+n351351	Chad
+n353353	Nigeria
+MF537576	Cameroon
+n356	Cameroon
+n356356	Cameroon
+KR080523	Nigeria
+KF022181	Nigeria
+n361	Chad
+EU853653	Chad
+KX148241	Chad
+KT119786	Chad
+n362362	Chad
+KU564993	Chad
+KX148244	Guinea
+FJ545680	Guinea
+KU055552	Guinea
+n384	India
+KX434497	India
+n390390	India
+n394	India
+KX685268	India
+KT381826	India
+MH258800	India
+n395395	India
+n399399	India
+n401401	India
+JN258543	India
+JN258556	India
+JN258578	India
+KU050061	India
+MF474295	India
+MF474316	India
+FJ228546	USA
+GU363399	India
+GU353131	Oman
+n408408	Oman
+KM979374	Nepal
+JX944593	Nepal
+KM979366	Nepal
+JX944574	Nepal
+n413413	United Kingdom
+KU534939	United Kingdom
+JQ685981	United Kingdom
+n416416	Bangladesh
+AB699215	Bangladesh
+n418418	Bangladesh
+AB699209	Bangladesh
+JX944586	Nepal
+KC792223	Nepal
+n426426	Afghanistan
+n427	Afghanistan
+n428428	Pakistan
+HE801609	Pakistan
+n429	Pakistan
+n430	Pakistan
+n431	Pakistan
+KC791994	Afghanistan
+KC792238	USA
+n433433	Pakistan
+KC791985	Afghanistan
+KC791996	Afghanistan
+n436	Afghanistan
+KC791976	Afghanistan
+HE801617	Pakistan
+KC791997	Afghanistan
+n440	Afghanistan
+GU815996	Afghanistan
+EU086212	Afghanistan
+n441	Afghanistan
+JX987720	Afghanistan
+KC791974	Afghanistan
+KC791973	Afghanistan
+n446446	Nepal
+n449	Nepal
+JX944573	Nepal
+JX944596	Nepal
+JX944602	Nepal
+JX944598	Nepal
+JX987738	Nepal
+JX987743	Nepal
+JX987741	Nepal
+JX944600	Nepal
+KC792228	Nepal
+KC792229	Nepal
+JX987727	Nepal
+KC792227	Nepal
+n452	Nepal
+n452452	Nepal
+EU086196	Nepal
+EU086198	Nepal
+EU086197	Nepal
+JX944584	Nepal
+KC792232	Nepal
+HQ913570	Nepal
+n460460	Svalbard
+KY002910	Russia
+n462	Canada
+KC791889	USA
+n464464	Greenland
+n482482	Canada
+n483483	Greenland
+n486	Greenland
+JN258486	Canada
+AY854602	Greenland
+n489489	Canada
+n499	Greenland
+DQ010134	Greenland
+KX036361	Greenland
+DQ010132	Greenland
+n509	Svalbard
+KR054368	Svalbard
+KR054370	Svalbard
+n510	Russia
+KC792184	USA
+KC792170	USA
+MK540911	Canada
+MK540977	Canada
+MK540947	Canada
+n522	Canada
+MK540957	Canada
+MK540971	Canada
+MK540912	Canada
+MK540914	Canada
+n527	Canada
+MK540990	Canada
+MK540958	Canada
+n530530	Canada
+MK540921	Canada
+MK540967	Canada
+MK540965	Canada
+MK540992	Canada
+KJ476821	South Korea
+n543	South Korea
+n546546	South Korea
+GU937035	South Korea
+GU937039	South Korea
+n551551	South Korea
+DQ076097	South Korea
+n553	South Korea
+JN786919	South Korea
+JN786922	South Korea
+JN786935	South Korea
+n555	South Korea
+n556	South Korea
+n563	South Korea
+n578	South Africa
+HQ266630	South Africa
+n584	South Africa
+n588588	South Africa
+KX148219	Botswana
+KU739041	Botswana
+n604604	China
+n604604	Ethiopia
+n604604	Morocco
+n604604	Russia
+n604604	Sudan
+n604604	Tunisia
+n636636	Morocco
+MF781074	Russia
+FJ561730	China
+n650	Cameroon
+n650	Gabon
+KX148201	Nigeria
+KX522941	Russia
+MT367573	China
+n668668	Zambia
+n808808	Central African Republic
+n808808	Uganda
+n808808	Zambia
+n811	Zambia
+LC380217	Zambia
+n814	Madagascar
+n817	Madagascar
+n823	Iraq
+n907907	Serbia
+n11191119	Turkey
+n1133	Turkey
+n11371137	Russia
+n1151	Iraq
+n1161	Iran
+KP723592	Iran
+n11621162	Grenada
+KJ957435	Grenada
+n11691169	USA
+n11761176	USA
+MW055129	Haiti
+MW055130	Haiti
+n11821182	Mexico
+n1184	France
+n11931193	USA
+DQ275578	USA
+n1195	USA
+DQ275580	USA
+n11961196	USA
+n1199	USA
+n1204	USA
+KC792067	Dominican Republic
+KC792068	Dominican Republic
+MW302193	Argentina
+MW302194	Argentina
+n12111211	Brazil
+MK956100	Brazil
+KU938752	Peru
+n1214	Peru
+n1220	Mexico
+n12241224	Mexico
+n1279	Mexico
+KC791961	Mexico
+n1283	USA
+n12901290	Mexico
+n1294	USA
+n12971297	USA
+n1302	USA
+JQ513549	USA
+JQ513541	USA
+n1304	USA
+n13051305	USA
+n13061306	USA
+KC792083	USA
+KC792084	USA
+n13121312	Brazil
+n1314	Brazil
+KX148216	Brazil
+n1315	Brazil
+n1317	Brazil
+n1321	Brazil
+n1323	Brazil
+n13251325	Brazil
+n13271327	Brazil
+n13281328	Brazil
+KX148217	Brazil
+KR781540	Brazil
+n13311331	Brazil
+n1336	Brazil
+n13371337	Brazil
+n1346	Brazil
+n13491349	Brazil
+MW055131	Egypt
+MK760769	Egypt
+MK760770	Egypt
+n1359	Egypt
+n9	Thailand
+n53	Thailand
+n54	Thailand
+MK370433	Thailand
+MK370434	Thailand
+KM366217	Cambodia
+KM366299	Cambodia
+n5656	Thailand
+LC071983	Thailand
+KM366301	Cambodia
+AB981677	Laos
+n6363	Cambodia
+n64	Cambodia
+AB981674	Laos
+AB981676	Laos
+KX148255	Laos
+EU086152	Laos
+KX148256	Laos
+KU055499	Laos
+KU055498	Laos
+KU055592	Laos
+EU086213	Laos
+KX148258	Laos
+KX148257	Laos
+EU086193	Laos
+EU086195	Laos
+EU086217	Thailand
+EU086218	Thailand
+n8585	Philippines
+n102	Philippines
+DQ275539	Thailand
+n112112	Philippines
+n115115	Philippines
+n120	Philippines
+AB563971	Philippines
+AB683591	Philippines
+KP860171	Taiwan
+KP860176	Taiwan
+KP860173	Taiwan
+KP860141	Taiwan
+KP860145	Taiwan
+KP860143	Taiwan
+n137137	Taiwan
+KF501184	Taiwan
+MH481060	Taiwan
+KP860186	Taiwan
+KP860220	Taiwan
+KP860225	Taiwan
+KP860226	Taiwan
+MH481064	Taiwan
+KF501178	Taiwan
+KP860191	Taiwan
+KP860224	Taiwan
+KP860193	Taiwan
+KP860196	Taiwan
+KP860223	Taiwan
+MH481068	Taiwan
+KP860190	Taiwan
+n147	Taiwan
+n149149	Taiwan
+MH481067	Taiwan
+KP860198	Taiwan
+n151151	Taiwan
+MH481058	Taiwan
+MH481061	Taiwan
+KP860213	Taiwan
+KP860214	Taiwan
+KP860150	Taiwan
+KP860152	Taiwan
+n154154	Taiwan
+KP860158	Taiwan
+FJ712195	China
+FJ712196	China
+JX462640	Indonesia
+JX462641	Indonesia
+KF482528	Indonesia
+KF482531	Indonesia
+KF482532	Indonesia
+n188188	Indonesia
+JX462620	Indonesia
+JX462626	Indonesia
+JX462621	Indonesia
+JX462622	Indonesia
+JX462628	Indonesia
+JX462632	Indonesia
+KF482529	Indonesia
+KF482530	Indonesia
+JQ768458	Indonesia
+JX462618	Indonesia
+JQ768457	Indonesia
+JX462627	Indonesia
+JX462630	Indonesia
+JX462629	Indonesia
+JX462624	Indonesia
+n194194	Thailand
+n199199	China
+KY613020	China
+MG383885	China
+KT894560	China
+n203203	China
+n208208	China
+n228228	Sri Lanka
+n229	Sri Lanka
+n229229	Sri Lanka
+n230	Sri Lanka
+n230230	Sri Lanka
+AB638771	Sri Lanka
+n231	Sri Lanka
+n232	Sri Lanka
+AB817111	Sri Lanka
+AB817120	Sri Lanka
+AB817132	Sri Lanka
+AB817139	Sri Lanka
+n235	Sri Lanka
+n237237	Sri Lanka
+LC110319	Sri Lanka
+AB817096	Sri Lanka
+MH514969	Senegal
+MH514970	Senegal
+n271	Mauritania
+n277	Senegal
+KX148238	Senegal
+EU853641	Senegal
+EU853640	Senegal
+EU853625	Senegal
+EU853626	Senegal
+EU478492	Burkina Faso
+EU478518	Burkina Faso
+KP976122	Mali
+n282282	Mali
+EU478502	Burkina Faso
+EU478515	Burkina Faso
+n288	Cote d'Ivoire
+n288	Liberia
+n288	Mali
+n291	Cote d'Ivoire
+KX148234	Burkina Faso
+EU853614	Burkina Faso
+FJ545672	Burkina Faso
+KU055538	Burkina Faso
+n300	Mauritania
+MK471251	Guinea
+FJ545669	Mali
+FJ545670	Mali
+MN049984	Liberia
+KX148235	Cote d'Ivoire
+n313	Niger
+EU853649	Niger
+n317	Burkina Faso
+n318318	Burkina Faso
+n320	Burkina Faso
+n322	Niger
+n322322	Burkina Faso
+n323	Burkina Faso
+EU478497	Burkina Faso
+EU478509	Burkina Faso
+EU827270	Burkina Faso
+EU478511	Burkina Faso
+n323323	Burkina Faso
+n332	Nigeria
+EU038092	Nigeria
+MF773577	Nigeria
+EU038089	Nigeria
+EU038090	Nigeria
+KC876040	Nigeria
+EU038087	Nigeria
+FJ435696	Nigeria
+n343343	Nigeria
+EU038086	Nigeria
+EU888702	Nigeria
+EU038082	Nigeria
+n346	Nigeria
+KF022184	Nigeria
+EU888658	Nigeria
+EU888671	Nigeria
+EU038097	Nigeria
+KY124532	Chad
+KY124535	Chad
+KU564985	Chad
+KU564992	Chad
+KU564982	Chad
+n350350	Chad
+KY124534	Chad
+KU564990	Chad
+n352	Chad
+KU564983	Chad
+KU564991	Chad
+KU564986	Chad
+KU564984	Chad
+MN196558	Nigeria
+n354	Nigeria
+n354354	Nigeria
+MF537577	Cameroon
+MF537580	Cameroon
+MF537578	Cameroon
+MF537579	Cameroon
+KY124533	Chad
+KY124538	Chad
+KY124536	Chad
+KU564989	Chad
+KU564981	Chad
+n361361	Chad
+MF538629	Chad
+n363	Central African Republic
+KF535203	India
+n384384	India
+n391	India
+n393393	India
+MK248524	India
+MK248525	India
+AY854599	India
+KJ201891	India
+n396	India
+MH258814	India
+n400	India
+n401	India
+n402	India
+n402	Nepal
+n402	Pakistan
+n403	India
+n403403	India
+n409	Oman
+GU353137	Oman
+GU353143	Oman
+GU353145	Oman
+KF154996	United Kingdom
+GU936881	United Kingdom
+n417	Bangladesh
+AB699208	Bangladesh
+n419	Bangladesh
+AB699216	Bangladesh
+MK760761	Iran
+KF992019	Afghanistan
+KP723576	Afghanistan
+KP723580	Afghanistan
+HE801606	Pakistan
+KC791905	Pakistan
+HE801612	Pakistan
+HE801618	Pakistan
+HE801607	Pakistan
+n430430	Pakistan
+HE801608	Pakistan
+HE801615	Pakistan
+HE801611	Pakistan
+KC791853	Pakistan
+n436436	Afghanistan
+EU086128	Afghanistan
+KX148225	Afghanistan
+JX987735	Afghanistan
+JX987718	Afghanistan
+KU888645	Afghanistan
+KX148226	Afghanistan
+n441441	Afghanistan
+KP723577	Afghanistan
+KP723581	Afghanistan
+KP723582	Afghanistan
+KP723579	Afghanistan
+n442	Afghanistan
+GU992304	Afghanistan
+MN534895	Nepal
+n447	Nepal
+JX944570	Nepal
+JX987742	Nepal
+n448	Nepal
+JX944568	Nepal
+KC792233	Nepal
+JX944571	Nepal
+JX944601	Nepal
+JX944572	Nepal
+JX944583	Nepal
+KC792222	Nepal
+JX987725	Nepal
+KC792225	Nepal
+n461	Svalbard
+MH823814	Svalbard
+n462462	Canada
+MN234005	Canada
+KU198478	Canada
+n465	Greenland
+n482	Greenland
+MN233959	Canada
+JN258476	Canada
+n484	Greenland
+n485	Canada
+n486486	Greenland
+n487487	Greenland
+n490	Greenland
+n498	Canada
+LM645037	Greenland
+n499499	Greenland
+n502502	Greenland
+KX954123	Russia
+KC792175	USA
+KY002890	Russia
+n510510	Russia
+MK540979	Canada
+n522522	Canada
+MK540940	Canada
+n527527	Canada
+MK540945	Canada
+MK540969	Canada
+n531	Canada
+n543543	South Korea
+n545	South Korea
+n547	South Korea
+n550550	South Korea
+HQ197958	South Korea
+GU937038	South Korea
+n552	South Korea
+DQ076098	South Korea
+JN786915	South Korea
+n553553	South Korea
+n554554	South Korea
+JN786921	South Korea
+JN786938	South Korea
+JN786923	South Korea
+JN786932	South Korea
+JN786925	South Korea
+JN786937	South Korea
+JN786926	South Korea
+JN786929	South Korea
+JN786924	South Korea
+n556556	South Korea
+KF437634	South Korea
+KF437638	South Korea
+n562562	South Korea
+KF437636	South Korea
+KF437633	South Korea
+KF437640	South Korea
+KF437637	South Korea
+KF437644	South Korea
+KF437645	South Korea
+n578578	South Africa
+JX088728	South Africa
+n584584	South Africa
+n588	South Africa
+FJ392377	South Africa
+FJ465395	South Africa
+FJ465401	South Africa
+n605	Tunisia
+n609609	Ethiopia
+n609609	Sudan
+n637	Morocco
+EU853572	Morocco
+n650650	Gabon
+n656	Cameroon
+n669	Zambia
+n729	Zambia
+n740	Zambia
+n809	Central African Republic
+n810	Uganda
+KR906752	Tanzania
+n811811	Zambia
+n814814	Madagascar
+n815815	Madagascar
+KX148211	Madagascar
+n817817	Madagascar
+KC787067	Madagascar
+KC787071	Madagascar
+KC787069	Madagascar
+KC787073	Madagascar
+KC787070	Madagascar
+KC787068	Madagascar
+n820820	Madagascar
+n823823	Iraq
+n906	Israel
+n908	Serbia
+n11141114	Serbia
+n1120	Turkey
+n1123	Turkey
+n11331133	Turkey
+n11341134	Turkey
+n1138	Russia
+MG869121	Russia
+n11511151	Iraq
+KP723599	Iraq
+n1158	Iraq
+DQ837474	Turkey
+MK760766	Iran
+KX148212	Iran
+n1163	Grenada
+n1166	Grenada
+n1170	USA
+JX855994	USA
+n1177	USA
+n1180	USA
+MK887203	Mexico
+n1183	Mexico
+n11841184	France
+n1190	France
+DQ275564	USA
+DQ275574	USA
+n11951195	USA
+n1196	USA
+DQ275584	USA
+DQ275597	USA
+n11991199	USA
+n1202	USA
+n12041204	USA
+KC792216	USA
+n12121212	Brazil
+MK956099	Brazil
+MK956101	Brazil
+KU938829	Peru
+EU530699	Peru
+EU530708	Peru
+EU530700	Peru
+EU530705	Peru
+EU530706	Peru
+EU530720	Peru
+EU530716	Peru
+EU530712	Peru
+EU530719	Peru
+EU530718	Peru
+EU530701	Peru
+n12201220	Mexico
+n12221222	Mexico
+n1225	Cuba
+n1263	Mexico
+n12791279	Mexico
+n12801280	Mexico
+n12831283	USA
+n12841284	USA
+n1291	Mexico
+n1293	Mexico
+n12941294	USA
+n12961296	USA
+n1298	USA
+KC792196	Mexico
+JQ513539	USA
+n13021302	USA
+JQ513545	USA
+JQ513546	USA
+JQ513547	USA
+n1306	USA
+n1307	USA
+DQ275558	USA
+KX148214	Brazil
+GU646801	Brazil
+n13131313	Brazil
+KX148215	Brazil
+GU646797	Brazil
+GU646812	Brazil
+GU646802	Brazil
+GU646831	Brazil
+GU646805	Brazil
+GU646811	Brazil
+GU646810	Brazil
+GU646840	Brazil
+GU646806	Brazil
+GU646847	Brazil
+n13151315	Brazil
+JN106461	Brazil
+n13171317	Brazil
+KR781568	Brazil
+n13211321	Brazil
+JX217780	Brazil
+JX217802	Brazil
+JX217791	Brazil
+JX217788	Brazil
+KR781564	Brazil
+KR781569	Brazil
+n1322	Brazil
+KR781565	Brazil
+KU938904	Peru
+EU530725	Peru
+n13231323	Brazil
+JX217797	Brazil
+n1326	Brazil
+n13261326	Brazil
+GU123651	Brazil
+n1328	Brazil
+GU123652	Brazil
+GU123656	Brazil
+KR781523	Brazil
+n1332	Brazil
+KR781556	Brazil
+n13361336	Brazil
+n1338	Brazil
+JN897311	Brazil
+n13461346	Brazil
+n1349	Brazil
+n1350	Brazil
+GU123661	Brazil
+n13591359	Egypt
+MT134109	Egypt
+n99	Thailand
+EU293107	Thailand
+n49	Thailand
+n4949	Thailand
+n5252	Thailand
+n5353	Thailand
+EU086206	Thailand
+GQ303555	Thailand
+GQ303556	Thailand
+n57	Thailand
+LC071955	Thailand
+n61	Thailand
+LC071954	Thailand
+LC071952	Thailand
+n62	Thailand
+LC071953	Thailand
+KM366242	Cambodia
+KM366257	Cambodia
+KM366260	Cambodia
+KM366254	Cambodia
+KM366262	Cambodia
+n86	Philippines
+n101101	Philippines
+n102102	Philippines
+n109109	Philippines
+n113	Philippines
+AB683594	Philippines
+AB683636	Philippines
+n116	Philippines
+AB563970	Philippines
+n120120	Philippines
+n138	Taiwan
+KF501185	Taiwan
+n147147	Taiwan
+KP860154	Taiwan
+n149	Taiwan
+KP860164	Taiwan
+n150	Taiwan
+KP860218	Taiwan
+KP860153	Taiwan
+n152	Taiwan
+n155	Taiwan
+KP860206	Taiwan
+JQ768453	Indonesia
+JQ768454	Indonesia
+JQ768455	Indonesia
+n195	Thailand
+MW055077	Viet Nam
+MW055076	Viet Nam
+n197197	Viet Nam
+MK370421	Thailand
+MK370429	Thailand
+MK370426	Thailand
+MK370432	Thailand
+MK370424	Thailand
+MK370430	Thailand
+MK370425	Thailand
+EU159363	China
+EU159372	China
+KP221203	China
+n204	China
+n207	China
+n208	China
+EU004780	China
+EU004781	China
+LC110290	Sri Lanka
+LC110295	Sri Lanka
+LC110301	Sri Lanka
+LC110296	Sri Lanka
+LC110293	Sri Lanka
+LC110300	Sri Lanka
+LC110297	Sri Lanka
+LC110304	Sri Lanka
+AB569299	Sri Lanka
+AB817126	Sri Lanka
+LC110299	Sri Lanka
+AB817090	Sri Lanka
+AB638770	Sri Lanka
+LC110306	Sri Lanka
+AB817140	Sri Lanka
+AB817089	Sri Lanka
+n232232	Sri Lanka
+LC110298	Sri Lanka
+n235235	Sri Lanka
+n237	Sri Lanka
+AB817109	Sri Lanka
+AB817129	Sri Lanka
+AB817144	Sri Lanka
+n271271	Mauritania
+n273273	Senegal
+n274	Senegal
+n275275	Senegal
+MH514982	Senegal
+EU853635	Senegal
+EU853627	Senegal
+EU853638	Senegal
+EU853637	Senegal
+EU853639	Senegal
+n277277	Senegal
+n283	Mali
+KP976125	Mali
+n288288	Liberia
+EU853620	Mali
+n291291	Cote d'Ivoire
+n297	France
+n297	Mali
+n300300	Mauritania
+n305305	Mali
+n313313	Niger
+KX148229	Niger
+KR080521	Nigeria
+FJ545678	Niger
+n315	Niger
+KU055550	Nigeria
+n315315	Burkina Faso
+EU827275	Burkina Faso
+n317317	Burkina Faso
+n318	Burkina Faso
+EU888659	Nigeria
+n319	Burkina Faso
+EU478503	Burkina Faso
+EU478504	Burkina Faso
+EU478510	Burkina Faso
+EU478523	Burkina Faso
+KP976121	Mali
+EU478512	Burkina Faso
+n320320	Burkina Faso
+EU478505	Burkina Faso
+EU827268	Burkina Faso
+EU478494	Burkina Faso
+EU478495	Burkina Faso
+EU478507	Burkina Faso
+EU478514	Burkina Faso
+EU478496	Burkina Faso
+EU827269	Burkina Faso
+EU478501	Burkina Faso
+EU514573	Niger
+EU514574	Niger
+EU478506	Burkina Faso
+EU478513	Burkina Faso
+EU888660	Nigeria
+EU478498	Burkina Faso
+EU478519	Burkina Faso
+EU478522	Burkina Faso
+EU478521	Burkina Faso
+n332332	Nigeria
+n333333	Nigeria
+EU888645	Nigeria
+EU888646	Nigeria
+EU888715	Nigeria
+EU888705	Nigeria
+EU888676	Nigeria
+FJ435706	Nigeria
+EU888667	Nigeria
+FJ435702	Nigeria
+EU888687	Nigeria
+EU888707	Nigeria
+EU888654	Nigeria
+EU888662	Nigeria
+FJ435697	Nigeria
+EU038084	Nigeria
+EU038085	Nigeria
+KF022179	Nigeria
+EU888683	Nigeria
+KU564996	Chad
+KU564997	Chad
+KU564998	Chad
+KY124537	Chad
+KU564980	Chad
+KU564988	Chad
+KY124539	Chad
+KU564987	Chad
+KU564995	Chad
+MN196559	Nigeria
+MN196560	Nigeria
+MN196563	Nigeria
+n355	Nigeria
+KY124540	Chad
+KU564994	Chad
+KU564999	Chad
+KY124541	Chad
+n363363	Central African Republic
+KT119763	Central African Republic
+KF734680	Central African Republic
+KF734685	Central African Republic
+KF734726	Central African Republic
+KF734713	Central African Republic
+KF734730	Central African Republic
+KF734724	Central African Republic
+KF734702	Central African Republic
+KF734711	Central African Republic
+n364364	Central African Republic
+n385	India
+n389389	India
+n391391	India
+MH258820	India
+MK248522	India
+KX434505	India
+MH258808	India
+MH258810	India
+MK697340	India
+n400400	Afghanistan
+KF150740	India
+KF150743	India
+MG458320	Nepal
+n402402	Pakistan
+KM492748	India
+KM492752	India
+n404	India
+KP019943	India
+n409409	Oman
+GU353134	Oman
+GU353141	Oman
+GU353146	Oman
+MG099711	Bangladesh
+MG011654	France
+n417417	Bangladesh
+n419419	Bangladesh
+AB699212	Bangladesh
+HE801610	Pakistan
+HE801613	Pakistan
+KX148227	Afghanistan
+JX987736	Afghanistan
+KP723578	Afghanistan
+EU086211	Afghanistan
+KU055518	Afghanistan
+KP723575	Afghanistan
+HQ116830	Afghanistan
+JX987739	Afghanistan
+JX987723	Afghanistan
+KC792000	Afghanistan
+n447447	Nepal
+JX944587	Nepal
+KC792224	Nepal
+KM979359	Nepal
+KM979363	Nepal
+n448448	Nepal
+KM979364	Nepal
+KM979360	Nepal
+KM979365	Nepal
+KM979362	Nepal
+MN384717	Russia
+MH823815	Svalbard
+KR054369	Svalbard
+KR054367	Svalbard
+MN384719	Russia
+MN233996	Canada
+MN234051	Canada
+n465465	Canada
+MN234013	Canada
+KU198466	Canada
+MN233912	Canada
+MN233956	Canada
+n484484	Canada
+DQ275552	Greenland
+n485485	Canada
+n485485	Greenland
+JN258436	Canada
+n487	Greenland
+JN258504	Greenland
+JN258514	Greenland
+JN258508	Greenland
+JN258515	Greenland
+JN258509	Greenland
+JN258516	Greenland
+JN258507	Greenland
+JN258517	Greenland
+JN258520	Greenland
+JN258522	Greenland
+JN258513	Greenland
+JN258521	Greenland
+JN258523	Greenland
+JN258506	Greenland
+JN258510	Greenland
+n488	Greenland
+MN234017	Canada
+n490490	Greenland
+JN258512	Greenland
+n494494	Greenland
+KX036362	Greenland
+DQ010124	Canada
+KX036363	Greenland
+n498498	Greenland
+DQ275554	Greenland
+DQ275553	Greenland
+FR798947	Svalbard
+n500	Greenland
+n502	Greenland
+n503	Greenland
+n504	Greenland
+LM645047	Greenland
+LM645048	Greenland
+LM645046	Greenland
+KY002891	Russia
+KY002892	Russia
+MK540984	Canada
+KF831530	Canada
+n528	Canada
+n529	Canada
+MK540987	Canada
+MK540991	Canada
+n544	South Korea
+GU937033	South Korea
+n545545	South Korea
+JN786936	South Korea
+n547547	South Korea
+GU937042	South Korea
+GU937040	South Korea
+GU937041	South Korea
+GU937045	South Korea
+GU937036	South Korea
+GU937043	South Korea
+KC171644	South Korea
+DQ076126	South Korea
+DQ076125	South Korea
+DQ076128	South Korea
+DQ076130	South Korea
+DQ076129	South Korea
+n554	South Korea
+JN786931	South Korea
+JN786918	South Korea
+JN786930	South Korea
+n557	South Korea
+KF709077	South Korea
+KF709076	South Korea
+KF709080	South Korea
+n558558	South Korea
+KF437646	South Korea
+KF437649	South Korea
+KF437650	South Korea
+KF437653	South Korea
+KF437648	South Korea
+KF437654	South Korea
+KF437652	South Korea
+n579	South Africa
+FJ392389	South Africa
+n585	South Africa
+FJ465398	South Africa
+JQ692987	South Africa
+JX088730	South Africa
+n605605	Tunisia
+n608608	Tunisia
+n610	Ethiopia
+n610	Sudan
+n616616	Ethiopia
+n616616	Sudan
+n637637	Morocco
+n643643	Algeria
+n643643	Morocco
+n643643	Spain
+n651	Gabon
+KT119772	Gabon
+n654654	Ghana
+n656656	Cameroon
+n664664	Cameroon
+n669669	Zambia
+n693	Uganda
+n693	Zambia
+n729729	Namibia
+n729729	Zambia
+n731731	Zambia
+LC380134	Zambia
+n740740	South Africa
+n783783	Zambia
+LC380206	Zambia
+n785	Zambia
+n793	Zambia
+KX148208	Central African Republic
+n809809	Central African Republic
+KJ133668	Uganda
+LC029890	Uganda
+LC380182	Zambia
+n812	Zambia
+n815	Madagascar
+KC787059	Madagascar
+KC787062	Madagascar
+KC787064	Madagascar
+KC787061	Madagascar
+n816	Madagascar
+n816816	Madagascar
+KC787065	Madagascar
+n818	Madagascar
+n820	Madagascar
+KC787052	Madagascar
+KC787054	Madagascar
+KC787058	Madagascar
+n824	Iraq
+n905905	Iraq
+KP723602	Iraq
+KX148191	Israel
+n906906	Israel
+n907	Israel
+DQ837441	Israel
+n908908	Russia
+n908908	Serbia
+n984984	Serbia
+n1115	Serbia
+n11171117	Serbia
+n11201120	Turkey
+n11211121	Turkey
+n11231123	Turkey
+n11321132	Turkey
+KY860609	Turkey
+DQ837478	Turkey
+DQ837475	Turkey
+DQ837479	Turkey
+KX148167	Turkey
+DQ837476	Turkey
+n1134	Turkey
+n1135	Turkey
+KX148164	Turkey
+KX148165	Turkey
+KX148166	Turkey
+n11381138	Russia
+n1150	Russia
+n1152	Iraq
+n11551155	Iraq
+n11561156	Iraq
+n11571157	Iraq
+KP723608	Iraq
+KP723601	Iraq
+n11581158	Iraq
+KC791989	Iraq
+n11631163	Grenada
+KJ957433	Grenada
+KJ957448	Grenada
+n11651165	Grenada
+n11661166	Grenada
+KJ957441	Grenada
+n11701170	USA
+n1176	USA
+JQ513528	USA
+n11771177	USA
+JQ513531	USA
+n11801180	USA
+MK887204	Mexico
+n11831183	Mexico
+n1185	Czech Republic
+n11891189	France
+KU884973	France
+n11901190	Nepal
+DQ275567	USA
+DQ275590	USA
+DQ275594	USA
+DQ275596	USA
+n1200	USA
+KC791817	USA
+n12021202	USA
+n12031203	USA
+KC791910	USA
+n1205	USA
+MK956097	Brazil
+MK956098	Brazil
+n1221	Mexico
+n12211221	Mexico
+n1223	Mexico
+n12231223	Mexico
+n12251225	Mexico
+n1228	Cuba
+n12621262	Colombia
+n12631263	Mexico
+n1277	Mexico
+n1280	Mexico
+FJ228531	Mexico
+n1281	USA
+FJ228533	Mexico
+n1284	USA
+FJ228536	USA
+n1285	USA
+n1290	USA
+n12911291	Mexico
+n1292	Mexico
+KJ001520	Mexico
+GU991846	Mexico
+KJ001530	Mexico
+n1295	USA
+n12951295	USA
+n1297	USA
+KC791956	USA
+KC792033	USA
+n12981298	USA
+KC791822	USA
+n1303	USA
+JQ513543	USA
+JQ685970	USA
+DQ275557	USA
+DQ275543	Thailand
+DQ275556	USA
+GU646814	Brazil
+GU646833	Brazil
+JX217795	Brazil
+JX217801	Brazil
+n1318	Brazil
+KR781567	Brazil
+KR781559	Brazil
+KR781561	Brazil
+JX217782	Brazil
+KR781560	Brazil
+JX217804	Brazil
+n1324	Brazil
+KR781602	Brazil
+KR781536	Brazil
+JX217779	Brazil
+KR781604	Brazil
+JX217806	Brazil
+GU123654	Brazil
+GU123655	Brazil
+n13321332	Brazil
+KR781570	Brazil
+KR781571	Brazil
+n1337	Brazil
+KR781596	Brazil
+n13381338	Brazil
+n1343	Brazil
+KR781600	Brazil
+KR781584	Brazil
+n1347	Brazil
+n13471347	Brazil
+n1348	Brazil
+KR781591	Brazil
+KR781592	Brazil
+GU123657	Brazil
+GU123659	Brazil
+MT134107	Egypt
+MT134108	Egypt
+n10	Cambodia
+n10	Thailand
+KU055496	Viet Nam
+EU086157	Thailand
+EU086158	Thailand
+n50	Thailand
+n5050	Thailand
+MH460408	Thailand
+LC071975	Thailand
+n52	Thailand
+LC071973	Thailand
+LC071978	Thailand
+LC071980	Thailand
+LC071979	Thailand
+KY678620	Thailand
+KY678629	Thailand
+KY678622	Thailand
+KY678631	Thailand
+GU992307	Thailand
+EU086207	Thailand
+n5757	Thailand
+LC071962	Thailand
+LC071961	Thailand
+LC071963	Thailand
+n60	Thailand
+LC071948	Thailand
+n6161	Thailand
+LC071965	Thailand
+LC071966	Thailand
+LC071967	Thailand
+LC071968	Thailand
+n8686	Philippines
+n9595	Philippines
+AB563817	Philippines
+n9696	Philippines
+n9797	Philippines
+AB771910	Philippines
+AB563997	Philippines
+AB563792	Philippines
+AB563889	Philippines
+n103	Philippines
+AB683618	Philippines
+n109	Philippines
+n110	Philippines
+n111	Philippines
+n111111	Philippines
+n113113	Philippines
+KX148262	Philippines
+EU086200	Philippines
+n116116	Philippines
+AB564015	Philippines
+AB564016	Philippines
+KP860142	Taiwan
+KP860174	Taiwan
+n148	Taiwan
+KP860212	Taiwan
+KP860215	Taiwan
+MH481063	Taiwan
+KP860163	Taiwan
+KP860170	Taiwan
+KF501181	Taiwan
+KP860216	Taiwan
+KP860217	Taiwan
+KF501177	Taiwan
+KP881359	Taiwan
+KF501176	Taiwan
+KF620489	Taiwan
+n152152	Taiwan
+KP860157	Taiwan
+KF620487	Taiwan
+KP881354	Taiwan
+n195195	Thailand
+KT894563	China
+n198	Viet Nam
+MW055060	Viet Nam
+MW055066	Viet Nam
+MW055062	Viet Nam
+MW055072	Viet Nam
+MW055064	Viet Nam
+MW055065	Viet Nam
+MW055063	Viet Nam
+MW055067	Viet Nam
+MW055061	Viet Nam
+MW055068	Viet Nam
+n198198	Viet Nam
+n199	Viet Nam
+MW055073	Viet Nam
+MW055075	Viet Nam
+KU845604	China
+n204204	China
+EU159384	China
+n206206	China
+EU159382	China
+KT894567	China
+n207207	China
+FJ825129	China
+EU700032	China
+MG383892	China
+KU888643	Chile
+LC110292	Sri Lanka
+AB638768	Sri Lanka
+LC110291	Sri Lanka
+LC110316	Sri Lanka
+LC110309	Sri Lanka
+AB638769	Sri Lanka
+AB817086	Sri Lanka
+n236	Sri Lanka
+LC110318	Sri Lanka
+AB817082	Sri Lanka
+AB817092	Sri Lanka
+MH514971	Senegal
+MH514976	Senegal
+KU055556	Mauritania
+n272	Senegal
+n272272	Senegal
+EU853636	Senegal
+MH514972	Senegal
+MH514981	Senegal
+MH514980	Senegal
+n274274	Senegal
+EU853633	Senegal
+EU853634	Senegal
+n276	Senegal
+n276276	Senegal
+MH514983	Senegal
+MH514985	Senegal
+n283283	Mali
+EU853622	Mali
+n289	Liberia
+MN049980	Liberia
+n292	Cote d'Ivoire
+n295295	Liberia
+FJ545681	Cote d'Ivoire
+n297297	Mali
+KP345881	France
+MK471248	Guinea
+n301	Mauritania
+n306	Mali
+KP976117	Mali
+n314	Niger
+EU514572	Niger
+EU478524	Burkina Faso
+EU827277	Niger
+EU827273	Burkina Faso
+EU478517	Burkina Faso
+KU739043	Niger
+KU739039	Burkina Faso
+KX148230	Burkina Faso
+EU853645	Burkina Faso
+EU827271	Burkina Faso
+EU478499	Burkina Faso
+n321	Burkina Faso
+EU478516	Burkina Faso
+EU478493	Burkina Faso
+n333	Nigeria
+EU038095	Nigeria
+n334	Nigeria
+EU888679	Nigeria
+n355355	Nigeria
+MN196572	Nigeria
+n364	Central African Republic
+KT119766	Central African Republic
+KT119757	Central African Republic
+KT119756	Central African Republic
+KT119764	Central African Republic
+KT119768	Central African Republic
+KF977826	Central African Republic
+KF734692	Central African Republic
+n385385	India
+DQ521228	India
+DQ521232	India
+GU371886	India
+n392	India
+KT381854	India
+HE801616	Pakistan
+KU055516	Afghanistan
+HE801614	Pakistan
+HE802676	Pakistan
+HE802675	Pakistan
+KC791852	Pakistan
+MW055041	India
+KM492750	India
+GU353132	Oman
+GU353135	Oman
+GU353136	Oman
+GU353144	Oman
+n410	Oman
+KC565865	Bangladesh
+KC565845	Bangladesh
+n420	Bangladesh
+AB699213	Bangladesh
+JX944566	Nepal
+JX944599	Nepal
+KM979361	Nepal
+HQ913571	Nepal
+n466	Canada
+JN258498	Canada
+n481481	Canada
+JN258495	Canada
+JN258483	Canada
+MN233913	Canada
+JN258488	Canada
+JN258494	Canada
+JN258493	Canada
+KX036366	Greenland
+JN258490	Canada
+DQ010147	Greenland
+MN233952	Canada
+JN258505	Greenland
+MN233955	Canada
+DQ010135	Greenland
+DQ010141	Greenland
+JN258503	Greenland
+DQ521213	Greenland
+n491	Greenland
+n494	Greenland
+DQ010146	Greenland
+KX036367	Greenland
+n495	Greenland
+KX036364	Greenland
+JN258501	Greenland
+JN258502	Greenland
+DQ010131	Russia
+n500500	Greenland
+n501501	Greenland
+LM645051	Greenland
+LM645052	Greenland
+LM645055	Greenland
+n503503	Greenland
+LM645041	Greenland
+n504504	Greenland
+LM645056	Greenland
+MK540975	Canada
+n528528	Canada
+MK540989	Canada
+n529529	Canada
+KC171643	South Korea
+n544544	South Korea
+JN786916	South Korea
+JN786917	South Korea
+n548	South Korea
+n548548	South Korea
+KF709089	South Korea
+JN786928	South Korea
+JN786933	South Korea
+n557557	South Korea
+GU937032	South Korea
+n558	South Korea
+n559	South Korea
+KF709075	South Korea
+n579579	South Africa
+n582	South Africa
+n585585	South Africa
+n586586	South Africa
+n606	Tunisia
+EU853579	Tunisia
+n609	Tunisia
+EU853577	Tunisia
+n610610	Ethiopia
+n611	Uganda
+n617	Ethiopia
+n617	Sudan
+n633	Ethiopia
+n633	Sudan
+n638	Morocco
+n640640	Morocco
+n640640	Spain
+n644	Algeria
+EU851123	Spain
+n651651	Gabon
+KT119771	Gabon
+n655	Ghana
+HQ256771	Ghana
+n655655	Ghana
+HM368143	Ghana
+HM368155	Ghana
+HM368092	Ghana
+HM368163	Ghana
+HM368113	Ghana
+HM368117	Ghana
+HM368112	Ghana
+HM368157	Ghana
+HM368105	Ghana
+HM368103	Ghana
+HM368108	Ghana
+HM368162	Ghana
+HM368101	Ghana
+HM368109	Ghana
+n657	Cameroon
+KT119782	Cameroon
+n664	Gabon
+n665	Cameroon
+n666	Cameroon
+n670	Tanzania
+n687687	Zambia
+n693693	Uganda
+n722	Uganda
+n722	Zambia
+n730	Namibia
+LC380115	Zambia
+DQ194880	Namibia
+n732	Zambia
+LC380102	Zambia
+n736736	Zambia
+n739	Zambia
+n741	South Africa
+n778778	South Africa
+n784	Zambia
+LC380192	Zambia
+n785785	Zambia
+n791	Zimbabwe
+n791791	Zambia
+n793793	Central African Republic
+KT119776	Zaire
+KT119780	Central African Republic
+KT119781	Central African Republic
+LC380214	Zambia
+n812812	Zambia
+MN991296	Madagascar
+KC787053	Madagascar
+KC787050	Madagascar
+MN991297	Madagascar
+KX148209	Madagascar
+DQ420624	Madagascar
+KU055519	Madagascar
+DQ420623	Madagascar
+KX148210	Madagascar
+KC787066	Madagascar
+n818818	Madagascar
+n819819	Madagascar
+KC787057	Madagascar
+KC787060	Madagascar
+KC787063	Madagascar
+n824824	Iraq
+KP723594	Iran
+n904904	Georgia
+KP723598	Iraq
+KP723605	Iraq
+KP723604	Iraq
+KX148192	Israel
+KU888637	Israel
+DQ837423	Jordan
+DQ837430	Israel
+DQ837443	Israel
+n909	Russia
+n909	Serbia
+n967967	Russia
+n985	Serbia
+n1058	Latvia
+n1058	Poland
+n11151115	Serbia
+n11161116	Serbia
+n1118	Serbia
+JF973741	Serbia
+n1121	Iran
+KP723634	Turkey
+KY860612	Turkey
+n1122	Israel
+KY860583	Turkey
+n1124	Turkey
+KY860585	Turkey
+n11301130	Turkey
+KY860607	Turkey
+KP723631	Turkey
+KY860608	Turkey
+DQ837477	Turkey
+DQ837480	Turkey
+KX148162	Turkey
+KX148163	Turkey
+n1139	Georgia
+n11481148	Turkey
+n11501150	Georgia
+JQ944706	Russia
+MT079951	Georgia
+MT079926	Georgia
+MT079906	Georgia
+MT079900	Georgia
+n11521152	Iraq
+n1155	Iran
+KP723603	Iraq
+n1156	Iran
+KC791975	Iraq
+n1157	Iraq
+KC791991	Iraq
+KP723613	Iraq
+KC791980	Iraq
+KC791978	Iraq
+KC791988	Iraq
+n1159	Iraq
+KC791984	Iraq
+KC791990	Iraq
+KC791995	Iraq
+KC791987	Iraq
+MG458319	Grenada
+KJ957438	Grenada
+KJ957437	Grenada
+KJ957434	Grenada
+KM067274	Grenada
+n1164	Grenada
+KJ957445	Grenada
+KJ957446	Grenada
+KJ957449	Grenada
+KJ957450	Grenada
+KJ957431	Grenada
+KJ957432	Grenada
+KJ957440	Grenada
+KJ957439	Grenada
+KJ957436	Grenada
+n1171	USA
+GU991843	USA
+MW055128	USA
+GU991842	USA
+n1178	USA
+n11791179	USA
+JQ513534	USA
+JQ513536	USA
+MK887205	Mexico
+MK887206	Mexico
+n11851185	Czech Republic
+n1189	Czech Republic
+GU992320	France
+GU992322	Morocco
+n1191	Nepal
+KC792230	Nepal
+KU888641	USA
+n12001200	USA
+KC791955	USA
+n1203	USA
+KC792081	USA
+KC792082	USA
+n12051205	USA
+KC792218	USA
+MW055107	Guatemala
+KX708502	Mexico
+KU550103	Costa Rica
+n1222	Honduras
+FJ228519	Mexico
+FJ228520	USA
+n1224	Mexico
+FJ228673	USA
+n1226	Mexico
+n12261226	Mexico
+n12281228	Cuba
+n12371237	Cuba
+JF693455	Colombia
+JF693453	Colombia
+JF693454	Colombia
+n1264	Mexico
+n1269	Mexico
+n12771277	Mexico
+n1278	Mexico
+KX148112	Mexico
+FJ228532	Mexico
+n12811281	USA
+FJ228552	USA
+FJ228645	USA
+FJ228581	USA
+FJ228640	USA
+FJ228636	USA
+FJ228637	USA
+FJ228639	USA
+FJ228668	USA
+MN549362	Mexico
+FJ228538	USA
+n12851285	USA
+EU004773	China
+KC791850	USA
+JQ685995	USA
+KJ001519	Mexico
+GU991845	Mexico
+KJ001521	Mexico
+n12921292	Mexico
+JQ685975	Mexico
+JQ685899	USA
+KC792078	USA
+n1296	USA
+FJ228542	Mexico
+KC791818	USA
+KC791819	USA
+KC791806	USA
+KC791810	USA
+JQ513540	USA
+JQ513544	USA
+JQ513550	USA
+n13181318	Brazil
+n1319	Brazil
+KR781527	Brazil
+n13241324	Brazil
+n1333	Brazil
+n13331333	Brazil
+n1334	Brazil
+n1335	Brazil
+KR781586	Brazil
+JN897309	Brazil
+JN897310	Brazil
+n1339	Brazil
+n13391339	Brazil
+KR781572	Brazil
+n13401340	Brazil
+n13431343	Brazil
+KR781597	Brazil
+KR781573	Brazil
+KR781579	Brazil
+KR781575	Brazil
+KR781585	Brazil
+n13481348	Brazil
+GU123660	Brazil
+n1010	Cambodia
+n41	Cambodia
+n41	Viet Nam
+n48	Thailand
+KY678616	Thailand
+KY678625	Thailand
+KY678633	Thailand
+LC071969	Thailand
+LC071977	Thailand
+LC071971	Thailand
+n51	Thailand
+LC071972	Thailand
+LC071982	Thailand
+LC071974	Thailand
+LC071981	Thailand
+LC071970	Thailand
+LC071976	Thailand
+n58	Thailand
+LC071947	Thailand
+n6060	Thailand
+LC071960	Thailand
+LC071959	Thailand
+LC071949	Thailand
+LC071951	Thailand
+LC071950	Thailand
+n87	Philippines
+n93	Philippines
+n95	Philippines
+n96	Philippines
+EU086202	Philippines
+LC018523	Philippines
+n97	Philippines
+n98	Philippines
+AB683634	Philippines
+n103103	Philippines
+MN726873	Philippines
+AB683627	Philippines
+AB573763	Japan
+n110110	Philippines
+AB563937	Philippines
+AB563931	Philippines
+AB563863	Philippines
+AB683585	Philippines
+AB563927	Philippines
+AB563932	Philippines
+n114	Philippines
+AB563946	Philippines
+n117	Philippines
+AB771914	Philippines
+AB563974	Philippines
+KP892528	Taiwan
+n148148	Taiwan
+KP860151	Taiwan
+KF544961	Taiwan
+KF544962	Taiwan
+n196	Thailand
+MW055232	Viet Nam
+MW055233	Viet Nam
+MW055058	Viet Nam
+MW055059	Viet Nam
+MW055069	Viet Nam
+MW055070	Viet Nam
+MW055071	Viet Nam
+MW055074	Viet Nam
+n205	China
+n205205	China
+JQ040584	China
+EU004721	China
+EU004728	China
+MK161043	China
+KF663542	China
+LC110314	Sri Lanka
+n236236	Sri Lanka
+EU853628	Senegal
+EU853629	Senegal
+MH514977	Senegal
+n273	Senegal
+n275	Senegal
+EU853632	Senegal
+MH514973	Senegal
+MH514974	Senegal
+MH514975	Senegal
+MH514984	Senegal
+KP976123	Mali
+n284	Mali
+KP976128	Mali
+KP976130	Mali
+EU853623	Mali
+KP976129	Mali
+MN049979	Liberia
+n289289	Liberia
+MK471246	Guinea
+n292292	Cote d'Ivoire
+EU853615	Cote d'Ivoire
+MK471249	Guinea
+n296	Liberia
+n298	Mali
+KP976119	Mali
+n301301	Mauritania
+n304	Mauritania
+EU853612	Mali
+EU853613	Mauritania
+n306306	Mali
+EU853605	Mali
+n307307	Mali
+n314314	Benin
+EU514571	Niger
+EU827272	Burkina Faso
+EU827274	Burkina Faso
+n321321	Burkina Faso
+MK144832	Nigeria
+EU888661	Nigeria
+FJ435701	Nigeria
+MF773578	Nigeria
+n334334	Nigeria
+n341	Nigeria
+MN196566	Nigeria
+MN196569	Nigeria
+MN196571	Nigeria
+MN196570	Nigeria
+KT119728	Central African Republic
+KT119761	Central African Republic
+KT119758	Central African Republic
+KT119760	Central African Republic
+n386	India
+DQ521227	India
+n387	India
+n392392	India
+n393	India
+KX434515	India
+GU353138	Oman
+GU353139	Oman
+GU353140	Oman
+n420420	Bangladesh
+AB699218	Bangladesh
+AB699219	Bangladesh
+n466466	Canada
+n480480	Canada
+MN233920	Canada
+MN234022	Canada
+n491491	Greenland
+n493	Greenland
+LM645026	Greenland
+KX036365	Greenland
+n495495	Greenland
+n497497	Greenland
+LM645045	Greenland
+n501	Greenland
+LM645053	Greenland
+LM645054	Greenland
+LM645039	Greenland
+LM645042	Greenland
+LM645040	Greenland
+JN258511	Greenland
+LM645043	Greenland
+LM645044	Greenland
+MK540976	Canada
+MK540995	Canada
+MK541008	Canada
+MK541010	Canada
+GU937037	South Korea
+GU937044	South Korea
+KJ476822	South Korea
+KF709088	South Korea
+KF709084	South Korea
+KF709087	South Korea
+KF709083	South Korea
+n549	South Korea
+KF437656	South Korea
+KJ476819	South Korea
+GU937024	South Korea
+GU937028	South Korea
+GU937029	South Korea
+KJ476820	South Korea
+KF709071	South Korea
+n559559	South Korea
+n561561	South Korea
+KF709072	South Korea
+n562	South Korea
+GU937030	South Korea
+KF709074	South Korea
+n580	South Africa
+HQ266617	South Africa
+FJ392384	South Africa
+FJ465405	South Africa
+FJ465406	South Africa
+n586	South Africa
+FJ465399	South Africa
+n587	South Africa
+JQ692994	South Africa
+FJ392380	South Africa
+n606606	Tunisia
+EU643559	Tunisia
+EU853573	Tunisia
+EU853575	Tunisia
+EU853574	Tunisia
+EU853576	Tunisia
+MZ418101	Ethiopia
+MZ418103	Ethiopia
+n611611	Uganda
+n615615	Uganda
+n617617	Ethiopia
+FJ947027	Sudan
+n633633	Somalia
+n634	Sudan
+n638638	Morocco
+EU853571	Morocco
+n641	Morocco
+n641	Spain
+n643	Spain
+KX148197	Algeria
+n644644	Algeria
+n652	Gabon
+n653	Gabon
+HQ256770	Ghana
+HM368123	Ghana
+HM368099	Ghana
+HM368104	Ghana
+HM368158	Ghana
+HM368115	Ghana
+HM368135	Ghana
+HM368161	Ghana
+HM368137	Ghana
+HM368159	Ghana
+HM368160	Ghana
+HM368114	Ghana
+HM368136	Ghana
+HM368130	Ghana
+HM368156	Ghana
+HM368147	Ghana
+HM368144	Ghana
+HM368141	Ghana
+HM368096	Ghana
+HM368133	Ghana
+HM368128	Ghana
+HM368145	Ghana
+HM368149	Ghana
+HQ256772	Ghana
+HM368134	Ghana
+HM368110	Ghana
+HM368106	Ghana
+HM368148	Ghana
+HM368150	Ghana
+HM368138	Ghana
+HM368120	Ghana
+HM368129	Ghana
+HM368107	Ghana
+MF537505	Cameroon
+MF537517	Cameroon
+MF537507	Cameroon
+MF537516	Cameroon
+MF537514	Cameroon
+MF537510	Cameroon
+MF537508	Cameroon
+MF537515	Cameroon
+MF537509	Cameroon
+MF537511	Cameroon
+MF537512	Cameroon
+MF537513	Cameroon
+MF537518	Cameroon
+MF537530	Cameroon
+n657657	Cameroon
+MF537531	Cameroon
+MF537506	Cameroon
+n658	Cameroon
+n658658	Cameroon
+MF537532	Cameroon
+n659659	Cameroon
+n660	Cameroon
+n660660	Cameroon
+MW553267	Gabon
+MW553268	Gabon
+MF537560	Cameroon
+MF537564	Cameroon
+MF537563	Cameroon
+MF537562	Cameroon
+MF537561	Cameroon
+n665665	Cameroon
+MF537566	Cameroon
+MF537569	Cameroon
+MF537574	Cameroon
+MF537572	Cameroon
+MF537571	Cameroon
+MF537570	Cameroon
+MF537573	Cameroon
+n670670	Tanzania
+KR906769	Tanzania
+n688	Zambia
+LC380110	Zambia
+n694	Uganda
+n719	Uganda
+n722722	Uganda
+n722722	Zambia
+n728	Burundi
+n728	Rwanda
+n728	Uganda
+n728	Zambia
+n730730	Democratic Republic of the Congo
+n731	Namibia
+n732732	Zambia
+AB284516	Zambia
+AB284513	Zambia
+AB572929	Zambia
+n735735	Zambia
+AB572935	Zambia
+AB572946	Zambia
+AB572947	Zambia
+AB572939	Zambia
+AB572948	Zambia
+AB572937	Zambia
+n737	Zambia
+n738	Zambia
+LC380104	Zambia
+LC380106	Zambia
+LC380107	Zambia
+n739739	Zambia
+n741741	South Africa
+n760	South Africa
+n779	South Africa
+n779	Zimbabwe
+HQ266625	South Africa
+n784784	Zambia
+LC380207	Zambia
+n786	Zambia
+n787	Zambia
+LC380195	Zambia
+LC380231	Zimbabwe
+LC380236	Zimbabwe
+LC380172	Zambia
+LC380173	Zambia
+n792	Zambia
+n794	Central African Republic
+KT119637	Central African Republic
+LC380216	Zambia
+LC380218	Zambia
+n819	Madagascar
+KC787074	Madagascar
+MN991294	Madagascar
+MN991295	Madagascar
+n825	Iraq
+n899	Iraq
+n905	Georgia
+KY860611	Turkey
+n909909	Azerbaijan
+n909909	Poland
+n909909	Russia
+n909909	Tajikistan
+n916916	Russia
+n968	Hungary
+n968	Romania
+n975975	Russia
+DQ317516	Russia
+n985985	Serbia
+n10201020	Germany
+n10201020	Serbia
+n10581058	Poland
+n1114	Latvia
+n1116	Serbia
+JF973784	Serbia
+n1117	Serbia
+JF973752	Serbia
+n11181118	Serbia
+JF973744	Serbia
+JF973740	Serbia
+MK760714	Iran
+MK760718	Iran
+MK760730	Iran
+MK760746	Iran
+MK760743	Iran
+n11221122	Israel
+HM114240	Israel
+DQ837467	Israel
+DQ837408	Israel
+DQ837395	Israel
+DQ837436	Israel
+DQ837469	Israel
+DQ837445	Israel
+DQ837464	Israel
+DQ837432	Israel
+DQ837486	Israel
+DQ837454	Israel
+DQ837468	Israel
+DQ837453	Israel
+DQ837394	Israel
+DQ837437	Israel
+HM114241	Israel
+DQ837447	Israel
+DQ837455	Israel
+DQ837392	Israel
+DQ837393	Israel
+KY860584	Turkey
+n11241124	Turkey
+n1131	Turkey
+n1132	Turkey
+n11391139	Georgia
+KY002888	Russia
+n1145	Georgia
+n1147	Georgia
+n1149	Georgia
+KY860610	Turkey
+MT079899	Georgia
+MT079940	Georgia
+n1153	Iran
+n11541154	Iraq
+KC791993	Iraq
+KC791986	Iraq
+KC791992	Iraq
+MK760679	Iran
+MK760690	Iran
+MK760676	Iran
+MK760682	Iran
+MK760757	Iran
+KP723610	Iraq
+n11591159	Iraq
+KC791977	Iraq
+n11641164	Grenada
+n1165	Grenada
+KJ957451	Grenada
+n11711171	Canada
+MW055127	USA
+n11781178	USA
+JQ513532	USA
+FJ228495	USA
+FJ228497	USA
+n1186	Czech Republic
+MF630920	Russia
+DQ661014	Brazil
+AB614372	Viet Nam
+AB628210	Viet Nam
+AB614384	Viet Nam
+AB614385	Viet Nam
+GU992319	Czech Republic
+n11911191	Iran
+KC792231	Nepal
+KC792077	USA
+n1201	USA
+KC792080	USA
+KC792277	USA
+KC792192	USA
+JX856072	USA
+KC792194	USA
+FJ228517	Honduras
+FJ228675	El Salvador
+FJ228521	Mexico
+FJ228522	Mexico
+KX708503	Mexico
+KT006769	Mexico
+n1227	Mexico
+FJ228523	Mexico
+n1229	Cuba
+DQ837167	Cuba
+n1232	Cuba
+n1238	Cuba
+n12551255	Cuba
+n12641264	Mexico
+n1265	Mexico
+n12651265	Mexico
+n12661266	Mexico
+n12691269	Mexico
+KJ001523	Mexico
+KJ001510	Mexico
+GU991847	Mexico
+FJ228515	Mexico
+FJ228516	Mexico
+FJ228526	Mexico
+FJ228527	Mexico
+FJ228667	USA
+FJ228666	USA
+FJ228646	USA
+n1286	France
+n12881288	USA
+KJ001522	Mexico
+GU991844	Mexico
+KJ001529	Mexico
+FJ228540	Mexico
+FJ228541	USA
+KR781522	Brazil
+KR781525	Brazil
+n13191319	Brazil
+KR781541	Brazil
+n13201320	Brazil
+n1325	Brazil
+KR781529	Brazil
+KR781526	Brazil
+KR781587	Brazil
+KR781535	Brazil
+KR781574	Brazil
+KR781532	Brazil
+n13341334	Brazil
+n13351335	Brazil
+KR781581	Brazil
+KR781533	Brazil
+KR781589	Brazil
+KR781580	Brazil
+n1340	Brazil
+KR781605	Brazil
+n1341	Brazil
+JN897318	Brazil
+n1344	Brazil
+KR781599	Brazil
+GU123658	Brazil
+GU123662	Brazil
+n1111	Cambodia
+n36	Cambodia
+n4040	Cambodia
+n4141	Cambodia
+n4141	Viet Nam
+EU086160	Viet Nam
+n4848	Thailand
+DQ275542	Thailand
+DQ275544	Thailand
+HQ166186	Thailand
+n5151	Thailand
+n5858	Thailand
+LC071943	Thailand
+n5959	Thailand
+LC071944	Thailand
+LC071957	Thailand
+LC071958	Thailand
+n8787	Philippines
+n9090	Philippines
+n9393	Philippines
+AB683608	Philippines
+AB683607	Philippines
+AB683626	Philippines
+AB683601	Philippines
+AB683603	Philippines
+AB563810	Philippines
+AB733963	Philippines
+n9898	Philippines
+AB563800	Philippines
+n104	Philippines
+n107107	Philippines
+AB683629	Philippines
+LC018486	Philippines
+AB563884	Philippines
+n114114	Philippines
+AB683616	Philippines
+LC068917	Philippines
+AB733971	Philippines
+KP860168	Taiwan
+KP860169	Taiwan
+KF501182	Taiwan
+n196196	Viet Nam
+n197	Viet Nam
+MW055228	Viet Nam
+MW055231	Viet Nam
+MW055216	Viet Nam
+MW055220	Viet Nam
+MW055221	Viet Nam
+MW055219	Viet Nam
+MW055223	Viet Nam
+MW055222	Viet Nam
+MW055218	Viet Nam
+MW055224	Viet Nam
+MW055225	Viet Nam
+MW055227	Viet Nam
+MW055217	Viet Nam
+MW055226	Viet Nam
+MK370422	Thailand
+MK370428	Thailand
+KT894580	China
+KT221103	China
+n206	China
+KF663521	China
+KF831572	Sri Lanka
+AY854596	Sri Lanka
+MH514978	Senegal
+MH514979	Senegal
+FJ545665	Senegal
+EU853630	Senegal
+EU853631	Senegal
+KP976124	Mali
+KP976126	Mali
+KP976127	Mali
+n290	Liberia
+n290290	Liberia
+MN049983	Liberia
+n293	Cote d'Ivoire
+n295	Cote d'Ivoire
+n296296	Liberia
+MH481709	Liberia
+KP976118	Mali
+KP976120	Mali
+n302	Mauritania
+EU514581	Mauritania
+n304304	Mauritania
+EU853608	Mauritania
+EU853607	Mauritania
+n307	Mali
+EU853596	Mali
+EU853598	Mali
+EU853599	Mali
+EU853597	Mali
+EU853601	Mali
+KP976116	Mali
+EU853602	Mali
+EU853604	Mali
+MT370501	Benin
+MT370506	Benin
+MT370502	Benin
+MT370504	Benin
+MT370505	Benin
+MT370503	Benin
+MT370507	Benin
+EU478500	Burkina Faso
+EU478520	Burkina Faso
+n335	Nigeria
+n336	Nigeria
+EU888723	Nigeria
+KX874609	Nigeria
+EU888651	Nigeria
+n341341	Nigeria
+EU038091	Nigeria
+n386386	India
+GU731660	India
+GU731666	India
+n387387	India
+n389	India
+MW055212	India
+MK248523	India
+MW055213	India
+DQ146162	United Kingdom
+AB699214	Bangladesh
+AB699217	Bangladesh
+AB699220	Bangladesh
+AB699210	Bangladesh
+n467	Canada
+n480	Canada
+MN233975	Canada
+n481	Greenland
+KU198476	Canada
+n492	Greenland
+LM645022	Greenland
+n493493	Greenland
+LM645031	Greenland
+n496	Greenland
+LM645034	Greenland
+LM645036	Greenland
+n497	Greenland
+LM645021	Greenland
+LM645028	Greenland
+LM645025	Greenland
+LM645023	Greenland
+LM645049	Greenland
+LM645050	Greenland
+n549549	South Korea
+KF709091	South Korea
+KF437657	South Korea
+KF437659	South Korea
+KF437662	South Korea
+KF437660	South Korea
+KF437665	South Korea
+n550	South Korea
+KF437664	South Korea
+KF437658	South Korea
+n560	South Korea
+GU937027	South Korea
+GU937025	South Korea
+GU937031	South Korea
+GU937034	South Korea
+KF709069	South Korea
+KF709070	South Korea
+n580580	South Africa
+n581581	South Africa
+MK858230	South Africa
+KX148221	South Africa
+MG458308	South Africa
+n587587	South Africa
+MK981888	Tunisia
+EU853578	Tunisia
+KU739050	Tunisia
+KF831545	Tunisia
+KF831519	Tunisia
+n607	Tunisia
+EU643560	Tunisia
+EU643561	Tunisia
+n612	Kenya
+KJ133660	Uganda
+KJ133667	Uganda
+KJ133683	Uganda
+KJ133676	Uganda
+n616	Uganda
+AB505879	Uganda
+AB505881	Uganda
+n618	Ethiopia
+n632	Ethiopia
+KX148198	Somalia
+KX148199	Somalia
+n634634	Sudan
+FJ947028	Sudan
+n639	Kenya
+n639639	Morocco
+EU853570	Morocco
+n641641	Spain
+KX148194	Morocco
+EU851127	Spain
+EU851129	Spain
+n645	Tunisia
+EU853567	Algeria
+EU853568	Algeria
+n652652	Gabon
+KT119775	Gabon
+KT119777	Gabon
+n653653	Gabon
+GU815999	Gabon
+KT119787	Cameroon
+KT119791	Cameroon
+KT119790	Cameroon
+MF537555	Cameroon
+MF537557	Cameroon
+MF537556	Cameroon
+n659	Cameroon
+MF537524	Cameroon
+MF537545	Cameroon
+MF537522	Cameroon
+MF537527	Cameroon
+MF537526	Cameroon
+MF537528	Cameroon
+MF537525	Cameroon
+MF537546	Cameroon
+MF537519	Cameroon
+MF537520	Cameroon
+MF537544	Cameroon
+MF537558	Cameroon
+MF537529	Cameroon
+MF537547	Cameroon
+n661	Cameroon
+n663663	Cameroon
+MF537565	Cameroon
+MF537567	Cameroon
+MF537568	Cameroon
+n671	Tanzania
+DQ900573	Tanzania
+n688688	Zambia
+n691	Zambia
+n694694	Uganda
+n697	Tanzania
+n719719	Uganda
+n721721	Uganda
+n723	Uganda
+n723	Zambia
+n727727	Zambia
+n728728	Rwanda
+EU853583	Burundi
+MN264691	Democratic Republic of the Congo
+MN264710	Democratic Republic of the Congo
+MN264707	Democratic Republic of the Congo
+MN264708	Democratic Republic of the Congo
+MN264693	Democratic Republic of the Congo
+MN264701	Democratic Republic of the Congo
+MN264699	Democratic Republic of the Congo
+MN264705	Democratic Republic of the Congo
+MN264696	Democratic Republic of the Congo
+MN264709	Democratic Republic of the Congo
+MN264697	Democratic Republic of the Congo
+MN264704	Democratic Republic of the Congo
+MN264692	Democratic Republic of the Congo
+MN264694	Democratic Republic of the Congo
+MN264702	Democratic Republic of the Congo
+MN264703	Democratic Republic of the Congo
+MN264698	Democratic Republic of the Congo
+MN264706	Democratic Republic of the Congo
+MN264711	Democratic Republic of the Congo
+MN264695	Democratic Republic of the Congo
+MN264700	Democratic Republic of the Congo
+KP257624	Republic of the Congo
+JQ691419	Namibia
+DQ194877	Namibia
+DQ194878	Namibia
+n733	Zambia
+n734734	Zambia
+n735	Zambia
+LC380096	Zambia
+AB572961	Zambia
+AB572940	Zambia
+LC380140	Zambia
+AB284514	Zambia
+n736	Zambia
+AB572945	Zambia
+LC380122	Zambia
+n737737	Zambia
+AB572928	Zambia
+LC380127	Zambia
+n738738	Zimbabwe
+LC380108	Zambia
+AB572934	Zambia
+n742	South Africa
+KX148103	South Africa
+n760760	South Africa
+n767767	South Africa
+DQ194890	Namibia
+HQ266611	South Africa
+n779779	Zimbabwe
+KY553279	Zimbabwe
+HQ266610	South Africa
+LC380165	Zambia
+LC380193	Zambia
+n786786	Zambia
+LC380198	Zambia
+n787787	Zambia
+LC380171	Zambia
+n788	Zambia
+n789	Zambia
+AB572967	Zambia
+AB572996	Zambia
+LC380169	Zambia
+AB572989	Zambia
+AB572970	Zambia
+AB572972	Zambia
+AB572976	Zambia
+AB572974	Zambia
+AB572983	Zambia
+AB572990	Zambia
+AB572977	Zambia
+LC380174	Zambia
+AB572962	Zambia
+AB572993	Zambia
+AB572968	Zambia
+n789789	Zambia
+LC380170	Zambia
+n792792	Zambia
+LC380190	Zambia
+n794794	Central African Republic
+n804804	Central African Republic
+KC787051	Madagascar
+KC787055	Madagascar
+n825825	Iraq
+n879879	Israel
+n899899	Iraq
+KC791979	Iraq
+KY860606	Turkey
+DQ317519	Georgia
+n910	Azerbaijan
+n910	Tajikistan
+KU055581	Poland
+n917	Russia
+JN656491	Ukraine
+n968968	Hungary
+GU086646	Romania
+n976	Russia
+n982	Romania
+n986	Serbia
+n1016	Serbia
+n1021	Poland
+n1034	Germany
+n1034	Serbia
+n1059	Poland
+n11121112	Estonia
+KR337511	Latvia
+KR337512	Latvia
+JQ005074	Latvia
+MG458312	Serbia
+JF973760	Serbia
+JF973792	Serbia
+JF973843	Serbia
+JF973826	Serbia
+JF973846	Serbia
+GU086629	Romania
+KX148161	Serbia
+JF973739	Serbia
+JF973776	Serbia
+JF973825	Serbia
+JF973774	Serbia
+JF973779	Serbia
+JF973775	Serbia
+JQ671337	Israel
+JQ671338	Israel
+KY860588	Turkey
+n1125	Turkey
+KY860586	Turkey
+n11311131	Turkey
+KY860587	Turkey
+KY860590	Turkey
+n1140	Georgia
+n11431143	Georgia
+n11441144	Georgia
+n11451145	Georgia
+n1146	Georgia
+MT079895	Georgia
+MT079925	Georgia
+MT079946	Georgia
+MT079931	Georgia
+MT079945	Georgia
+MT079934	Georgia
+MT079933	Georgia
+MT079942	Georgia
+MT079944	Georgia
+MT079938	Georgia
+MT079936	Georgia
+MT079943	Georgia
+MT079914	Georgia
+n11461146	Georgia
+MT079953	Georgia
+MT079916	Georgia
+MT079941	Georgia
+n11471147	Georgia
+n1148	Georgia
+n11491149	Georgia
+MT079901	Georgia
+MT079930	Georgia
+MT079903	Georgia
+MT079923	Georgia
+MT079954	Georgia
+MT079917	Georgia
+MK760675	Iran
+n11531153	Iran
+KP723611	Iraq
+KP723612	Iraq
+KP723600	Iraq
+KP723609	Iraq
+KP723606	Iraq
+n1160	Iraq
+JX524176	Iraq
+KF155000	Iraq
+KJ957442	Grenada
+KJ957447	Grenada
+KJ957444	Grenada
+KJ957452	Grenada
+n1172	Canada
+n11731173	USA
+n11741174	Canada
+n11751175	Canada
+JQ513530	USA
+n1179	USA
+n11861186	Czech Republic
+n11881188	Germany
+KM584049	Iran
+KM584050	Iran
+n12011201	USA
+JX856107	USA
+n12271227	Mexico
+FJ228525	Mexico
+n12291229	Colombia
+n12311231	Cuba
+n12321232	Cuba
+n1236	Cuba
+n12361236	Cuba
+n12381238	Cuba
+AY854559	Cuba
+n1256	Cuba
+n1258	Cuba
+KX148102	Mexico
+FJ228510	Mexico
+KX148110	Mexico
+KX148111	Mexico
+n1266	Mexico
+FJ228508	Mexico
+n1267	Mexico
+FJ228511	Mexico
+n1270	Mexico
+KJ001493	Mexico
+n12861286	France
+KF831543	Czech Republic
+GU992323	France
+n1287	France
+n1289	USA
+KF831563	USA
+KR781539	Brazil
+n1320	Brazil
+KR781547	Brazil
+KR781549	Brazil
+KR781548	Brazil
+KR781528	Brazil
+KR781530	Brazil
+KR781534	Brazil
+KR781588	Brazil
+KR781590	Brazil
+KR781576	Brazil
+KR781582	Brazil
+KR781558	Brazil
+KR781607	Brazil
+KR781598	Brazil
+n13411341	Brazil
+n13421342	Brazil
+n13441344	Brazil
+n1345	Brazil
+n12	Cambodia
+KM366238	Cambodia
+n3535	Cambodia
+n3636	Cambodia
+KM366272	Cambodia
+KM366258	Cambodia
+KM366269	Cambodia
+n42	Viet Nam
+n4343	Cambodia
+DQ275540	Thailand
+DQ275541	Thailand
+GQ303557	Thailand
+GQ303558	Thailand
+n59	Thailand
+LC071941	Thailand
+LC071940	Thailand
+LC071945	Thailand
+LC071946	Thailand
+n8888	Philippines
+AB683596	Philippines
+AB683617	Philippines
+AB683633	Philippines
+n91	Philippines
+n92	Philippines
+AB733962	Philippines
+n94	Philippines
+AB563881	Philippines
+n9999	Philippines
+AB771917	Philippines
+n100100	Philippines
+AB683595	Philippines
+LC018507	Philippines
+LC018520	Philippines
+n104104	Philippines
+DQ275549	Philippines
+n105	Philippines
+n108	Philippines
+n108108	Philippines
+n115	Philippines
+LC018555	Philippines
+MW055214	Viet Nam
+MW055215	Viet Nam
+MW055229	Viet Nam
+MW055230	Viet Nam
+KF663511	China
+KF663515	China
+MN049981	Liberia
+MH481713	Liberia
+MH481711	Liberia
+MN049982	Liberia
+MH481712	Liberia
+n293293	Cote d'Ivoire
+KU055562	Cote d'Ivoire
+KX148233	Cote d'Ivoire
+FJ545659	Cote d'Ivoire
+KU055526	Mali
+FJ545684	Cote d'Ivoire
+MH481708	Liberia
+MH481710	Liberia
+KX148236	Mauritania
+EU853606	Mauritania
+n302302	Mauritania
+KU055555	Mauritania
+KU739042	Mauritania
+n305	Mauritania
+KU055525	Mali
+FJ545667	Mauritania
+KP976114	Mali
+KP976115	Mali
+EU853600	Mali
+MF773572	Nigeria
+MF773575	Nigeria
+n335335	Nigeria
+n336336	Nigeria
+n340340	Nigeria
+EU888681	Nigeria
+EU888713	Nigeria
+EU888722	Nigeria
+EU888712	Nigeria
+KX434499	India
+GU731668	India
+n388	India
+n388388	India
+DQ991124	India
+DQ521236	India
+n467467	Canada
+n479479	Canada
+MN234021	Canada
+JN258496	Canada
+LM645020	Greenland
+KC792172	USA
+KC792180	USA
+LM645027	Greenland
+LM645018	Greenland
+n492492	Greenland
+LM645029	Greenland
+LM645030	Greenland
+n496496	Greenland
+LM645033	Greenland
+LM645035	Greenland
+LM645038	Greenland
+KF709090	South Korea
+KF709093	South Korea
+KF709095	South Korea
+KF437661	South Korea
+KF437663	South Korea
+HQ197957	South Korea
+HQ197964	South Korea
+HQ197965	South Korea
+HQ197961	South Korea
+n560560	South Korea
+HQ197973	South Korea
+n581	South Africa
+JQ692988	South Africa
+JQ692990	South Africa
+JX088729	South Africa
+JQ692982	South Africa
+FJ392373	South Africa
+n607607	Tunisia
+EU643558	Tunisia
+n612612	Kenya
+MN726819	Kenya
+KJ133669	Uganda
+KJ133672	Uganda
+n618618	Ethiopia
+EU853580	Ethiopia
+n632632	Ethiopia
+KX148200	Ethiopia
+n635	Sudan
+FJ947011	Sudan
+FJ947012	Sudan
+n635635	Sudan
+FJ947006	Sudan
+FJ947021	Sudan
+FJ947010	Sudan
+FJ947025	Sudan
+FJ947013	Sudan
+FJ947019	Sudan
+FJ947018	Sudan
+FJ947024	Sudan
+FJ947022	Sudan
+FJ947023	Sudan
+n636	Sudan
+FJ947020	Sudan
+FJ947014	Sudan
+FJ947015	Sudan
+FJ947026	Sudan
+MW055112	Kenya
+MW074787	Kenya
+KX148195	Morocco
+n640	Morocco
+n642	Spain
+EU851128	Spain
+n645645	Tunisia
+EU643587	Tunisia
+EU853566	Tunisia
+MW553269	Gabon
+MW553270	Gabon
+n654	Gabon
+KT119783	Gabon
+MF537521	Cameroon
+MF537523	Cameroon
+MF537533	Cameroon
+MF537536	Cameroon
+MF537540	Cameroon
+MF537541	Cameroon
+MF537539	Cameroon
+MF537535	Cameroon
+n661661	Cameroon
+MF537543	Cameroon
+MF537548	Cameroon
+MF537552	Cameroon
+MF537534	Cameroon
+MF537559	Cameroon
+n662662	Cameroon
+MF537542	Cameroon
+KT119792	Cameroon
+KT119795	Cameroon
+MF537553	Cameroon
+KT119788	Cameroon
+KT119794	Cameroon
+n671671	Tanzania
+KX148206	Tanzania
+n689	Zambia
+n690690	Zambia
+n691691	Zambia
+LC380141	Zambia
+AB505876	Uganda
+n695	Uganda
+n696	Uganda
+LC029895	Uganda
+LC029891	Uganda
+LC029892	Uganda
+AB505875	Uganda
+AB505878	Uganda
+AB505877	Uganda
+n697697	Tanzania
+KY210275	Tanzania
+n720	Uganda
+LC029894	Uganda
+KJ133677	Uganda
+KJ133678	Uganda
+KJ133680	Uganda
+KJ133681	Uganda
+KJ133666	Uganda
+KJ133675	Uganda
+n723723	Tanzania
+n723723	Zambia
+n726726	Uganda
+n726726	Zambia
+LC380204	Zambia
+LC380212	Zambia
+KX148205	Rwanda
+EU853582	Rwanda
+n733733	Zambia
+AB572930	Zambia
+AB572956	Zambia
+AB572955	Zambia
+AB572944	Zambia
+LC380114	Zambia
+AB284512	Zambia
+AB572960	Zambia
+LC380111	Zambia
+AB572953	Zambia
+AB572942	Zambia
+AB572931	Zambia
+AB572936	Zambia
+AB284511	Zambia
+LC380129	Zambia
+LC380135	Zambia
+LC380155	Zimbabwe
+LC380160	Zimbabwe
+n742742	South Africa
+n756	South Africa
+n761	South Africa
+n766766	South Africa
+n768	South Africa
+n771771	Namibia
+n780	Zimbabwe
+KY553280	Zimbabwe
+LC380164	Zambia
+LC380211	Zambia
+LC380166	Zambia
+LC380167	Zambia
+n788788	Zambia
+AB572985	Zambia
+AB572963	Zambia
+AB572986	Zambia
+AB572987	Zambia
+n790	Zambia
+AB572978	Zambia
+n790790	Zambia
+LC380186	Zambia
+LC380189	Zambia
+n795	Central African Republic
+KT119650	Central African Republic
+n805	Central African Republic
+n808	Central African Republic
+n826	Iran
+n857857	Saudi Arabia
+n880	Turkey
+n882882	Israel
+n900	Iran
+n903903	Iraq
+n910910	Azerbaijan
+n910910	Tajikistan
+n913913	Azerbaijan
+n913913	Tajikistan
+n917917	Russia
+n951	Russia
+n969	Romania
+KX148160	Hungary
+KU055561	Hungary
+n976976	Russia
+KJ958266	Russia
+n982982	Romania
+n984	Romania
+n986986	Serbia
+n1008	Serbia
+MK598398	Hungary
+n10161016	Serbia
+n10211021	Poland
+n10301030	Poland
+n10341034	Germany
+n10341034	Serbia
+n10571057	Germany
+n10591059	Poland
+n1112	Poland
+JN190392	Poland
+n1113	Estonia
+KX148158	Estonia
+n11251125	Turkey
+n1130	Turkey
+KY860595	Turkey
+KY860603	Turkey
+n11401140	Georgia
+n1142	Georgia
+n1144	Georgia
+MT079927	Georgia
+MT079915	Georgia
+MT079932	Georgia
+MW055110	Georgia
+MT079891	Georgia
+MT079947	Georgia
+MT079920	Georgia
+MT079952	Georgia
+MT079921	Georgia
+MT079904	Georgia
+MT079948	Georgia
+MT079929	Georgia
+MT079937	Georgia
+KP723589	Georgia
+MT079911	Georgia
+MT079922	Georgia
+MT079889	Georgia
+MT079939	Georgia
+MT079910	Georgia
+MT079893	Georgia
+MT079912	Georgia
+MT079913	Georgia
+KP723590	Georgia
+MW055111	Georgia
+MT079919	Georgia
+MT079924	Georgia
+n1154	Iran
+MK760756	Iran
+KP723607	Iraq
+JX524177	Iraq
+n11721172	Canada
+n11721172	USA
+JQ513558	Canada
+n1174	USA
+JX856029	USA
+JQ513556	Canada
+n1175	Canada
+JQ513554	Canada
+JQ513559	Canada
+JQ513535	USA
+JQ513537	USA
+n1187	Czech Republic
+KJ513048	Poland
+EU886631	Germany
+EU886636	Austria
+JX856075	USA
+JX856108	USA
+KX708504	Mexico
+KJ001509	Mexico
+n1230	Colombia
+n1231	Colombia
+DQ837181	Cuba
+DQ837182	Cuba
+n1233	Cuba
+DQ837184	Cuba
+DQ837176	Cuba
+DQ837177	Cuba
+n1237	Cuba
+DQ837175	Cuba
+n1239	Cuba
+n1252	Cuba
+n12561256	Cuba
+AY854578	Cuba
+n12581258	Cuba
+n12611261	Cuba
+FJ228507	Mexico
+FJ228509	Mexico
+KJ001496	Mexico
+KJ001506	Mexico
+KJ001524	Mexico
+KJ001532	Mexico
+KJ001508	Mexico
+n12671267	Mexico
+n12701270	Mexico
+n12741274	Mexico
+KF831567	Czech Republic
+GU992321	France
+JQ944709	Ethiopia
+n12871287	Nigeria
+n1288	France
+n12891289	USA
+GU992324	France
+KR781542	Brazil
+KR781545	Brazil
+JN897312	Brazil
+n1342	Brazil
+JN897319	Brazil
+JN897315	Brazil
+JN897320	Brazil
+KR781555	Brazil
+KR781606	Brazil
+KR781601	Brazil
+KR781593	Brazil
+KR781595	Brazil
+n1212	Cambodia
+n1414	Cambodia
+n1515	Cambodia
+n18	Cambodia
+KM366288	Cambodia
+KM366289	Cambodia
+n37	Cambodia
+KM366224	Cambodia
+KM366214	Cambodia
+n3939	Cambodia
+KP315885	Thailand
+KP315887	Thailand
+KP315896	Thailand
+n4242	Viet Nam
+EU086159	Viet Nam
+n43	Viet Nam
+n4444	Cambodia
+n47	Cambodia
+LC071937	Thailand
+LC071938	Thailand
+LC071939	Thailand
+n89	Philippines
+AB563945	Philippines
+n9191	Philippines
+AB733964	Philippines
+AB563956	Philippines
+n9292	Philippines
+AB563977	Philippines
+n9494	Philippines
+AB563990	Philippines
+MN726842	Philippines
+LC018504	Philippines
+n100	Philippines
+n101	Philippines
+LC018503	Philippines
+MN726838	Philippines
+AB683630	Philippines
+n105105	Philippines
+MN726866	Philippines
+MN726854	Philippines
+MN726865	Philippines
+LC018540	Philippines
+LC018542	Philippines
+AB563813	Philippines
+LC571945	Japan
+AB573762	Japan
+AB733974	Philippines
+LC018589	Philippines
+n294	Cote d'Ivoire
+HM368142	Ghana
+n303	Mauritania
+n303303	Mauritania
+KX148237	Mauritania
+EU853610	Mauritania
+EU853609	Mauritania
+EU853611	Mauritania
+EU888649	Nigeria
+EU038093	Nigeria
+EU888682	Nigeria
+EU888724	Nigeria
+n337	Nigeria
+n338338	Nigeria
+EU888700	Nigeria
+EU038094	Nigeria
+KT381855	India
+GU371900	India
+GU371883	India
+GU371884	India
+GU371882	India
+GU371890	India
+n468	Canada
+MN233976	Canada
+MN234032	Canada
+JN258499	Canada
+LM645024	Greenland
+DQ010148	Greenland
+LM645019	Greenland
+LM645032	Greenland
+HQ197960	South Korea
+HQ197976	South Korea
+HQ197967	South Korea
+HQ197971	South Korea
+HQ197963	South Korea
+n561	South Korea
+KX148222	South Africa
+KC660352	South Africa
+FJ465389	South Africa
+n608	Tunisia
+EU643588	Tunisia
+n613	Kenya
+n614614	Kenya
+MW055053	Kenya
+MW055051	Kenya
+n619	Ethiopia
+KP723638	Ethiopia
+GU062189	Ethiopia
+MZ418091	Ethiopia
+MZ418093	Ethiopia
+FJ947004	Sudan
+FJ947016	Sudan
+FJ947017	Sudan
+FJ947029	Sudan
+FJ947008	Sudan
+FJ947009	Sudan
+KX148196	Morocco
+EU853569	Morocco
+KX148193	Morocco
+EU851122	Spain
+EU851121	Spain
+EU851120	Spain
+n642642	Spain
+KU739044	Spain
+n646	Tunisia
+n648	Tunisia
+EU643583	Tunisia
+EU643584	Tunisia
+KX148202	Gabon
+KT119785	Gabon
+FJ440104	Equatorial Guinea
+KU055517	Gabon
+n662	Cameroon
+KT119789	Cameroon
+MF537549	Cameroon
+n663	Cameroon
+n672	Tanzania
+n684	Tanzania
+n686686	Tanzania
+n687	Tanzania
+DQ900570	Tanzania
+n689689	Zambia
+LC380112	Zambia
+LC380123	Zambia
+LC380124	Zambia
+n692	Zambia
+LC380105	Zambia
+n695695	Uganda
+LC029897	Uganda
+n696696	Uganda
+LC029896	Uganda
+n698	Tanzania
+n705705	Tanzania
+n720720	Uganda
+KJ133685	Uganda
+n724	Tanzania
+n725725	Tanzania
+n725725	Zambia
+n727	Uganda
+n727	Zambia
+AB505874	Uganda
+n734	Zambia
+LC380136	Zambia
+n743	South Africa
+n748748	South Africa
+n756756	South Africa
+n757757	Zimbabwe
+n761761	South Africa
+n763	South Africa
+DQ489858	South Africa
+n763763	South Africa
+n767	South Africa
+DQ489873	South Africa
+DQ489877	South Africa
+n768768	South Africa
+n771	South Africa
+n772	Namibia
+n778	Namibia
+n780780	Zimbabwe
+KY553282	Zimbabwe
+LC380168	Zambia
+LC380176	Zambia
+LC380208	Zambia
+LC380209	Zambia
+LC380213	Zambia
+AB572980	Zambia
+AB572981	Zambia
+n795795	Central African Republic
+n803803	Central African Republic
+n805805	Central African Republic
+n807	Central African Republic
+n807807	Central African Republic
+KT119638	Central African Republic
+KT119641	Central African Republic
+KT119643	Central African Republic
+KT119645	Central African Republic
+KT119648	Central African Republic
+KT119649	Central African Republic
+n826826	Iran
+n851	Iran
+n858	Saudi Arabia
+n864864	Saudi Arabia
+KY860604	Turkey
+n880880	Turkey
+KY860605	Turkey
+n883	Israel
+n887887	Israel
+MK534451	Iran
+n900900	Iran
+KC791972	Iraq
+n904	Iraq
+n911	Azerbaijan
+KX346708	Tajikistan
+n914	Tajikistan
+n915915	Azerbaijan
+n918	Russia
+n940940	Russia
+n951951	Russia
+n966	Russia
+n966966	Russia
+n967	Russia
+KR337538	Lithuania
+KR337543	Lithuania
+KR337551	Estonia
+KR337540	Lithuania
+KY002886	Russia
+n969969	Romania
+n974	Romania
+n977	Russia
+MG869105	Russia
+KY382830	Romania
+n983	Romania
+GU086616	Romania
+GU086657	Romania
+GU086654	Romania
+n987	Serbia
+n10061006	Serbia
+n10081008	Serbia
+JF973836	Austria
+n1017	Serbia
+n1020	Serbia
+JF973753	Serbia
+n1022	Poland
+KX148118	Poland
+n1031	Poland
+KF831518	Poland
+n1032	Poland
+n1035	Germany
+n1035	Serbia
+n1035	Switzerland
+n1054	France
+LN879481	Germany
+KX148135	Germany
+GU936875	Germany
+n1060	Poland
+n1108	Poland
+JN596881	Poland
+JN596889	Poland
+JN190371	Poland
+JN190365	Poland
+n11131113	Estonia
+KX148157	Estonia
+KY860589	Turkey
+n1126	Turkey
+KY860592	Turkey
+KY860593	Turkey
+n1141	Georgia
+MT079890	Georgia
+n11421142	Georgia
+MT079928	Georgia
+n1143	Azerbaijan
+MT079894	Georgia
+MT079897	Georgia
+MK760747	Iran
+JF508180	Syria
+MK760760	Iran
+MW055124	USA
+n1173	Canada
+n1173	USA
+JX855997	USA
+JX855998	USA
+JQ513557	Canada
+JQ513560	Canada
+MK111075	Hungary
+EU886634	Germany
+KX365168	Romania
+EU886632	Germany
+GU992309	Czech Republic
+KJ513022	Poland
+KJ513034	Poland
+KJ513032	Poland
+KJ513051	Poland
+KJ513045	Poland
+KJ513038	Poland
+KJ513036	Poland
+KJ513046	Poland
+KJ513029	Poland
+KJ513026	Poland
+KJ513030	Poland
+KJ513025	Poland
+KJ513052	Poland
+KJ513028	Poland
+KJ513033	Poland
+KJ513049	Poland
+KJ513057	Poland
+KJ513050	Poland
+KJ513053	Poland
+KJ513037	Poland
+KJ513027	Poland
+KJ513031	Poland
+KJ513043	Poland
+KJ513040	Poland
+KJ513055	Poland
+KJ513047	Poland
+KJ513035	Poland
+KJ513042	Poland
+KJ513041	Poland
+EU886635	Germany
+n11871187	Czech Republic
+GU992311	Czech Republic
+MH660455	Germany
+n12301230	Colombia
+JF693450	Colombia
+DQ837179	Cuba
+JF693451	Colombia
+JF693452	Colombia
+n12331233	Cuba
+n12351235	Cuba
+DQ837172	Cuba
+DQ837173	Cuba
+n12391239	Cuba
+n12471247	Cuba
+n12521252	Cuba
+n12541254	Cuba
+n1257	Cuba
+AY854564	Cuba
+n1259	Cuba
+AY854574	Cuba
+n1262	Cuba
+AY854576	Cuba
+n1268	Mexico
+FJ228505	Mexico
+n1271	Mexico
+n1273	Mexico
+n12731273	Mexico
+n1275	Mexico
+KJ001531	Mexico
+n12751275	Mexico
+MN099706	Nigeria
+MN756793	Nigeria
+MH460409	Thailand
+KF733452	France
+KF831532	USA
+KF831539	USA
+GU992325	France
+JN897313	Brazil
+JN897316	Brazil
+n13	Cambodia
+EU086130	Cambodia
+KM366203	Cambodia
+n15	Cambodia
+n16	Cambodia
+KM366335	Cambodia
+KM366275	Cambodia
+n1818	Cambodia
+n2020	Cambodia
+KU055495	Viet Nam
+n3737	Cambodia
+n3838	Cambodia
+KM366341	Cambodia
+n40	Thailand
+KX148254	Viet Nam
+EU086209	Viet Nam
+AB614373	Viet Nam
+AB614374	Viet Nam
+n45	Cambodia
+KM366213	Cambodia
+KM366230	Cambodia
+n4747	Cambodia
+n8989	Philippines
+AB563942	Philippines
+LC018488	Philippines
+AB733973	Philippines
+LC018497	Philippines
+AB563955	Philippines
+MN726863	Philippines
+AB563991	Philippines
+AB563935	Philippines
+AB563996	Philippines
+MN726875	Philippines
+LC018506	Philippines
+n106	Philippines
+MN726874	Philippines
+n294294	Cote d'Ivoire
+EU853616	Cote d'Ivoire
+EU853617	Cote d'Ivoire
+EU853619	Cote d'Ivoire
+EU514575	Mauritania
+EU514576	Mauritania
+EU514580	Mauritania
+EU514577	Mauritania
+EU514578	Mauritania
+EU514579	Mauritania
+n337337	Nigeria
+n338	Nigeria
+n339	Nigeria
+n340	Nigeria
+n468468	Canada
+MN233903	Canada
+HQ197968	South Korea
+HQ197975	South Korea
+EU643556	Tunisia
+EU643557	Tunisia
+n613613	Kenya
+MW055050	Kenya
+MW055056	Kenya
+MW055049	Kenya
+MW055055	Kenya
+MW055057	Kenya
+MW074785	Kenya
+MN726812	Kenya
+n615	Kenya
+MW055052	Kenya
+n619619	Ethiopia
+n631	Ethiopia
+n631631	Ethiopia
+MZ418086	Ethiopia
+EU851124	Spain
+EU851125	Spain
+EU851126	Spain
+EU643563	Tunisia
+EU643577	Tunisia
+EU643566	Tunisia
+EU643567	Tunisia
+EU643578	Tunisia
+EU643565	Tunisia
+EU643564	Tunisia
+EU643568	Tunisia
+n646646	Tunisia
+n647	Tunisia
+n647647	Tunisia
+EU643585	Tunisia
+EU643586	Tunisia
+MF537537	Cameroon
+MF537538	Cameroon
+KT119793	Cameroon
+MF537550	Cameroon
+MF537551	Cameroon
+MF537554	Cameroon
+n672672	Kenya
+DQ900552	Tanzania
+DQ900572	Tanzania
+n682682	Tanzania
+DQ900579	Tanzania
+DQ900574	Tanzania
+DQ900577	Tanzania
+n683	Tanzania
+n684684	Tanzania
+DQ900550	Tanzania
+DQ900563	Tanzania
+DQ900564	Tanzania
+MW055047	Kenya
+DQ900561	Tanzania
+DQ900565	Tanzania
+n690	Zambia
+AB572932	Zambia
+LC380099	Zambia
+n692692	Zambia
+KJ133662	Uganda
+KJ133679	Uganda
+KJ133682	Uganda
+LC029893	Uganda
+LC029889	Uganda
+AB505880	Uganda
+n698698	Tanzania
+n704	Central African Republic
+n704704	Tanzania
+n705	Tanzania
+KR906749	Tanzania
+n706	Tanzania
+KR906775	Tanzania
+n718718	Uganda
+n721	Uganda
+KJ133671	Uganda
+n724724	Tanzania
+KR906736	Tanzania
+KR906766	Tanzania
+n726	Zambia
+LC380109	Zambia
+KJ133687	Uganda
+LC380131	Zambia
+LC380090	Zambia
+LC380113	Zambia
+n743743	South Africa
+HQ266626	South Africa
+n749	Zimbabwe
+HM179504	South Africa
+MT454644	South Africa
+n757	Tanzania
+n758	Zimbabwe
+KY563717	Zimbabwe
+n762	South Africa
+DQ194893	South Africa
+DQ489838	South Africa
+DQ489900	South Africa
+n764	South Africa
+n765	South Africa
+JQ691433	Namibia
+DQ489829	South Africa
+DQ489871	South Africa
+n769	South Africa
+n770770	South Africa
+HQ266629	South Africa
+HQ266622	South Africa
+KY553275	South Africa
+n772772	Namibia
+n777	Namibia
+DQ194863	Namibia
+JQ691461	Namibia
+DQ194876	Namibia
+DQ194884	Namibia
+DQ194873	Namibia
+DQ194879	Namibia
+DQ194869	Namibia
+DQ194872	Namibia
+DQ194874	Namibia
+DQ194881	Namibia
+DQ194866	Namibia
+DQ194867	Namibia
+n781	Zimbabwe
+n782	Zimbabwe
+HM179506	South Africa
+n782782	Zimbabwe
+n796	Central African Republic
+n796796	Central African Republic
+n804	Central African Republic
+KT119663	Central African Republic
+n806	Central African Republic
+n806806	Central African Republic
+EU853584	Central African Republic
+EU853585	Central African Republic
+KT119635	Central African Republic
+KT119642	Central African Republic
+n827	Iran
+MK534454	Iran
+n850850	Iran
+MK483136	Iran
+n851851	Iran
+n855	Iran
+KP723597	Iran
+n858858	Saudi Arabia
+n864	United Arab Emirates
+n865	Saudi Arabia
+n879	Saudi Arabia
+KM058759	Turkey
+n881	Turkey
+n883883	Israel
+n887	Israel
+n888	Israel
+n896	Israel
+n898898	Israel
+n901	Iran
+n902902	Iran
+KC791982	Iraq
+KC791983	Iraq
+n911911	Azerbaijan
+KT965733	Kazakhstan
+n914914	Tajikistan
+KX686101	Tajikistan
+KJ645922	Azerbaijan
+n916	Azerbaijan
+n918918	Russia
+n935935	Russia
+n938938	Russia
+n941	Russia
+n945945	Russia
+n952	Ukraine
+n961	Russia
+MG869106	Russia
+MG869122	Russia
+JQ944705	Russia
+JQ434354	Russia
+KY002887	Russia
+JN656476	Ukraine
+n970	Romania
+n972972	Romania
+KX298546	Hungary
+KX298549	Hungary
+n973	Romania
+MK598340	Hungary
+n974974	Romania
+n977977	Russia
+n978978	Russia
+n983983	Bulgaria
+GU086618	Romania
+n987987	Serbia
+n10041004	Hungary
+n10041004	Serbia
+JF973808	Serbia
+KX148141	Poland
+KX148142	Poland
+JF973832	Serbia
+n1007	Serbia
+JF973834	Poland
+n1009	Serbia
+n1014	Serbia
+n10171017	Serbia
+n10181018	Serbia
+JF973786	Serbia
+JF973793	Serbia
+JF973754	Serbia
+JF973761	Serbia
+n10221022	Poland
+n1030	Poland
+JN190362	Poland
+JN190357	Poland
+JF973851	Czech Republic
+n10311031	Poland
+KX148121	Poland
+JN596880	Poland
+n10321032	Germany
+n1033	Poland
+n10351035	Bosnia and Herzegovina
+n10351035	Serbia
+n10531053	Switzerland
+n10541054	France
+n1056	France
+n10601060	Poland
+n10601060	Ukraine
+n10911091	Poland
+n11071107	Ukraine
+n11081108	Poland
+JN596885	Poland
+KX148155	Estonia
+KX148156	Estonia
+KY860591	Turkey
+n11261126	Turkey
+MW055109	Georgia
+MT079888	Georgia
+MT079902	Georgia
+n11411141	Georgia
+MT079955	Georgia
+MT079896	Georgia
+MT079950	Georgia
+MT079905	Georgia
+MT079909	Georgia
+MT079907	Georgia
+KJ645928	Azerbaijan
+MW055126	USA
+JQ513555	Canada
+n1188	Poland
+KU055578	Czech Republic
+KU055577	Czech Republic
+JF693449	Colombia
+EU086161	Colombia
+n1234	Cuba
+n12341234	Cuba
+DQ837171	Cuba
+DQ837183	Cuba
+n1240	Cuba
+n1244	Cuba
+n1248	Cuba
+AY854548	Cuba
+n1253	Cuba
+n12531253	Cuba
+n1255	Cuba
+AY854558	Cuba
+n12571257	Cuba
+AY854562	Cuba
+AY854565	Cuba
+AY854566	Cuba
+AY854563	Cuba
+n12591259	Cuba
+n1260	Cuba
+AY854575	Cuba
+AY854577	Cuba
+FJ228502	Mexico
+FJ228503	Mexico
+n12681268	Mexico
+n12711271	Mexico
+KJ001491	Mexico
+KJ001490	Mexico
+n12721272	Mexico
+KJ001492	Mexico
+KJ001513	Mexico
+KJ001489	Mexico
+KJ001494	Mexico
+KJ001498	Mexico
+KJ001514	Mexico
+FJ228512	Mexico
+FJ228513	Mexico
+KJ001507	Mexico
+n1274	Mexico
+KJ001495	Mexico
+KJ001511	Mexico
+KJ001512	Mexico
+n1276	Mexico
+JQ037821	Mexico
+n1313	Viet Nam
+EU086167	Cambodia
+KX148252	Cambodia
+KM366256	Cambodia
+KM366287	Cambodia
+KM366285	Cambodia
+n1616	Cambodia
+KM366302	Cambodia
+KM366290	Cambodia
+KM366308	Cambodia
+n19	Cambodia
+EU086132	Cambodia
+n21	Cambodia
+n26	Cambodia
+KM366295	Cambodia
+n38	Cambodia
+KM366303	Cambodia
+KM366348	Cambodia
+n39	Cambodia
+KM366314	Cambodia
+KP315881	Thailand
+KP315883	Thailand
+KP315889	Thailand
+KP315893	Thailand
+KP315895	Thailand
+KP315890	Thailand
+KP315891	Thailand
+KP315888	Thailand
+KP315892	Thailand
+KP315894	Thailand
+KP315884	Thailand
+KP315900	Thailand
+KP315882	Thailand
+KP315899	Thailand
+KP315901	Thailand
+n4545	Cambodia
+KM366206	Cambodia
+KM366226	Cambodia
+KM366220	Cambodia
+KM366267	Cambodia
+EU086210	Viet Nam
+LC550022	Philippines
+LC068932	Philippines
+n90	Philippines
+MN857167	Philippines
+LC018609	Philippines
+LC018620	Philippines
+LC018496	Philippines
+MN726857	Philippines
+n106106	Philippines
+KX148232	Cote d'Ivoire
+EU853618	Cote d'Ivoire
+FJ545676	Cote d'Ivoire
+MF773573	Nigeria
+EU888655	Nigeria
+EU888670	Nigeria
+EU888721	Nigeria
+EU888695	Nigeria
+EU888692	Nigeria
+EU888699	Nigeria
+FJ435700	Nigeria
+EU038102	Nigeria
+EU888668	Nigeria
+EU038100	Nigeria
+EU038104	Nigeria
+EU038101	Nigeria
+n339339	Nigeria
+EU888690	Nigeria
+EU038105	Nigeria
+EU888710	Nigeria
+n469	Canada
+n479	Canada
+n614	Kenya
+MN726830	Kenya
+MN726805	Kenya
+MW055054	Kenya
+n620	Ethiopia
+MZ418088	Ethiopia
+MZ418087	Ethiopia
+EU853581	Ethiopia
+MZ418095	Ethiopia
+MZ418096	Ethiopia
+EU643579	Tunisia
+EU643580	Tunisia
+EU643581	Tunisia
+EU643582	Tunisia
+EU643569	Tunisia
+EU643573	Tunisia
+EU643574	Tunisia
+EU643575	Tunisia
+EU643576	Tunisia
+n673	Kenya
+KX148207	Kenya
+DQ900547	Tanzania
+DQ900548	Tanzania
+DQ900559	Tanzania
+DQ900560	Tanzania
+n683683	Tanzania
+DQ900569	Tanzania
+n685	Tanzania
+DQ900557	Tanzania
+LC380097	Zambia
+LC380098	Zambia
+LC380100	Zambia
+LC380116	Zambia
+n699	Tanzania
+KR906761	Tanzania
+KU055522	Central African Republic
+KU055523	Central African Republic
+KR906741	Tanzania
+KR906753	Tanzania
+HM368094	Ghana
+DQ900555	Tanzania
+DQ900566	Tanzania
+n706706	Tanzania
+n718	Tanzania
+KJ133674	Uganda
+KJ133686	Uganda
+KJ133661	Uganda
+KJ133664	Uganda
+KJ133665	Uganda
+KJ133684	Uganda
+KJ133670	Uganda
+KJ133673	Uganda
+MW074784	Kenya
+KR906735	Tanzania
+n725	Tanzania
+LC380188	Zambia
+LC380201	Zambia
+n744	South Africa
+HQ266627	South Africa
+n749749	Zimbabwe
+LC380229	Zimbabwe
+KR906746	Tanzania
+KR906757	Tanzania
+n758758	Zimbabwe
+KY563715	Zimbabwe
+KT336434	Zimbabwe
+n762762	South Africa
+DQ489833	South Africa
+n764764	South Africa
+MT454642	South Africa
+n765765	South Africa
+DQ489823	South Africa
+n769769	Namibia
+KY553262	South Africa
+HM179507	South Africa
+DQ489798	South Africa
+n773	Namibia
+n776776	Namibia
+JQ691434	Namibia
+JQ691452	Namibia
+JQ691455	Namibia
+JQ691450	Namibia
+JQ691454	Namibia
+JQ691456	Namibia
+JQ691451	Namibia
+n777777	Namibia
+JX473838	Namibia
+n781781	Zimbabwe
+KF831554	Zimbabwe
+KY553272	Zimbabwe
+KT336433	Zimbabwe
+n783	Zimbabwe
+KF831555	Zimbabwe
+MF537575	Cameroon
+KF734690	Central African Republic
+KF734735	Central African Republic
+KF734734	Central African Republic
+KF734696	Central African Republic
+KT119753	Central African Republic
+KT119710	Central African Republic
+KT119752	Central African Republic
+KT119660	Central African Republic
+KT119714	Central African Republic
+KT119694	Central African Republic
+KT119671	Central African Republic
+KT119700	Central African Republic
+KT119678	Central African Republic
+KT119680	Central African Republic
+n797	Central African Republic
+KT119669	Central African Republic
+n798	Central African Republic
+n798798	Central African Republic
+KT119691	Central African Republic
+KT119734	Central African Republic
+KT119695	Central African Republic
+n799	Central African Republic
+KT119672	Central African Republic
+n800800	Central African Republic
+KT119682	Central African Republic
+KT119661	Central African Republic
+KT119708	Central African Republic
+KT119702	Central African Republic
+KT119675	Central African Republic
+KT119676	Central African Republic
+KT119679	Central African Republic
+KT119692	Central African Republic
+KT119684	Central African Republic
+KT119711	Central African Republic
+n802	Central African Republic
+KT119726	Central African Republic
+KT119699	Central African Republic
+KT119707	Central African Republic
+n802802	Central African Republic
+KT119709	Central African Republic
+KT119686	Central African Republic
+n803	Central African Republic
+KT119647	Central African Republic
+KT119652	Central African Republic
+KT119634	Central African Republic
+EU853586	Central African Republic
+KT119653	Central African Republic
+KT119657	Central African Republic
+n827827	Iran
+n849849	Iran
+MK760673	Iran
+MK760710	Iran
+n852	Iran
+n854854	Iran
+KX148186	Iran
+n855855	Iran
+n859	Saudi Arabia
+KF482213	United Arab Emirates
+KF482201	United Arab Emirates
+KP723585	United Arab Emirates
+KP723637	United Arab Emirates
+n865865	Saudi Arabia
+n866	Oman
+KX148172	Saudi Arabia
+DQ146160	Oman
+n881881	Turkey
+KJ081448	Turkey
+n882	Turkey
+KJ081446	Turkey
+n884	Israel
+KX148180	Israel
+n886886	Israel
+DQ837397	Israel
+DQ837442	Israel
+DQ837448	Israel
+DQ837435	Israel
+n888888	Israel
+n889889	Israel
+n890	Israel
+n893	Israel
+n895895	Israel
+KX148184	Israel
+DQ837383	Israel
+DQ837433	Israel
+DQ837438	Israel
+n896896	Jordan
+n898	Israel
+DQ837444	Israel
+DQ837439	Israel
+DQ837411	Israel
+DQ837419	Israel
+DQ837473	Israel
+n901901	Iran
+KX148190	Iran
+MK507730	Iran
+n903	Iran
+JX987728	Iran
+n912	Azerbaijan
+LN879480	Azerbaijan
+KJ645929	Azerbaijan
+n915	Tajikistan
+KX686102	Tajikistan
+KJ645923	Azerbaijan
+KJ645924	Azerbaijan
+KJ645927	Azerbaijan
+KJ645930	Azerbaijan
+n919	Russia
+MG869112	Russia
+n936	Russia
+n937937	Kazakhstan
+n937937	Mongolia
+n937937	Russia
+n939	Russia
+JN656523	Ukraine
+n941941	Russia
+MK124749	China
+n946	Iran
+KF677008	Russia
+n952952	Ukraine
+JN656528	Ukraine
+n961961	Russia
+n964	Russia
+MK598338	Hungary
+n970970	Romania
+KC692778	Hungary
+KX298548	Hungary
+n971971	Hungary
+GU086610	Romania
+n972	Romania
+GU086613	Romania
+MK598339	Hungary
+GU086645	Romania
+n973973	Romania
+GU086656	Romania
+n975	Romania
+GU086647	Romania
+n978	Russia
+MF572308	Russia
+KJ958268	Russia
+n979	Russia
+MG869119	Russia
+JX679399	Bulgaria
+JQ973866	Bulgaria
+n988	Serbia
+JF973777	Serbia
+JF973778	Serbia
+JF973780	Serbia
+n1004	Serbia
+n1005	Hungary
+JF973852	Czech Republic
+n10071007	Serbia
+JF973840	Serbia
+n10091009	Slovenia
+n10121012	Serbia
+n10141014	Serbia
+JF973766	Serbia
+n1018	Hungary
+JF973844	Serbia
+JF973839	Serbia
+KJ865848	Greece
+KC771887	Greece
+KC836498	Greece
+KC836501	Greece
+KC836503	Greece
+KC836500	Greece
+KC836499	Greece
+KC836502	Greece
+KC011844	Greece
+KC757382	Greece
+KM102751	Greece
+n1019	Macedonia
+JQ973884	Macedonia
+n10191019	Serbia
+JQ973876	Serbia
+JQ973879	Serbia
+JF973785	Serbia
+n1023	Poland
+n10261026	Poland
+n10271027	Poland
+JN190359	Poland
+JN190375	Poland
+n10291029	Poland
+JN190366	Poland
+JN190374	Poland
+KX148119	Poland
+KX148120	Poland
+KX148122	Germany
+JN656533	Poland
+KX148123	Germany
+KX148124	Germany
+n10331033	Poland
+n1036	Bosnia and Herzegovina
+n1036	Serbia
+HM852178	Slovenia
+HM852187	Slovenia
+n10521052	Slovenia
+HM852188	Slovenia
+KX148134	France
+KF831562	Switzerland
+KF831538	Switzerland
+n1055	France
+KU739048	France
+n10561056	France
+KX148128	France
+n1061	Romania
+n10821082	Ukraine
+n1092	Finland
+n1093	Poland
+KR337528	Lithuania
+JN656494	Ukraine
+n1109	Poland
+JN596900	Poland
+JN190383	Poland
+JN190377	Poland
+n1127	Turkey
+n11281128	Turkey
+MT079892	Georgia
+MT079898	Georgia
+KC522613	Slovenia
+EU886633	Austria
+KJ513024	Poland
+KR337545	Lithuania
+KR337508	Latvia
+DQ837168	Cuba
+DQ837180	Cuba
+n1235	Cuba
+DQ837178	Cuba
+n12401240	Cuba
+n12431243	Cuba
+n12441244	Cuba
+n1245	Cuba
+n12481248	Cuba
+n1250	Cuba
+n12501250	Cuba
+AY854549	Cuba
+AY854551	Cuba
+AY854550	Cuba
+n1254	Cuba
+AY854554	Cuba
+AY854555	Cuba
+AY854556	Cuba
+AY854557	Cuba
+AY854560	Cuba
+AY854561	Cuba
+AY854567	Cuba
+AY854568	Cuba
+AY854569	Cuba
+n12601260	Cuba
+AY854573	Cuba
+FJ228504	Mexico
+FJ228506	Mexico
+n1272	Mexico
+KJ001505	Mexico
+KJ001500	Mexico
+KJ001517	Mexico
+KJ001516	Mexico
+KJ001504	Mexico
+KJ001536	Mexico
+KJ001534	Mexico
+KJ001535	Mexico
+KJ001518	Mexico
+KJ001515	Mexico
+KJ001499	Mexico
+KJ001503	Mexico
+KJ001525	Mexico
+KJ001533	Mexico
+KR902345	Mexico
+n12761276	Mexico
+JQ037824	Mexico
+JQ037820	Mexico
+JQ037819	Mexico
+n14	Viet Nam
+MK790257	Viet Nam
+n17	Cambodia
+KM366284	Cambodia
+MK790255	Viet Nam
+n1919	Cambodia
+n2121	Cambodia
+KX148251	Cambodia
+KM366248	Cambodia
+n2626	Cambodia
+EU086134	Cambodia
+KM366205	Cambodia
+KM366228	Cambodia
+KM366229	Cambodia
+KM366207	Cambodia
+KM366253	Cambodia
+n46	Cambodia
+KM366218	Cambodia
+MN857171	Philippines
+LC018595	Philippines
+MN726858	Philippines
+n107	Philippines
+EU038103	Nigeria
+EU038106	Nigeria
+n469469	Canada
+n478	Greenland
+JN258452	Canada
+MN233922	Canada
+MN234029	Canada
+MW055118	Kenya
+MW055120	Kenya
+MW055121	Kenya
+MW055122	Kenya
+MW055119	Kenya
+MW055123	Kenya
+n620620	Ethiopia
+MZ418083	Ethiopia
+n673673	Kenya
+n679	Kenya
+MW055117	Kenya
+KR906739	Tanzania
+DQ900558	Tanzania
+n685685	Tanzania
+KY210309	Tanzania
+n699699	Tanzania
+KR534262	Tanzania
+n703703	Tanzania
+KR906767	Tanzania
+n707	Tanzania
+n717717	Tanzania
+KR906745	Tanzania
+MW055048	Kenya
+KR906763	Tanzania
+KR906764	Tanzania
+n744744	South Africa
+n746746	South Africa
+n750	Zimbabwe
+n755	Zambia
+n759	Zimbabwe
+n759759	Zimbabwe
+LC380225	Zimbabwe
+LC380221	Zimbabwe
+MT454633	South Africa
+DQ194892	South Africa
+MT454638	South Africa
+KY553258	South Africa
+n766	South Africa
+DQ489806	South Africa
+DQ489794	South Africa
+DQ489864	South Africa
+DQ489865	South Africa
+n770	Namibia
+KX148204	Namibia
+n773773	Namibia
+JX473841	Namibia
+JQ691420	Namibia
+JQ691448	Namibia
+JQ691424	Namibia
+JQ691462	Namibia
+JQ691440	Namibia
+JQ691423	Namibia
+DQ194860	Namibia
+JQ691463	Namibia
+JQ691432	Namibia
+DQ194855	Namibia
+JQ691444	Namibia
+JQ691447	Namibia
+JQ691460	Namibia
+JQ691449	Namibia
+JQ691422	Namibia
+JQ691421	Namibia
+n776	Namibia
+JQ691415	Namibia
+JQ691438	Namibia
+JX473840	Namibia
+JQ691435	Namibia
+JX473839	Namibia
+KY553265	Zimbabwe
+KY563718	Zimbabwe
+KF831529	Zimbabwe
+KY553268	Zimbabwe
+KY553270	Zimbabwe
+KT119723	Central African Republic
+KT119733	Central African Republic
+KT119724	Central African Republic
+n797797	Central African Republic
+KT119716	Central African Republic
+KT119721	Central African Republic
+KT119741	Central African Republic
+KT119745	Central African Republic
+KT119712	Central African Republic
+n799799	Central African Republic
+n801	Central African Republic
+KT119693	Central African Republic
+KT119701	Central African Republic
+KT119698	Central African Republic
+n801801	Central African Republic
+KT119725	Central African Republic
+KT119749	Central African Republic
+KT119738	Central African Republic
+KT119750	Central African Republic
+KT119735	Central African Republic
+KT119668	Central African Republic
+KT119677	Central African Republic
+KT119674	Central African Republic
+EU853587	Central African Republic
+EU853589	Central African Republic
+EU853590	Central African Republic
+n828	Iran
+n848	Iran
+n850	Iran
+MK760759	Iran
+n852852	Iran
+MK760688	Iran
+MK760668	Iran
+MK760686	Iran
+n856	Iran
+n856856	Iran
+n859859	Saudi Arabia
+n861861	Saudi Arabia
+KX148168	Saudi Arabia
+EU086163	Saudi Arabia
+KU888640	Turkey
+KP723630	Saudi Arabia
+GU353142	Oman
+n866866	Oman
+n868	Oman
+KJ081443	Turkey
+KJ081444	Turkey
+KJ081445	Turkey
+KJ081447	Turkey
+KJ081450	Turkey
+KJ081449	Turkey
+n884884	Israel
+n886	Israel
+DQ837382	Israel
+DQ837387	Israel
+n889	Israel
+DQ837472	Israel
+KX148182	Israel
+DQ837399	Israel
+DQ837429	Israel
+DQ837440	Israel
+DQ837485	Israel
+n890890	Israel
+n891	Israel
+DQ837402	Israel
+DQ837406	Israel
+DQ837403	Israel
+DQ837459	Israel
+DQ837481	Israel
+DQ837457	Israel
+DQ837405	Israel
+DQ837407	Israel
+n893893	Israel
+n894	Israel
+DQ837388	Israel
+n894894	Israel
+DQ837404	Israel
+KX148183	Israel
+DQ837401	Israel
+n897	Lebanon
+DQ837466	Israel
+DQ837425	Jordan
+DQ837426	Jordan
+DQ837470	Israel
+DQ837471	Israel
+n902	Iran
+MK760691	Iran
+KX148187	Iran
+KX148188	Iran
+n912912	Azerbaijan
+MT079908	Georgia
+n913	Azerbaijan
+KY765901	Tajikistan
+KX907735	Russia
+n919919	Russia
+n932	Russia
+n936936	Russia
+KJ958221	Russia
+n937	Russia
+KT965734	Kazakhstan
+n938	Mongolia
+n939939	Russia
+MG869113	Russia
+n942	Russia
+n944944	Russia
+n946946	Iran
+n950	Iran
+n953	Ukraine
+n960960	Russia
+n962	Russia
+n963	Russia
+n964964	Russia
+KC794007	Russia
+GU086609	Romania
+n971	Romania
+MK598341	Hungary
+MK598342	Hungary
+GU086631	Romania
+GU086659	Romania
+GU086660	Romania
+GU086653	Romania
+GU086655	Romania
+GU086639	Romania
+GU086637	Romania
+GU086634	Romania
+GU086622	Romania
+GU086608	Romania
+GU086644	Romania
+GU086638	Romania
+GU086662	Romania
+GU086640	Romania
+MF574195	Russia
+MF503298	Russia
+KJ958265	Russia
+MF572299	Russia
+MF574196	Russia
+MF572298	Russia
+n979979	Russia
+n988988	Serbia
+KX148140	Serbia
+n1003	Serbia
+JF973743	Serbia
+JF973809	Serbia
+JF973810	Serbia
+n10051005	Hungary
+KX148137	Hungary
+KC692783	Hungary
+JF973841	Serbia
+n10101010	Croatia
+n10111011	Croatia
+JF973821	Bosnia and Herzegovina
+n1012	Croatia
+HM852145	Slovenia
+KX148144	Slovenia
+HM852168	Slovenia
+n1013	Serbia
+JF973797	Bosnia and Herzegovina
+JF973815	Bosnia and Herzegovina
+JF973847	Serbia
+n1015	Serbia
+n10151015	Montenegro
+JN008438	Bosnia and Herzegovina
+KX148143	Hungary
+KU055566	Hungary
+JQ973880	Macedonia
+JQ973881	Macedonia
+JQ973873	Bulgaria
+JF973849	Serbia
+JQ973878	Serbia
+JQ973886	Macedonia
+JQ973883	Macedonia
+JQ973885	Macedonia
+JQ973882	Macedonia
+JX025366	Macedonia
+n10231023	Poland
+n1026	Poland
+JN190360	Poland
+n1027	Poland
+n1028	Poland
+JN596905	Poland
+JN190389	Poland
+JN596906	Poland
+KX148113	Germany
+KX148114	Poland
+KF831544	Poland
+JN656514	Poland
+n10361036	Bosnia and Herzegovina
+n10361036	Serbia
+n10431043	Slovenia
+KX929113	Croatia
+HM852179	Slovenia
+n1053	Slovenia
+KX148125	Belgium
+n10551055	France
+KU055540	France
+KX148127	France
+n1057	France
+DQ146161	Oman
+n10611061	Romania
+n10671067	Romania
+n1083	Ukraine
+JN656516	Ukraine
+JN656517	Ukraine
+JN656515	Ukraine
+JN656518	Ukraine
+KX148146	Finland
+KU055560	Estonia
+n10921092	Finland
+n10931093	Estonia
+n1095	Poland
+n1103	Lithuania
+JQ005075	Latvia
+KR337518	Latvia
+KR337513	Latvia
+KR337525	Lithuania
+n11031103	Latvia
+n1104	Latvia
+n11061106	Estonia
+n1107	Estonia
+DQ317518	Estonia
+DQ317517	Estonia
+JN190391	Poland
+n11091109	Poland
+KX148154	Poland
+n11271127	Turkey
+KY860600	Turkey
+n1129	Turkey
+KY860602	Turkey
+DQ837169	Cuba
+DQ837170	Cuba
+n1241	Cuba
+AY854515	Cuba
+AY854521	Cuba
+AY854523	Cuba
+AY854524	Cuba
+AY854525	Cuba
+AY854522	Cuba
+AY854526	Cuba
+AY854527	Cuba
+n12451245	Cuba
+AY854534	Cuba
+n12461246	Cuba
+n1249	Cuba
+n12491249	Cuba
+AY854539	Cuba
+AY854541	Cuba
+AY854540	Cuba
+n1251	Cuba
+AY854547	Cuba
+AY854552	Cuba
+AY854553	Cuba
+AY854570	Cuba
+n1261	Cuba
+KJ001488	Mexico
+KJ001501	Mexico
+KJ001497	Mexico
+KJ001502	Mexico
+JQ037822	Mexico
+JQ037823	Mexico
+MK790254	Viet Nam
+MH828450	Viet Nam
+n1717	Cambodia
+KM366286	Cambodia
+KX148253	Cambodia
+n20	Cambodia
+EU086169	Cambodia
+n2222	Cambodia
+n2525	Cambodia
+KM366310	Cambodia
+EU086131	Cambodia
+n27	Cambodia
+KM366320	Cambodia
+KM366204	Cambodia
+n4646	Cambodia
+KM366337	Cambodia
+MN726868	Philippines
+LC068943	Philippines
+n470	Canada
+n477477	Canada
+n478478	Greenland
+LM645016	Greenland
+n621	Ethiopia
+n630630	Ethiopia
+MW055113	Kenya
+n674	Kenya
+KC792032	Kenya
+n679679	Kenya
+MN726831	Kenya
+n686	Tanzania
+KY210263	Tanzania
+n700	Tanzania
+DQ900568	Tanzania
+KR906762	Tanzania
+EU296436	Tanzania
+EU296435	Tanzania
+EU296438	Tanzania
+EU296439	Tanzania
+n707707	Tanzania
+n713	Tanzania
+DQ900567	Tanzania
+KY210221	Tanzania
+KR906737	Tanzania
+n745	South Africa
+HM179505	South Africa
+n747	South Africa
+HQ266607	South Africa
+n750750	Zimbabwe
+n752752	Zimbabwe
+KY553267	Zimbabwe
+KY553269	Zimbabwe
+n754	Zimbabwe
+n754754	Botswana
+LC380092	Zambia
+n755755	Zambia
+LC380147	Zimbabwe
+LC380150	Zimbabwe
+LC380151	Zimbabwe
+LC380227	Zimbabwe
+LC380230	Zimbabwe
+DQ489789	South Africa
+DQ489890	South Africa
+DQ489827	South Africa
+MT454651	South Africa
+JQ691425	Namibia
+JQ691458	Namibia
+DQ194865	Namibia
+DQ194871	Namibia
+DQ194870	Namibia
+DQ194868	Namibia
+DQ194864	Namibia
+JQ691436	Namibia
+JQ691445	Namibia
+DQ194875	Namibia
+DQ194882	Namibia
+KR534227	Tanzania
+JQ691416	Namibia
+DQ194883	Namibia
+DQ194861	Namibia
+DQ194858	Namibia
+DQ194857	Namibia
+DQ194856	Namibia
+DQ194859	Namibia
+JQ691442	Namibia
+n774	Namibia
+JQ691418	Namibia
+n775775	Namibia
+JQ691428	Namibia
+DQ194862	Namibia
+JQ691426	Namibia
+JQ691453	Namibia
+JQ691431	Namibia
+KT119731	Central African Republic
+KT119732	Central African Republic
+KT119751	Central African Republic
+KT119730	Central African Republic
+n800	Central African Republic
+KT119667	Central African Republic
+KT119670	Central African Republic
+KT119719	Central African Republic
+KT119720	Central African Republic
+n828828	Iran
+n846	Iran
+n848848	Iran
+MK760763	Iran
+MK760669	Iran
+MK760751	Iran
+n853	Iran
+n854	Iran
+MK760667	Iran
+MK760692	Iran
+n857	Iran
+MK760678	Iran
+n860	Qatar
+n860860	Saudi Arabia
+n862	Saudi Arabia
+n863	Jordan
+n867	Oman
+n867867	Oman
+n868868	United Arab Emirates
+n878	Oman
+n878878	United Arab Emirates
+KP723624	Oman
+KP723636	United Arab Emirates
+KP723616	Oman
+KP723588	United Arab Emirates
+KP723615	Oman
+KP723614	Oman
+n885	Israel
+DQ837434	Israel
+KX148179	Israel
+DQ837484	Israel
+KX148181	Israel
+DQ837398	Israel
+DQ837400	Israel
+DQ837385	Israel
+DQ837418	Israel
+DQ837451	Israel
+DQ837482	Israel
+DQ837410	Israel
+DQ837391	Israel
+n891891	Israel
+n892	Israel
+DQ837458	Israel
+n892892	Israel
+DQ837449	Israel
+DQ837384	Israel
+DQ837456	Israel
+DQ837386	Israel
+DQ837415	Israel
+DQ837414	Israel
+n895	Israel
+DQ837487	Israel
+n897897	Israel
+DQ837465	Lebanon
+MK760680	Iran
+MK760719	Iran
+MW055108	Georgia
+KP723591	Georgia
+MT079918	Georgia
+KJ645925	Azerbaijan
+MT079935	Georgia
+MT079949	Georgia
+KJ645926	Azerbaijan
+n920	Russia
+KF677006	Russia
+n932932	Mongolia
+JQ434304	Russia
+n933	Russia
+KY172632	Russia
+KY172633	Russia
+KJ958223	Russia
+KJ958222	Russia
+KJ958249	Russia
+KT338631	Mongolia
+AB570997	Mongolia
+KT338637	Mongolia
+KT338632	Mongolia
+n940	Russia
+KY002900	Russia
+n942942	Kazakhstan
+n942942	Russia
+n943943	Russia
+KT965736	Kazakhstan
+n945	Russia
+n947	Iran
+KX148159	Iran
+MK760707	Iran
+n950950	Iran
+n953953	Ukraine
+JQ277471	Estonia
+JN656480	Ukraine
+MG869110	Russia
+n956956	Ukraine
+n957	Ukraine
+n957957	Ukraine
+JN656473	Ukraine
+n958	Ukraine
+JN656510	Ukraine
+MF574201	Russia
+n958958	Russia
+n959	Ukraine
+JN656475	Ukraine
+n959959	Ukraine
+JQ005081	Latvia
+MF572301	Russia
+KC538854	Russia
+MF574194	Russia
+n962962	Russia
+KF677004	Russia
+n963963	Russia
+KT965737	Kazakhstan
+MF572313	Russia
+n965	Russia
+MG869124	Russia
+GU086643	Romania
+GU086650	Romania
+n980	Russia
+MG996460	Russia
+JQ434312	Russia
+n989	Serbia
+JF973783	Serbia
+n992	Serbia
+n995	Serbia
+JF973751	Serbia
+JF973755	Serbia
+n10021002	Serbia
+n10031003	Serbia
+JF973745	Serbia
+n1006	Hungary
+KX148139	Hungary
+n1011	Croatia
+KX929098	Croatia
+JF683623	Croatia
+KX929101	Croatia
+KX929102	Croatia
+KX929106	Croatia
+KX929100	Croatia
+JF683650	Croatia
+JF683634	Croatia
+JF683632	Croatia
+KX929103	Croatia
+KX929109	Croatia
+KX929110	Croatia
+KX929104	Croatia
+JF683637	Croatia
+JF683624	Croatia
+JF683628	Croatia
+JF683639	Croatia
+JF683626	Croatia
+JF683627	Croatia
+KX929108	Croatia
+KX929099	Croatia
+JF683647	Croatia
+KX929105	Croatia
+KX929107	Croatia
+JF683622	Croatia
+JF683629	Croatia
+JF973796	Bosnia and Herzegovina
+n10131013	Serbia
+JF973831	Serbia
+JF973830	Serbia
+KX148145	Bosnia and Herzegovina
+JF973827	Montenegro
+JF973769	Montenegro
+JF973798	Serbia
+JF973802	Montenegro
+JF973848	Serbia
+MF197742	Poland
+KX148115	Poland
+n1024	Poland
+KX148117	Poland
+JN190364	Poland
+JN596898	Poland
+JN190372	Poland
+JN190361	Poland
+JN190363	Poland
+JN596891	Poland
+JN596901	Poland
+JN190387	Poland
+JN596894	Poland
+JN596903	Poland
+JN596893	Poland
+JN596892	Poland
+n10281028	Poland
+JN190373	Poland
+JN190386	Poland
+n1029	Poland
+MG458310	Serbia
+KX148133	Bosnia and Herzegovina
+n1037	Slovenia
+JF973782	Bosnia and Herzegovina
+JF973750	Bosnia and Herzegovina
+HM852174	Slovenia
+HM852175	Slovenia
+n1044	Slovenia
+HM852153	Slovenia
+HM852152	Slovenia
+n1051	Slovenia
+HM852176	Slovenia
+HM852180	Slovenia
+HM852184	Slovenia
+HM852186	Slovenia
+HM852185	Slovenia
+HM852183	Slovenia
+HM852181	Slovenia
+HM852182	Slovenia
+KX148126	France
+KU055573	France
+KU055580	France
+GU992302	France
+EU293104	France
+EU293115	France
+n1062	Romania
+JN190393	Poland
+GU086623	Romania
+n1068	Romania
+MK598381	Hungary
+n1082	Romania
+n10831083	Romania
+n10891089	Ukraine
+n10901090	Ukraine
+JN656496	Ukraine
+KX148147	Finland
+AY751534	Finland
+KX148148	Estonia
+n1094	Estonia
+JQ005064	Latvia
+KX148150	Poland
+n10951095	Poland
+KR337527	Lithuania
+KR337529	Lithuania
+JQ005073	Latvia
+JQ005086	Latvia
+n11041104	Latvia
+KR337515	Latvia
+KR337526	Lithuania
+n1105	Lithuania
+JQ005109	Latvia
+KR337519	Latvia
+KR337547	Estonia
+KR337536	Lithuania
+KR337539	Lithuania
+KR337546	Estonia
+JQ005103	Latvia
+JQ594997	Estonia
+JQ594994	Estonia
+JN109233	Estonia
+JQ005082	Latvia
+JN109227	Estonia
+JN109225	Estonia
+JN109226	Estonia
+n1110	Poland
+n11101110	Poland
+KY860594	Turkey
+n1128	Turkey
+n11291129	Turkey
+KY860601	Turkey
+n12411241	Cuba
+AY854505	Cuba
+n1242	Cuba
+AY854507	Cuba
+n12421242	Cuba
+n1243	Cuba
+n1246	Cuba
+AY854530	Cuba
+n1247	Cuba
+AY854533	Cuba
+AY854535	Cuba
+AY854536	Cuba
+AY854537	Cuba
+AY854538	Cuba
+n12511251	Cuba
+AY854544	Cuba
+AY854545	Cuba
+AY854546	Cuba
+AY854571	Cuba
+AY854572	Cuba
+KM366231	Cambodia
+KM366294	Cambodia
+KM366208	Cambodia
+KM366232	Cambodia
+KM366312	Cambodia
+KM366296	Cambodia
+KM366346	Cambodia
+KM366347	Cambodia
+n23	Cambodia
+KM366316	Cambodia
+n2424	Cambodia
+KM366225	Cambodia
+KM366317	Cambodia
+KM366291	Cambodia
+KM366313	Cambodia
+n2727	Cambodia
+n35	Cambodia
+KM366227	Cambodia
+KM366343	Cambodia
+n470470	Canada
+n474474	Canada
+MN233985	Canada
+JN258470	Canada
+LM645015	Greenland
+LM645017	Greenland
+MZ417876	Ethiopia
+MZ417914	Ethiopia
+MZ417890	Ethiopia
+MZ417912	Ethiopia
+MZ417880	Ethiopia
+MZ417891	Ethiopia
+MZ417896	Ethiopia
+MZ417937	Ethiopia
+MZ417887	Ethiopia
+MZ417894	Ethiopia
+MZ417883	Ethiopia
+MZ417931	Ethiopia
+MZ417909	Ethiopia
+MZ417918	Ethiopia
+MZ417938	Ethiopia
+MZ417928	Ethiopia
+MZ417906	Ethiopia
+MZ417913	Ethiopia
+MZ417942	Ethiopia
+MZ417939	Ethiopia
+MZ417886	Ethiopia
+MZ417881	Ethiopia
+MZ417911	Ethiopia
+MZ417932	Ethiopia
+MZ417917	Ethiopia
+MZ417941	Ethiopia
+MZ417927	Ethiopia
+MZ417899	Ethiopia
+MZ417925	Ethiopia
+MZ417947	Ethiopia
+MZ417963	Ethiopia
+MZ417951	Ethiopia
+n621621	Ethiopia
+MZ417878	Ethiopia
+MZ417945	Ethiopia
+MZ418008	Ethiopia
+n623	Ethiopia
+MZ417950	Ethiopia
+MZ417953	Ethiopia
+n624624	Ethiopia
+MZ418004	Ethiopia
+MZ417944	Ethiopia
+MZ417954	Ethiopia
+MZ417949	Ethiopia
+n625	Ethiopia
+n625625	Ethiopia
+n626	Ethiopia
+n626626	Ethiopia
+MZ417962	Ethiopia
+n629629	Ethiopia
+n630	Ethiopia
+MZ418078	Ethiopia
+MZ418079	Ethiopia
+n674674	Kenya
+n677677	Tanzania
+n680	Kenya
+n682	Kenya
+KY210252	Tanzania
+KY210311	Tanzania
+n700700	Tanzania
+n702702	Tanzania
+n708	Tanzania
+n711711	Tanzania
+n713713	Tanzania
+n716716	Tanzania
+n745745	South Africa
+KJ744310	South Africa
+JF747617	South Africa
+n746	South Africa
+DQ489887	South Africa
+n747747	South Africa
+n748	South Africa
+n751	Zambia
+LC380093	Zambia
+LC380159	Zimbabwe
+LC380158	Zimbabwe
+LC380148	Zimbabwe
+n751751	Zimbabwe
+KY553271	Zimbabwe
+LC380139	Zambia
+n753	Zimbabwe
+KY563716	Zimbabwe
+LC380220	Zambia
+LC380222	Zimbabwe
+LC380228	Zimbabwe
+LC380226	Zimbabwe
+LC380234	Zimbabwe
+LC380232	Zimbabwe
+LC380235	Zimbabwe
+KU739040	Botswana
+LC380233	Zimbabwe
+LC380117	Zambia
+LC380126	Zambia
+n774774	Namibia
+JQ691427	Namibia
+JQ691439	Namibia
+JQ691429	Namibia
+JQ691446	Namibia
+JQ691459	Namibia
+JQ691441	Namibia
+JQ691430	Namibia
+KT119743	Central African Republic
+KT119746	Central African Republic
+n829	Iran
+n845845	Iran
+n846846	Iran
+JX987734	Iran
+n849	Iran
+MK760683	Iran
+MK760709	Iran
+n853853	Iran
+MK760764	Iran
+MK483135	Iran
+MK760672	Iran
+MK507724	Iran
+MN534896	Qatar
+MN534897	Qatar
+KX148176	Saudi Arabia
+n861	Israel
+KX148173	Saudi Arabia
+n862862	Saudi Arabia
+n863863	Jordan
+DQ837424	Jordan
+KX148169	Oman
+KU888642	Oman
+KP723584	United Arab Emirates
+KP723635	United Arab Emirates
+KX148170	Oman
+GU992306	Oman
+EU086199	Oman
+KX148171	United Arab Emirates
+n869	Oman
+KF482211	United Arab Emirates
+KF482212	United Arab Emirates
+KF482199	United Arab Emirates
+KF482200	United Arab Emirates
+KX148177	Israel
+n885885	Israel
+DQ837416	Israel
+DQ837446	Israel
+DQ837417	Israel
+DQ837396	Israel
+DQ837409	Israel
+DQ837428	Israel
+DQ837460	Israel
+DQ837420	Israel
+DQ837452	Israel
+DQ837389	Israel
+DQ837390	Israel
+n920920	Mongolia
+n931	Russia
+LC422734	Mongolia
+LC422739	Mongolia
+KY242672	Russia
+KJ958228	Russia
+n933933	Russia
+KJ958236	Russia
+KJ958235	Russia
+KJ958232	Russia
+KJ958243	Russia
+n934	Russia
+KY002899	Russia
+KJ958254	Russia
+n943	China
+KT965735	Kazakhstan
+n944	Russia
+KJ958247	Russia
+KT965738	Kazakhstan
+KT728348	Russia
+KT728349	Russia
+n947947	Iran
+n949949	Iran
+MK760731	Iran
+MK760753	Iran
+n954	Ukraine
+n955	Ukraine
+MF574185	Russia
+JN656477	Ukraine
+JQ434339	Russia
+KC595283	Russia
+MG869109	Russia
+MG996454	Russia
+JQ434337	Russia
+JN656478	Ukraine
+JN656481	Ukraine
+JN656483	Ukraine
+JN656482	Ukraine
+JN656486	Ukraine
+KC538857	Russia
+KC538860	Russia
+KF677010	Russia
+JN656471	Ukraine
+JN656472	Ukraine
+n960	Ukraine
+JQ894943	Latvia
+MG996456	Russia
+MG996465	Russia
+MG996464	Russia
+MF572303	Russia
+MF572312	Russia
+n965965	Russia
+KC538856	Russia
+MF574200	Russia
+n980980	Russia
+n981	Russia
+JQ944708	Russia
+n989989	Serbia
+JF973787	Serbia
+n992992	Serbia
+JF973763	Serbia
+n995995	Serbia
+n10001000	Serbia
+KX298550	Hungary
+JF973768	Serbia
+JF973742	Serbia
+JF973748	Serbia
+JF973747	Serbia
+JF973746	Serbia
+KX148136	Hungary
+KU055565	Hungary
+KX148138	Hungary
+KX929097	Croatia
+JF683638	Croatia
+JF683642	Croatia
+JF683631	Croatia
+JF683635	Croatia
+JF973799	Serbia
+JF973764	Bosnia and Herzegovina
+JF973765	Bosnia and Herzegovina
+JF973767	Serbia
+KX148116	Poland
+n10241024	Poland
+JN596883	Poland
+JN596897	Poland
+JN190381	Poland
+JN190368	Poland
+JN596888	Poland
+n1025	Poland
+JN596896	Poland
+JN190379	Poland
+JN596902	Poland
+JN190388	Poland
+KX929112	Croatia
+KX929158	Croatia
+KX929126	Croatia
+KX929134	Croatia
+JF683633	Croatia
+KX929157	Croatia
+KX929118	Croatia
+JF683652	Croatia
+KX929139	Croatia
+KX929140	Croatia
+KX929154	Croatia
+KX929115	Croatia
+JF683643	Croatia
+KX929119	Croatia
+KX929150	Croatia
+KX929153	Croatia
+KX929132	Croatia
+KX929151	Croatia
+KX929123	Croatia
+JF683640	Croatia
+KX929149	Croatia
+KX929137	Croatia
+KX929114	Croatia
+KX929121	Croatia
+KX929138	Croatia
+JF683648	Croatia
+KX929133	Croatia
+KX929117	Croatia
+JF683625	Croatia
+KX929156	Croatia
+KX929129	Croatia
+KX929146	Croatia
+KX929125	Croatia
+KX929148	Croatia
+KX929155	Croatia
+KX929128	Croatia
+KX929116	Croatia
+KX929145	Croatia
+KX929135	Croatia
+KX929147	Croatia
+KX929131	Croatia
+KX929152	Croatia
+KX929136	Croatia
+KX929144	Croatia
+KX929127	Croatia
+KX929141	Croatia
+KX929122	Croatia
+KX929143	Croatia
+KX929124	Croatia
+JF683649	Croatia
+KX929142	Croatia
+JF683646	Croatia
+KX929130	Croatia
+KX929120	Croatia
+n10371037	Slovenia
+n1038	Croatia
+KC198080	Italy
+KC197996	Italy
+KC198001	Italy
+KC198010	Italy
+KC198009	Italy
+KC198004	Italy
+KC198067	Italy
+KC198064	Italy
+KC198003	Italy
+KC198008	Italy
+KC198011	Italy
+n10381038	Slovenia
+KC198076	Italy
+n1039	Italy
+KC198037	Italy
+KC198043	Italy
+KC197988	Italy
+KC198063	Italy
+n10391039	Slovenia
+KX929159	Croatia
+JF973820	Bosnia and Herzegovina
+KC198073	Italy
+n1042	Bosnia and Herzegovina
+n10421042	Bosnia and Herzegovina
+KC198035	Italy
+KC198070	Italy
+KC198025	Italy
+KC198030	Italy
+KC198068	Italy
+KC198069	Italy
+GU134624	Croatia
+KC198053	Italy
+KC197875	Italy
+KC197931	Italy
+KC197930	Italy
+KC197948	Italy
+KC197940	Italy
+KC197956	Italy
+KC197886	Italy
+KC197908	Italy
+KC197922	Italy
+KC197912	Italy
+KC197919	Italy
+KC197898	Italy
+KC197968	Italy
+KC197896	Italy
+KC197918	Italy
+KC197889	Italy
+KC197949	Italy
+KC197911	Italy
+KC197951	Italy
+KC197964	Italy
+KC197907	Italy
+KC197965	Italy
+KC197947	Italy
+KC197895	Italy
+KC197929	Italy
+KC197943	Italy
+KC197953	Italy
+KC197916	Italy
+KC197884	Italy
+KC197915	Italy
+KC197936	Italy
+n1043	Italy
+KC197893	Italy
+KC197927	Italy
+KC197945	Italy
+KC197944	Italy
+KC197959	Italy
+KC197917	Italy
+KC197925	Italy
+n10441044	Slovenia
+KX148132	Slovenia
+n10511051	Slovenia
+n1052	Slovenia
+HM852150	Slovenia
+n10621062	Hungary
+GU086628	Romania
+GU086626	Romania
+GU086614	Romania
+KC692781	Hungary
+KC692785	Hungary
+n1063	Romania
+n10681068	Romania
+n10781078	Hungary
+GU086641	Romania
+GU086651	Romania
+GU086652	Romania
+n1084	Bulgaria
+GU086624	Romania
+GU086636	Romania
+n1085	Romania
+JN656492	Ukraine
+n1090	Ukraine
+n1091	Ukraine
+JN656501	Ukraine
+KX148149	Estonia
+n10941094	Estonia
+n1096	Estonia
+KU739049	Poland
+KR337514	Latvia
+KR337516	Latvia
+n11051105	Lithuania
+KR337537	Lithuania
+n1106	Lithuania
+KX148151	Poland
+KX148152	Poland
+KX148153	Poland
+JN656513	Poland
+n11111111	Poland
+JN596895	Poland
+KY860596	Turkey
+KY860597	Turkey
+KY860598	Turkey
+KY860599	Turkey
+AY854502	Cuba
+AY854504	Cuba
+AY854503	Cuba
+AY854519	Cuba
+AY854520	Cuba
+AY854506	Cuba
+AY854508	Cuba
+AY854518	Cuba
+AY854516	Cuba
+AY854517	Cuba
+AY854514	Cuba
+AY854509	Cuba
+AY854510	Cuba
+AY854513	Cuba
+AY854511	Cuba
+AY854512	Cuba
+AY854528	Cuba
+AY854529	Cuba
+AY854531	Cuba
+AY854532	Cuba
+AY854542	Cuba
+AY854543	Cuba
+n2323	Cambodia
+n24	Cambodia
+KM366236	Cambodia
+KM366223	Cambodia
+n25	Cambodia
+n28	Cambodia
+KM366235	Cambodia
+n30	Cambodia
+n31	Cambodia
+KM366344	Cambodia
+KM366329	Cambodia
+n3232	Cambodia
+KM366241	Cambodia
+KM366307	Cambodia
+n471	Canada
+n473	Canada
+MN234040	Canada
+n473473	Canada
+n475	Canada
+MN233892	Canada
+MN234047	Canada
+n476	Canada
+MN233991	Canada
+n476476	Canada
+n477	Canada
+MZ417969	Ethiopia
+MZ417977	Ethiopia
+MZ417983	Ethiopia
+MZ417982	Ethiopia
+MZ417979	Ethiopia
+MZ417978	Ethiopia
+n622	Ethiopia
+n622622	Ethiopia
+n623623	Ethiopia
+MZ418036	Ethiopia
+MZ417964	Ethiopia
+MZ417968	Ethiopia
+MZ417956	Ethiopia
+MZ417958	Ethiopia
+MZ417957	Ethiopia
+MZ417995	Ethiopia
+MZ417996	Ethiopia
+MZ417997	Ethiopia
+MZ418006	Ethiopia
+MZ418007	Ethiopia
+n627	Ethiopia
+n628	Ethiopia
+MZ418057	Ethiopia
+n629	Ethiopia
+MZ417998	Ethiopia
+MZ418001	Ethiopia
+MZ417999	Ethiopia
+MZ418002	Ethiopia
+MZ418080	Ethiopia
+MZ418081	Ethiopia
+MZ418082	Ethiopia
+n675	Kenya
+n675675	Tanzania
+MW055043	Kenya
+KY210223	Tanzania
+n678	Tanzania
+KR906734	Tanzania
+MW055115	Kenya
+n680680	Kenya
+MN726821	Kenya
+MW055046	Kenya
+n701	Tanzania
+KR534264	Tanzania
+MG407533	Tanzania
+n702	Tanzania
+n703	Tanzania
+KR906740	Tanzania
+n708708	Tanzania
+n710	Tanzania
+KY210228	Tanzania
+n712	Tanzania
+n714	Tanzania
+KY210259	Tanzania
+KY210267	Tanzania
+n717	Tanzania
+MK858232	South Africa
+KT892002	South Africa
+KP994599	South Africa
+KP994617	South Africa
+KP994620	South Africa
+JF747616	South Africa
+DQ489896	South Africa
+KX148203	Mozambique
+KP994618	South Africa
+JF747614	South Africa
+KC660259	South Africa
+HQ266618	South Africa
+LC380088	Zambia
+LC380157	Zimbabwe
+LC380149	Zimbabwe
+LC380094	Zambia
+LC380153	Zimbabwe
+n752	Zimbabwe
+n753753	Zambia
+KT336435	Zimbabwe
+n775	Namibia
+JQ691437	Namibia
+JQ691443	Namibia
+n829829	Iran
+n836836	Iran
+n839	Iran
+MK760677	Iran
+MK760701	Iran
+n847	Iran
+KX148185	Iran
+MK760681	Iran
+MK760697	Iran
+MK760727	Iran
+MK760728	Iran
+DQ837412	Israel
+DQ837421	Israel
+DQ837450	Israel
+DQ837413	Israel
+KX148174	Saudi Arabia
+KX148175	Saudi Arabia
+DQ837422	Jordan
+DQ837427	Jordan
+n869869	Oman
+n877877	Oman
+KF482204	Oman
+KF482205	Oman
+KF482210	Oman
+KF482209	Oman
+KF482207	Oman
+KF482208	Oman
+KX148178	Israel
+DQ837483	Israel
+n921	Mongolia
+n924924	Mongolia
+n928928	Mongolia
+n929	Mongolia
+n929929	Mongolia
+KF677001	Russia
+n931931	Russia
+MG869115	Russia
+MG869116	Russia
+n934934	Russia
+n935	Russia
+MK124744	China
+MK124745	China
+KY002885	Russia
+KY002898	Russia
+n948	Iran
+MK760723	Iran
+MK760712	Iran
+MK760734	Iran
+MN243705	Russia
+KC794011	Russia
+n954954	Ukraine
+JN656479	Ukraine
+n955955	Ukraine
+JN656527	Ukraine
+MN243707	Russia
+JN656484	Ukraine
+JN656487	Ukraine
+JN656485	Ukraine
+JN656488	Ukraine
+KC538849	Russia
+KC595280	Russia
+MG996463	Russia
+MF572304	Russia
+MF572300	Russia
+n981981	Russia
+MF572305	Russia
+n990	Serbia
+JF973758	Serbia
+JF973756	Serbia
+JF973737	Serbia
+JF973757	Serbia
+n993	Serbia
+JF973759	Serbia
+n996	Serbia
+n999999	Serbia
+JF973807	Serbia
+n1001	Serbia
+JF973845	Serbia
+JF973828	Serbia
+JF973795	Serbia
+JN596899	Poland
+JN190382	Poland
+n10251025	Poland
+JN596910	Poland
+KC198049	Italy
+JF973811	Bosnia and Herzegovina
+JF683630	Croatia
+JF683645	Croatia
+KC198026	Italy
+JF683644	Croatia
+HM852151	Slovenia
+KC198031	Italy
+KC198024	Italy
+KC198044	Italy
+KC198045	Italy
+KC198055	Italy
+KC198060	Italy
+KC198061	Italy
+KC198059	Italy
+KC198065	Italy
+n1040	Bosnia and Herzegovina
+n10401040	Bosnia and Herzegovina
+JF973816	Bosnia and Herzegovina
+JF973824	Bosnia and Herzegovina
+JF973813	Bosnia and Herzegovina
+JF973823	Bosnia and Herzegovina
+KC197887	Italy
+KC197903	Italy
+KC197957	Italy
+KC197921	Italy
+KC197954	Italy
+KC197960	Italy
+KC197890	Italy
+KC197955	Italy
+KC197950	Italy
+n1045	Italy
+n10481048	Slovenia
+n10501050	Slovenia
+HM852165	Slovenia
+HM852164	Slovenia
+KX148129	Slovenia
+HM852147	Slovenia
+HM852146	Slovenia
+HM852171	Slovenia
+HM852169	Slovenia
+HM852173	Slovenia
+HM852172	Slovenia
+KX148130	Slovenia
+HM852148	Slovenia
+HM852170	Slovenia
+KX148131	Slovenia
+HM852149	Slovenia
+MK598346	Hungary
+KX298552	Hungary
+n10631063	Romania
+n10661066	Ukraine
+n1069	Romania
+GU086635	Romania
+n10701070	Romania
+MK598375	Hungary
+MK598354	Hungary
+n1079	Hungary
+n1080	Hungary
+MK598387	Hungary
+MK598396	Hungary
+n10811081	Hungary
+MK598393	Hungary
+JX679403	Bulgaria
+JX679405	Bulgaria
+JX679404	Bulgaria
+JQ973868	Bulgaria
+n10841084	Bulgaria
+JN656497	Ukraine
+n10851085	Romania
+JN656493	Ukraine
+JN656495	Ukraine
+JN656499	Ukraine
+JN656500	Ukraine
+JN109223	Estonia
+JN109224	Estonia
+n10961096	Latvia
+n1097	Latvia
+n10971097	Latvia
+n1098	Estonia
+JQ005059	Latvia
+JQ005060	Latvia
+JQ005078	Latvia
+JQ005076	Latvia
+JQ005088	Latvia
+KR337553	Latvia
+KR337532	Lithuania
+KR337544	Lithuania
+KR337548	Estonia
+KR337550	Estonia
+KR337534	Lithuania
+KR337530	Lithuania
+JQ005070	Latvia
+JQ005095	Latvia
+JQ005091	Latvia
+JQ005104	Latvia
+KR337535	Lithuania
+n1099	Estonia
+JQ005094	Latvia
+KR337549	Estonia
+KR337523	Lithuania
+KR337524	Lithuania
+JQ005067	Latvia
+n10991099	Latvia
+JQ005089	Latvia
+JQ005062	Latvia
+JQ005098	Latvia
+JQ005097	Latvia
+JQ005106	Latvia
+JN109232	Estonia
+JQ594986	Estonia
+JQ594985	Estonia
+JQ594991	Estonia
+JQ594993	Estonia
+JQ595007	Estonia
+JQ594995	Estonia
+JQ595006	Estonia
+JQ595000	Estonia
+JQ594989	Estonia
+JQ595004	Estonia
+JQ594988	Estonia
+JN109222	Estonia
+JQ594987	Estonia
+JQ594992	Estonia
+JQ595001	Estonia
+JN109217	Estonia
+JN109219	Estonia
+JQ595009	Estonia
+JQ594990	Estonia
+JQ595005	Estonia
+JN109228	Estonia
+JQ594999	Estonia
+JQ594996	Estonia
+JQ595002	Estonia
+JQ595008	Estonia
+JQ595003	Estonia
+n1100	Estonia
+JN109231	Estonia
+JN109218	Estonia
+n11001100	Estonia
+n1101	Latvia
+JQ005085	Latvia
+JQ894944	Latvia
+JQ005105	Latvia
+JQ005061	Latvia
+JN190384	Poland
+JQ005083	Latvia
+JQ005107	Latvia
+n11021102	Estonia
+KR337531	Lithuania
+JQ894945	Latvia
+KR337541	Lithuania
+KR337542	Lithuania
+JN596882	Poland
+JN190370	Poland
+JN596884	Poland
+JN190376	Poland
+MK790256	Viet Nam
+KM366202	Cambodia
+KM366216	Cambodia
+KM366222	Cambodia
+KM366221	Cambodia
+KM366336	Cambodia
+KM366338	Cambodia
+KX148250	Cambodia
+KM366233	Cambodia
+n2828	Cambodia
+KM366321	Cambodia
+n2929	Cambodia
+KM366340	Cambodia
+KM366279	Cambodia
+EU086133	Cambodia
+KM366300	Cambodia
+EU086171	Cambodia
+n3030	Cambodia
+KM366325	Cambodia
+KM366239	Cambodia
+n3131	Cambodia
+n32	Cambodia
+KM366255	Cambodia
+KM366319	Cambodia
+KM366339	Cambodia
+n3333	Cambodia
+KM366249	Cambodia
+n471471	Canada
+n472472	Canada
+MN233884	Canada
+MN234035	Canada
+n474	Canada
+MN234044	Canada
+n475475	Canada
+MN234012	Canada
+MN233973	Canada
+KU198477	Canada
+KU198479	Canada
+MN234008	Canada
+MN234010	Canada
+MN233894	Canada
+MN234045	Canada
+MZ417985	Ethiopia
+MZ417989	Ethiopia
+MZ417988	Ethiopia
+MZ417993	Ethiopia
+MZ417994	Ethiopia
+n624	Ethiopia
+MZ418028	Ethiopia
+MZ418034	Ethiopia
+MZ418029	Ethiopia
+MZ418035	Ethiopia
+MZ418037	Ethiopia
+MZ418041	Ethiopia
+MZ418043	Ethiopia
+MZ418047	Ethiopia
+MZ418044	Ethiopia
+MZ418038	Ethiopia
+MZ418051	Ethiopia
+n627627	Ethiopia
+MZ418062	Ethiopia
+n628628	Ethiopia
+MZ418074	Ethiopia
+MZ418073	Ethiopia
+MZ418060	Ethiopia
+MZ418061	Ethiopia
+MN726816	Kenya
+MW055042	Kenya
+n676	Tanzania
+n676676	Tanzania
+KY210280	Tanzania
+n678678	Tanzania
+n681	Kenya
+MW055044	Kenya
+n701701	Tanzania
+KR906768	Tanzania
+MG407551	Tanzania
+MG407536	Tanzania
+KR906742	Tanzania
+KR906750	Tanzania
+KR534260	Tanzania
+KR906754	Tanzania
+MN726826	Tanzania
+MN726827	Tanzania
+n709	Tanzania
+n709709	Tanzania
+n710710	Tanzania
+KY210287	Tanzania
+n711	Tanzania
+n712712	Tanzania
+KR906788	Tanzania
+n714714	Tanzania
+KY210250	Tanzania
+KR906760	Tanzania
+KR534229	Tanzania
+LC380223	Zimbabwe
+LC380224	Zimbabwe
+LC380101	Zambia
+LC380144	Zambia
+LC380156	Zimbabwe
+LC380146	Zimbabwe
+LC380152	Zimbabwe
+JQ691417	Namibia
+JQ691457	Namibia
+n830	Iran
+n832832	Iran
+n837	Iran
+MK760716	Iran
+n839839	Iran
+n843	Iran
+n847847	Iran
+MK760715	Iran
+KJ645921	Azerbaijan
+n870	Oman
+n873	Oman
+n874	Oman
+KF482202	Oman
+KF482203	Oman
+KF482206	Oman
+n921921	Mongolia
+KT338633	Mongolia
+n925	Mongolia
+KT338627	Mongolia
+AB571000	Mongolia
+JX423816	Russia
+AB571007	Mongolia
+KT338616	Mongolia
+AB571006	Mongolia
+AB571017	Mongolia
+n930	Mongolia
+AB570995	Mongolia
+AB571016	Mongolia
+AB571005	Mongolia
+MG869108	Russia
+MG869118	Russia
+KY242674	Russia
+KY242675	Russia
+KJ958226	Russia
+KJ958227	Russia
+n948948	Iran
+MK760706	Iran
+JN656489	Ukraine
+JN656490	Ukraine
+n956	Ukraine
+JN656529	Ukraine
+JN656532	Ukraine
+JN656531	Ukraine
+JN656530	Ukraine
+JN656524	Ukraine
+JN656525	Ukraine
+MF572307	Russia
+MF572309	Russia
+n990990	Hungary
+n991	Serbia
+KX298543	Hungary
+KC692786	Hungary
+KC692782	Hungary
+KC692788	Hungary
+JF973788	Serbia
+n993993	Serbia
+JF973762	Serbia
+n994994	Serbia
+JF973771	Serbia
+n996996	Serbia
+n998998	Serbia
+JF973833	Serbia
+n1000	Austria
+n10011001	Serbia
+JF973791	Serbia
+n1002	Serbia
+JF973794	Serbia
+JN596907	Poland
+JN190390	Poland
+JF683651	Croatia
+JF973812	Bosnia and Herzegovina
+n1041	Bosnia and Herzegovina
+JF973817	Bosnia and Herzegovina
+n10451045	Italy
+KC197974	Italy
+KC197973	Italy
+n1049	Slovenia
+HM852155	Slovenia
+HM852166	Slovenia
+HM852167	Slovenia
+n1064	Poland
+JN656502	Ukraine
+JN190394	Poland
+JN596909	Poland
+n1067	Ukraine
+JN656522	Ukraine
+MK598351	Hungary
+n10691069	Romania
+n1071	Romania
+MK598357	Hungary
+MK598373	Hungary
+n10791079	Hungary
+KX298490	Hungary
+MK598386	Hungary
+MK598382	Hungary
+n10801080	Hungary
+KX298501	Hungary
+MK598392	Hungary
+n1081	Hungary
+MK598388	Hungary
+MK598391	Hungary
+JX679406	Bulgaria
+JQ973872	Bulgaria
+n1086	Romania
+n1087	Romania
+n10871087	Romania
+KR337509	Latvia
+KR337520	Latvia
+JQ005099	Latvia
+KR337510	Latvia
+JQ005066	Latvia
+JQ005071	Latvia
+KR337517	Latvia
+JQ005087	Latvia
+KR337521	Latvia
+KR337522	Lithuania
+KR337552	Latvia
+n10981098	Estonia
+JQ005084	Latvia
+KR337533	Lithuania
+JQ005072	Latvia
+JQ005063	Latvia
+JQ005080	Latvia
+JQ594998	Estonia
+JN109220	Estonia
+JN109229	Estonia
+JN109230	Estonia
+n11011101	Latvia
+JQ005110	Latvia
+JQ005092	Latvia
+JQ944704	Russia
+JQ434341	Russia
+n29	Cambodia
+KM366331	Cambodia
+KM366244	Cambodia
+KM366326	Cambodia
+KM366271	Cambodia
+KM366297	Cambodia
+KM366280	Cambodia
+KM366293	Cambodia
+KM366292	Cambodia
+KM366323	Cambodia
+KM366318	Cambodia
+KM366322	Cambodia
+n34	Cambodia
+KM366283	Cambodia
+EU086172	Cambodia
+n472	Canada
+MN234052	Canada
+MN233883	Canada
+MN234015	Canada
+MN233896	Canada
+MN233999	Canada
+MN234004	Canada
+MN233891	Canada
+MN233944	Canada
+MZ418009	Ethiopia
+MZ418012	Ethiopia
+MZ418014	Ethiopia
+MZ418013	Ethiopia
+MZ418010	Ethiopia
+MZ418018	Ethiopia
+MZ418026	Ethiopia
+MZ418023	Ethiopia
+MZ418027	Ethiopia
+MZ418022	Ethiopia
+MZ418053	Ethiopia
+MZ418056	Ethiopia
+MZ418066	Ethiopia
+MZ418069	Ethiopia
+MZ418071	Ethiopia
+MZ418067	Ethiopia
+MZ418072	Ethiopia
+MN726833	Tanzania
+KY210254	Tanzania
+KY210264	Tanzania
+n677	Tanzania
+KY210242	Tanzania
+KR906784	Tanzania
+KY210279	Tanzania
+KR906777	Tanzania
+KR906759	Tanzania
+KR534234	Tanzania
+KR534238	Tanzania
+KR906785	Tanzania
+n681681	Kenya
+MW055045	Kenya
+MN726804	Tanzania
+KF155002	Tanzania
+KR534259	Tanzania
+MN726817	Tanzania
+MN726835	Tanzania
+MN726818	Tanzania
+MN726820	Tanzania
+MN726825	Tanzania
+KY210268	Tanzania
+KR906773	Tanzania
+KR906780	Tanzania
+KY210230	Tanzania
+KY210273	Tanzania
+KY210262	Tanzania
+KR534235	Tanzania
+n715	Tanzania
+KY210272	Tanzania
+KY210246	Tanzania
+n830830	Iran
+n831	Iran
+n832	Iran
+n833	Iran
+MK760693	Iran
+n837837	Iran
+MK760698	Iran
+n840	Iran
+n840840	Iran
+n842	Iran
+n843843	Iran
+n844	Iran
+MK760695	Iran
+MK760742	Iran
+n870870	Oman
+KC884000	Oman
+n872872	Oman
+n873873	Oman
+KF482197	Oman
+n874874	Oman
+GU353154	Oman
+MK124739	China
+n922	Russia
+n922922	Mongolia
+KT338619	Mongolia
+KT338622	Mongolia
+KT338617	Mongolia
+n923	Mongolia
+n924	Mongolia
+MK124740	China
+n925925	Mongolia
+n926926	Mongolia
+AB571002	Mongolia
+AB571012	Mongolia
+MK124741	China
+AB571011	Mongolia
+KT338614	Mongolia
+KT338626	Mongolia
+KT338620	Mongolia
+KT338623	Mongolia
+KT338618	Mongolia
+KT338629	Mongolia
+n930930	Mongolia
+MK760700	Iran
+n949	Iran
+MF197741	Poland
+JN656474	Ukraine
+JN656526	Ukraine
+MK598344	Hungary
+KC692780	Hungary
+MK598345	Hungary
+JF973790	Serbia
+KX298544	Hungary
+n991991	Serbia
+n994	Hungary
+JF973801	Serbia
+JF973770	Serbia
+JF973772	Serbia
+n997	Serbia
+JF973738	Serbia
+JF973773	Serbia
+n999	Serbia
+JF973806	Serbia
+JF973835	Austria
+JF973850	Serbia
+JN008440	Serbia
+JF973842	Serbia
+JF973803	Serbia
+JF973804	Serbia
+JF973805	Serbia
+JF973829	Serbia
+n10411041	Bosnia and Herzegovina
+JF973822	Bosnia and Herzegovina
+n1046	Bosnia and Herzegovina
+KC197972	Italy
+n10471047	Italy
+n10491049	Slovenia
+HM852156	Slovenia
+n10641064	Poland
+JN596908	Poland
+JN656519	Ukraine
+JN656520	Ukraine
+JN656521	Ukraine
+MK598364	Hungary
+MK598374	Hungary
+n1070	Romania
+GU086612	Romania
+GU086648	Romania
+GU086617	Romania
+n10711071	Ukraine
+MK598358	Hungary
+n10741074	Romania
+GU086619	Romania
+MK598362	Hungary
+n1076	Romania
+MK598359	Hungary
+MK598363	Hungary
+MK598380	Hungary
+MK598390	Hungary
+MK598383	Hungary
+MK598389	Hungary
+MK598394	Hungary
+KX298487	Hungary
+KX298514	Hungary
+KX298509	Hungary
+KX298510	Hungary
+MK598395	Hungary
+MK598397	Hungary
+KX298486	Hungary
+KX298518	Hungary
+KX298521	Hungary
+KX298527	Hungary
+KX298533	Hungary
+KX298536	Hungary
+KX298517	Hungary
+KX298502	Hungary
+KX298539	Hungary
+KX298494	Hungary
+KX298537	Hungary
+KX298522	Hungary
+KX298531	Hungary
+KX298526	Hungary
+KX298524	Hungary
+KX298496	Hungary
+KX298534	Hungary
+KX298519	Hungary
+KX298540	Hungary
+n10861086	Romania
+GU086611	Romania
+GU086627	Romania
+GU086630	Romania
+GU086642	Romania
+GU086615	Romania
+n1088	Romania
+JQ005100	Latvia
+JQ005108	Latvia
+JN109221	Estonia
+JQ005065	Latvia
+n1102	Latvia
+JQ005102	Latvia
+KM366243	Cambodia
+KM366245	Cambodia
+KM366333	Cambodia
+KM366334	Cambodia
+KM366247	Cambodia
+n3434	Cambodia
+KM366349	Cambodia
+MN384720	Russia
+MN233942	Canada
+MN233946	Canada
+MN234002	Canada
+KY210240	Tanzania
+KY210269	Tanzania
+KR534230	Tanzania
+KY210304	Tanzania
+MW055116	Kenya
+MN726814	Kenya
+KY210225	Tanzania
+n715715	Tanzania
+n716	Tanzania
+KR906771	Tanzania
+KY210271	Tanzania
+KR906755	Tanzania
+MK760713	Iran
+MK760748	Iran
+MK534447	Iran
+n831831	Iran
+MK760721	Iran
+MK507725	Iran
+MK760733	Iran
+MK760765	Iran
+n833833	Iran
+MK760732	Iran
+MK760689	Iran
+n838	Iran
+MK534448	Iran
+MK760671	Iran
+MK760720	Iran
+n841	Iran
+n842842	Iran
+MK760699	Iran
+MK507726	Iran
+MK760670	Iran
+MK760674	Iran
+n844844	Iran
+n845	Iran
+KF482190	Oman
+KF482194	Oman
+KF482191	Oman
+KP723617	Oman
+KP723622	Oman
+KP723618	Oman
+n871	Oman
+KF482192	Oman
+KF482198	Oman
+KF482195	Oman
+KP723619	Oman
+KP723625	Oman
+KP723623	Oman
+KF482193	Oman
+KP723621	Oman
+n875	Oman
+n876876	Oman
+MK511221	Russia
+MK532758	Russia
+MN642578	China
+KY242676	Russia
+LC422729	Mongolia
+LC422731	Mongolia
+LC422730	Mongolia
+LC422732	Mongolia
+n923923	Mongolia
+LC422740	Mongolia
+KC465377	China
+KT338621	Mongolia
+KT338634	Mongolia
+KC252633	China
+LC422733	Mongolia
+n926	Mongolia
+n927	Mongolia
+LC422741	Mongolia
+AB570998	Mongolia
+AB571013	Mongolia
+AB571010	Mongolia
+AB571014	Mongolia
+AB571003	Mongolia
+AB571009	Mongolia
+AB571001	Mongolia
+KT338615	Mongolia
+KT338624	Mongolia
+n928	Mongolia
+AB570996	Mongolia
+AB570999	Mongolia
+AB571015	Mongolia
+AB571018	Mongolia
+MK760744	Iran
+MK760755	Iran
+JF973789	Serbia
+JF973800	Serbia
+KX298545	Hungary
+KC692776	Hungary
+KC692779	Hungary
+KC692777	Hungary
+MG458311	Serbia
+JQ973871	Bulgaria
+n997997	Bulgaria
+JQ973867	Bulgaria
+JQ973877	Serbia
+n998	Bulgaria
+JX679408	Bulgaria
+JN008439	Serbia
+JX679407	Bulgaria
+JQ973874	Serbia
+JQ973875	Serbia
+JF973814	Bosnia and Herzegovina
+JF973818	Bosnia and Herzegovina
+n10461046	Bosnia and Herzegovina
+KC197969	Italy
+KC198014	Italy
+KC197993	Italy
+KC197976	Italy
+KC197975	Italy
+KC198013	Italy
+KC197982	Italy
+KC197992	Italy
+KC197983	Italy
+KC197998	Italy
+KC197971	Italy
+KC197989	Italy
+KC197979	Italy
+KC197978	Italy
+KC197970	Italy
+JF973819	Bosnia and Herzegovina
+HM852154	Slovenia
+FJ424484	Italy
+KC198007	Italy
+KC198027	Italy
+KU739037	Italy
+KC197885	Italy
+KC197872	Italy
+KC197878	Italy
+KC197899	Italy
+KC197864	Italy
+KC197900	Italy
+KC197874	Italy
+KC197871	Italy
+KC197901	Italy
+KC197868	Italy
+KC197881	Italy
+KC197858	Italy
+KC197873	Italy
+KC197862	Italy
+KC197857	Italy
+KC197866	Italy
+HM852177	Slovenia
+KC197894	Italy
+n1048	Slovenia
+n1050	Slovenia
+HM852163	Slovenia
+HM852157	Slovenia
+HM852161	Slovenia
+HM852159	Slovenia
+HM852158	Slovenia
+HM852162	Slovenia
+n1065	Poland
+MF197743	Poland
+n1066	Poland
+JN656512	Poland
+KX298506	Hungary
+GU086658	Romania
+n1072	Hungary
+MK598361	Hungary
+MK598368	Hungary
+n10721072	Ukraine
+KX298499	Hungary
+n1075	Hungary
+MK598370	Hungary
+GU086649	Romania
+KX298489	Hungary
+KX298513	Hungary
+KX298508	Hungary
+KX298512	Hungary
+n10761076	Romania
+MK598365	Hungary
+n1078	Hungary
+MK598371	Hungary
+JN656498	Ukraine
+GU086661	Romania
+n10881088	Romania
+n1089	Romania
+GU086632	Romania
+JQ005068	Latvia
+JQ005101	Latvia
+JQ005096	Latvia
+KM366274	Cambodia
+KM366281	Cambodia
+KY210249	Tanzania
+KY210289	Tanzania
+KY210260	Tanzania
+KY210301	Tanzania
+KY210243	Tanzania
+KY210300	Tanzania
+MK760708	Iran
+MK760767	Iran
+n834	Iran
+n835835	Iran
+n838838	Iran
+MK760722	Iran
+MK760741	Iran
+n841841	Iran
+MK760696	Iran
+MK760704	Iran
+MK760726	Iran
+MK760738	Iran
+MK760758	Iran
+MK760694	Iran
+MK760740	Iran
+MK760724	Iran
+MK760737	Iran
+n871871	Oman
+KC883998	Oman
+KC883997	Oman
+n875875	Oman
+GU353148	Oman
+GU353153	Oman
+GU353149	Oman
+GU353155	Oman
+GU353157	Oman
+GU353150	Oman
+n877	Oman
+LC422736	Mongolia
+LC422737	Mongolia
+LC422735	Mongolia
+KT338630	Mongolia
+n927927	Mongolia
+KT338625	Mongolia
+AB571008	Mongolia
+KT338635	Mongolia
+KT338636	Mongolia
+JX679400	Bulgaria
+JQ973869	Bulgaria
+JX679401	Bulgaria
+JX679402	Bulgaria
+JQ973870	Bulgaria
+n1047	Croatia
+KC197981	Italy
+HM852189	Slovenia
+HM852190	Slovenia
+KC198075	Italy
+HM852160	Slovenia
+MK598347	Hungary
+JN656534	Poland
+MK598348	Hungary
+n10651065	Hungary
+JN596911	Poland
+JN596915	Poland
+JN190395	Poland
+JN596914	Poland
+JN596913	Poland
+JN596912	Poland
+MK598352	Hungary
+KX298505	Hungary
+n1073	Ukraine
+JN656504	Ukraine
+JN656511	Ukraine
+JN656505	Ukraine
+MK598353	Hungary
+n10751075	Hungary
+n1077	Hungary
+n10771077	Hungary
+MK598366	Hungary
+JN656503	Ukraine
+GU086620	Romania
+MK598378	Hungary
+KX298504	Hungary
+KX298542	Hungary
+KX298532	Hungary
+KX298538	Hungary
+MK598369	Hungary
+KX298520	Hungary
+GU086621	Romania
+GU086633	Romania
+GU086625	Romania
+GU086663	Romania
+n834834	Iran
+n835	Iran
+n836	Iran
+MK760762	Iran
+MK760705	Iran
+MK760750	Iran
+MK760745	Iran
+MK760754	Iran
+n872	Oman
+KC883999	Oman
+GU353147	Oman
+n876	Oman
+GU353156	Oman
+GU353158	Oman
+LC422738	Mongolia
+LC422742	Mongolia
+KX929111	Croatia
+JF683641	Croatia
+JF683636	Croatia
+MK598349	Hungary
+MK598350	Hungary
+n10731073	Croatia
+JN656509	Ukraine
+JN656508	Ukraine
+n1074	Ukraine
+MK598360	Hungary
+KX298525	Hungary
+KX298498	Hungary
+MK598355	Hungary
+MK598372	Hungary
+KX298495	Hungary
+MK598376	Hungary
+MK598379	Hungary
+KX298523	Hungary
+MK534450	Iran
+MK760752	Iran
+MK760685	Iran
+MK760725	Iran
+MK534452	Iran
+MK760749	Iran
+MK760703	Iran
+MK507729	Iran
+KF482196	Oman
+KP723620	Oman
+GU353151	Oman
+GU353152	Oman
+JX459920	Croatia
+JX459922	Croatia
+JX459921	Croatia
+JN656506	Ukraine
+JN656507	Ukraine

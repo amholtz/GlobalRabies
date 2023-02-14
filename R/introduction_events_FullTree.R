@@ -40,13 +40,6 @@ option_list = list(
 opt_parser = OptionParser(option_list=option_list)
 opt = parse_args(opt_parser)
 
-#opt$meta <- "/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/meta_full_exclusion_clade_simple.tab"
-#opt$tree <- "/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/ACR_Results/Country/Full_Tree/named.tree_TempestRooted1327_WGSRate_OutRem.date.nexus"
-#opt$annotations <- "/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/ACR_Results/Country/Full_Tree/combined_ancestral_states.tab"
-#opt$probabilities <- "/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/ACR_Results/Country/Full_Tree/marginal_probabilities.character_Country.model_F81.tab"
-#opt$newick <- "/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/ACR_Results/Country/Full_Tree/named.tree_TempestRooted1327_WGSRate_OutRem.date.nwk"
-#opt$prefix <- 'fulltree'
-
 meta <- read.delim(opt$meta)
 tree <- read.nexus(opt$tree)
 annotations_full <- read.delim(opt$annotations)

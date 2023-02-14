@@ -21,37 +21,60 @@ library(countrycode)
 library(reshape)
 library(data.table)
 library(DT)
+library(optparse)
 
-setwd("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine")
+`%notin%` <- Negate(`%in%`)
 
-meta <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/meta_RABV_cleaned_clade_gene.tab")
-tree_full <- read.nexus("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/WGSDating_CanineFull_PastML/named.tree_TempestRooted1327_WGSRate_OutRem.date.nexus")
-annotations_full <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/WGSDating_CanineFull_PastML/combined_ancestral_states.tab")
-probabilities_full <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/WGSDating_CanineFull_PastML/marginal_probabilities.character_Country.model_F81.tab")
-
-
-tree_sub1 <- read.nexus("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_1_PastML/named.tree_TempEstRooted_subsampled_5000_1_OutRem_WGSRate_SavedFromNexus.nexus")
-annotations_sub1 <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_1_PastML/combined_ancestral_states.tab")
-probabilities_sub1 <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_1_PastML/marginal_probabilities.character_Country.model_F81.tab")
-
-tree_sub2 <- read.nexus("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_2_PastML/named.tree_Subsample5000_2_TempestRooted1327_WGSRate_OutRem.date.nexus")
-annotations_sub2 <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_2_PastML/combined_ancestral_states.tab")
-probabilities_sub2 <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_2_PastML/marginal_probabilities.character_Country.model_F81.tab")
+##Parsing
+option_list = list(
+  make_option(c("-m", "--meta"), type="character", default=NULL, 
+              help="metadata file path", metavar="character"),
+  make_option(c("-p", "--path"), type="character", default=NULL, 
+              help="file path of folder containing folders 'Full', 'Consensus_Tree', and all 'Sub[1-5]'", metavar="character"),
+  make_option(c("-p", "--prefix"), type="character", default=NULL, 
+              help="prefix for output files", metavar="character")
+);
 
 
-tree_sub3 <- read.nexus("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_3_PastML/named.tree_TempEstRooted_subsampled_5000_3_OutRem_SavedFromNexus_LSD2.nexus")
-annotations_sub3 <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_3_PastML/combined_ancestral_states.tab")
-probabilities_sub3 <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_3_PastML/marginal_probabilities.character_Country.model_F81.tab")
+opt_parser = OptionParser(option_list=option_list)
+opt = parse_args(opt_parser)
 
 
-tree_sub4 <- read.nexus("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_4_PastML/named.tree_TempEstRooted_subsampled_5000_4_OutRem_SavedFromNexus_LSD2.nexus")
-annotations_sub4 <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_4_PastML/combined_ancestral_states.tab")
-probabilities_sub4 <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_4_PastML/marginal_probabilities.character_Country.model_F81.tab")
+
+print("*********************************************")
+print("******This script can take 30 minutes to run*********")
+print("*********************************************")
+
+#opt$path <- "/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/ACR_Results/Country/"
+#opt$meta <- "/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/meta_full_exclusion_clade_simple.tab"
+
+meta <- read.delim(opt$meta)
+tree_full <- read.nexus(paste0(opt$path,'Full_Tree/named.tree_TempestRooted1327_WGSRate_OutRem.date.nexus'))
+annotations_full <- read.delim(paste0(opt$path, 'Full_Tree/combined_ancestral_states.tab'))
+probabilities_full <- read.delim(paste0(opt$path, 'Full_Tree/marginal_probabilities.character_Country.model_F81.tab'))
+
+tree_sub1 <- read.nexus(paste0(opt$path, "Sub1/named.tree_TempEstRooted_subsampled_5000_1_OutRem_SavedFromNexus_LSD2.nexus"))
+annotations_sub1 <- read.delim(paste0(opt$path, 'Sub1/combined_ancestral_states.tab'))
+probabilities_sub1 <- read.delim(paste0(opt$path, "Sub1/marginal_probabilities.character_Country_Sub1.model_F81.tab"))
+
+tree_sub2 <- read.nexus(paste0(opt$path, "Sub2/named.tree_TempEstRooted_subsampled_5000_2_OutRem_SavedFromNexus_LSD2.nexus"))
+annotations_sub2 <- read.delim(paste0(opt$path, 'sub2/combined_ancestral_states.tab'))
+probabilities_sub2 <- read.delim(paste0(opt$path, "sub2/marginal_probabilities.character_Country_sub2.model_F81.tab"))
+
+tree_sub3 <- read.nexus(paste0(opt$path, "Sub3/named.tree_TempEstRooted_subsampled_5000_3_OutRem_SavedFromNexus_LSD2.nexus"))
+annotations_sub3 <- read.delim(paste0(opt$path, 'sub3/combined_ancestral_states.tab'))
+probabilities_sub3 <- read.delim(paste0(opt$path, "sub3/marginal_probabilities.character_Country_sub3.model_F81.tab"))
+
+tree_sub4 <- read.nexus(paste0(opt$path, "Sub4/named.tree_TempEstRooted_subsampled_5000_4_OutRem_SavedFromNexus_LSD2.nexus"))
+annotations_sub4 <- read.delim(paste0(opt$path, 'Sub4/combined_ancestral_states.tab'))
+probabilities_sub4 <- read.delim(paste0(opt$path, "sub4/marginal_probabilities.character_Country_sub4.model_F81.tab"))
+
+tree_sub5 <- read.nexus(paste0(opt$path, "Sub5/named.tree_TempEstRooted_subsampled_5000_5_OutRem_SavedFromNexus_LSD2.nexus"))
+annotations_sub5 <- read.delim(paste0(opt$path, 'sub5/combined_ancestral_states.tab'))
+probabilities_sub5 <- read.delim(paste0(opt$path, "sub5/marginal_probabilities.character_Country_sub5.model_F81.tab"))
 
 
-tree_sub5 <- read.nexus("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_5_PastML/named.tree_TempEstRooted_subsampled_5000_5_OutRem_SavedFromNexus_LSD2.nexus")
-annotations_sub5 <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_5_PastML/combined_ancestral_states.tab")
-probabilities_sub5 <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/smart_sub/finished_subsampled/WGSDating_5000_5_PastML/marginal_probabilities.character_Country.model_F81.tab")
+
 
 ####### Remove tips in subsamples that are not in final tree
 
@@ -109,7 +132,6 @@ edge_table_full <- data.frame(
 prob_long_full <- melt(probabilities_full, id="node")
 prob_long_full$value <- as.numeric(prob_long_full$value)
 names(prob_long_full)[2] <- 'Country'
-meta <- read.delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/meta_RABV_cleaned_clade_gene.tab")
 prob_long_full$Country <- gsub(" ", "", prob_long_full$Country, fixed = TRUE)
 prob_long_full$Country <- gsub(".", "", prob_long_full$Country, fixed = TRUE)
 
@@ -141,8 +163,8 @@ names(node_full)[1] <- 'node_key'
 predicted_full <- prob_nodes_0.5_full %>% filter(substr(node, 1, 1) == "n") %>% tally()
 ##Numbers to report:
 paste("Out of", length(tree_full$node.label) , 'internal nodes in the full-canine tree, PastML is able to predict with 50% probability the ancestral character of',
-        predicted_full$n,
-        'nodes')
+      predicted_full$n,
+      'nodes')
 
 ###################################
 ### Now repeat but with subsamples
@@ -459,7 +481,7 @@ node_full_final <- node_full_final %>% left_join(node_sub2, by = 'c')
 node_full_final <- node_full_final %>% left_join(node_sub3, by = 'c') 
 node_full_final <- node_full_final %>% left_join(node_sub4, by = 'c')  
 node_full_final <- node_full_final %>% left_join(node_sub5, by = 'c') 
-  
+
 node_full_final_final <- node_full_final %>% 
   select(c, l, node, Country_Full, Country_Sub1, Country_Sub2, Country_Sub3,
          Country_Sub4, Country_Sub5) %>% arrange(desc(l)) %>% filter(!is.na(Country_Full))
@@ -477,12 +499,12 @@ node_comparison_NOLEAVE <- node_comparison %>% filter(l != 1)
 
 nodes_inSub <- node_comparison %>% 
   filter(!is.na(Country_Sub1) | !is.na(Country_Sub2) | !is.na(Country_Sub3)
-                | !is.na(Country_Sub4) | !is.na(Country_Sub5))
+         | !is.na(Country_Sub4) | !is.na(Country_Sub5))
 
 nodes_inSub_NOLEAVE <- nodes_inSub %>% filter(l != 1)
 
 paste0(nrow(nodes_inSub_NOLEAVE)," out of ", nrow(node_comparison_NOLEAVE),
-             " total nodes can be compared having found a similar node in subsampled trees")
+       " total nodes can be compared having found a similar node in subsampled trees")
 
 
 nodes_sub_agg <- nodes_inSub %>% 
@@ -506,37 +528,31 @@ paste0("Out of ", nrow(nodes_inSub), " nodes ",
        nodes_full_sub_same$n[2], " nodes have the same ACR result between subsampled",
        " trees and the original full tree")
 
-node_comparison %>% write.csv("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/node_comparisonSUB.csv",
+node_comparison %>% write.csv(paste0(opt$path, "Consensus_Tree/", opt$prefix, "_node_comparisonSUB.csv"),
                               quote = FALSE, row.names = FALSE)
-nodes_inSub %>% write.csv("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/node_comparisonSUB_inSUB.csv",
-                              quote = FALSE, row.names = FALSE)
+nodes_inSub %>% write.csv(paste0(opt$path, "Consensus_Tree/", opt$prefix, "_node_comparisonSUB_inSUB.csv"),
+                          quote = FALSE, row.names = FALSE)
 
 
 ###########
 ##BUILDING CONSENSUS TREE FROM TIPS THAT ARE UNION OF SUBSAMPLED TREES and Full Tree
-## Using the same tree architecture from full tree, but using ACR from aggregated conseus subsamples
+## Using the same tree architecture from full tree, but using ACR from aggregated consensus subsamples
 
-subtotal_tips <- append(tree_sub1$tip.label, tree_sub2$tip.label)
-subtotal_tips <- subtotal_tips %>% 
-  append(tree_sub3$tip.label) %>% 
-  append(tree_sub4$tip.label) %>% 
-  append(tree_sub5$tip.label)
+union_trees <- union(tree_sub1$tip.label, union(tree_sub2$tip.label, union(tree_sub3$tip.label, union(tree_sub4$tip.label, tree_sub5$tip.label))))
+#Check all tips are contained in Full Tree (some tips might have been dropped by LSD2 dating as outliers). Remove ones not found
+
+lsd_out <- setdiff(union_trees, tree_full$tip.label)
+
+# Remove tips from union list if they are lsd_outliers defined above
+union_trees<- setdiff(union_trees, lsd_out)
+
+#prune full tree now with union list
+pruned_full_tree <- keep.tip(tree_full, union_trees)
+
+write.tree(pruned_full_tree, file = paste0(opt$path, "Consensus_Tree/", opt$prefix, '_consensus_tree6096.nwk'))
 
 
-subtotal_tips <- unique(subtotal_tips)
-
-pruned_full_tree <- tree_full %>% keep.tip(subtotal_tips)
-
-write.tree(pruned_full_tree, file = "/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/Fullpruned_subsampledTips.nwk")
-
-
-#Prepare nodes_inSub for melting for PastML 
-##
-##n0	Brazil
-##n0	Cambodia
-##n0	Canada
-##n0	Central African Republic
-
+# Now setting PastML annotations 
 pastML_states <- nodes_inSub %>% select(node, Country_Full, agg)
 
 ##Sub1 Serbia-Poland fixes:
@@ -554,14 +570,6 @@ pastML_states_orig <- pastML_states
 pastML_states <- pastML_states %>%  melt(id="node")
 pastML_states <- pastML_states %>% select(-variable) %>% distinct() %>% filter(value != 'unresolved')
 pastML_states$value <- as.character(pastML_states$value)
-
-
-
-#write_delim(pastML_states, "/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/inSUB_Full_Sub_states.tab",
-#            quote = 'none', col_names = TRUE, delim = "\t")
-pastML_states <- read_delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/inSUB_Full_Sub_states.tab")
-
-pruned_full_tree <- read.tree("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/Fullpruned_subsampledTips.nwk")
 
 tips_missing<- as.data.frame(pruned_full_tree$tip.label) %>% subset(!pruned_full_tree$tip.label %in% pastML_states$node)
 names(tips_missing)[1] <- "Accession"
@@ -584,16 +592,13 @@ pastML_states <- bind_rows(total_missing, pastML_states,de)
 
 pastML_states$value <- gsub(" ", "", pastML_states$value)
 
-write_delim(pastML_states, "/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/inSUB_Full_Sub_states.tab",
+write_delim(pastML_states, paste0(opt$path, "Consensus_Tree/", opt$prefix, '_inSUB_Full_Sub_states.tab'),
             quote = 'none', col_names = TRUE, delim = "\t")
 
 
 ##########
 ## Using the same tree but showing two columns
 pastML_states_2Col <- pastML_states_orig
-write_delim(pastML_states_2Col, "/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/inSUB_Full_Sub_states_2Col.tab",
-            quote = 'none', col_names = TRUE, delim = "\t")
-pastML_states_2Col <- read_delim("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/inSUB_Full_Sub_states_2Col.tab")
 
 tips_missing_2Col <- tips_missing
 names(tips_missing_2Col)[1] <- 'node'
@@ -609,7 +614,8 @@ pastML_states_2Col <- bind_rows(tips_missing_2Col,pastML_states_2Col,nodes_missi
 pastML_states_2Col$Country_Full <- gsub(" ", "", pastML_states_2Col$Country_Full)
 pastML_states_2Col$agg <- gsub(" ", "", pastML_states_2Col$agg)
 
-write_delim(pastML_states_2Col, "/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine/inSUB_Full_Sub_states_2Col.tab",
+write_delim(pastML_states_2Col, paste0(opt$path, "Consensus_Tree/", opt$prefix, '_inSUB_Full_Sub_states_2Col.tab'),
             quote = 'none', col_names = TRUE, delim = "\t")
+
 
 
