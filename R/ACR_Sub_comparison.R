@@ -29,7 +29,7 @@ library(optparse)
 option_list = list(
   make_option(c("-m", "--meta"), type="character", default=NULL, 
               help="metadata file path", metavar="character"),
-  make_option(c("-p", "--path"), type="character", default=NULL, 
+  make_option(c("-f", "--path"), type="character", default=NULL, 
               help="file path of folder containing folders 'Full', 'Consensus_Tree', and all 'Sub[1-5]'", metavar="character"),
   make_option(c("-p", "--prefix"), type="character", default=NULL, 
               help="prefix for output files", metavar="character")
