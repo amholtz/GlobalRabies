@@ -26,7 +26,13 @@ Initial sequence dataset was downloaded from [NCBI Virus](https://www.ncbi.nlm.n
 ```
 mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments fragments --auto allRABV.fasta > with_keeplength_RABV.fasta
 ```
-2.  NC_001542, reference genome was cut at the positions in the table below and sequences were categorized into separate gene specific fasta files from the position cut offs which represent the start codon to the end of the coding region of the gene (mRNA). Sequences were added to the fasta gene files they belonged (for example, WGS will appear in each of the 5 gene FA files since they contain each of the five genes)  ([clean_rabv.R](https://github.com/amholtz/GlobalRabies/blob/main/R/clean_RABV.R)). The reference gene (from above step) was added to these files.
+2. Host species were categorized by family and order to simplify by custom script [species_host_table.R](https://github.com/amholtz/GlobalRabies/blob/main/R/species_host_table.R)
+
+```
+Rscript --vanilla species_host_table.R --meta ../data/meta_full_exclusion_clade_simple.tab --host ../data/species_host_table.csv
+```
+
+3.  NC_001542, reference genome was cut at the positions in the table below and sequences were categorized into separate gene specific fasta files from the position cut offs which represent the start codon to the end of the coding region of the gene (mRNA). Sequences were added to the fasta gene files they belonged (for example, WGS will appear in each of the 5 gene FA files since they contain each of the five genes)  ([clean_rabv.R](https://github.com/amholtz/GlobalRabies/blob/main/R/clean_RABV.R)). The reference gene (from above step) was added to these files.
 
   | Gene      | Position Start | Position End |
   |-----------|----------------|--------------|
@@ -37,24 +43,24 @@ mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments 
   | L protein | 5418           | 11846        |
 
   ```
-Rscript --vanilla clean_RABV.R --meta ../data/meta_full_exclusion_clade_simple.tab --aln ../data/with_keeplength_RABV.fasta --out_n_text ../data/sequence_alignments/gene_specific_analysis/n.txt --out_p_text ../data/sequence_alignments/gene_specific_analysis/p.txt --out_m_text ../data/sequence_alignments/gene_specific_analysis/m.txt --out_g_text ../data/sequence_alignments/gene_specific_analysis/g.txt --out_l_text ../data/sequence_alignments/gene_specific_analysis/l.txt --out_wgs_text ../data/sequence_alignments/gene_specific_analysis/wgs.txt
+Rscript --vanilla clean_RABV.R --meta ../data/meta_full_exclusion_clade_simple.tab --aln ../data/with_keeplength_RABV.fasta --host_table ../data/species_host_table.csv  --out_n_text ../data/sequence_alignments/gene_specific_analysis/n.txt --out_p_text ../data/sequence_alignments/gene_specific_analysis/p.txt --out_m_text ../data/sequence_alignments/gene_specific_analysis/m.txt --out_g_text ../data/sequence_alignments/gene_specific_analysis/g.txt --out_l_text ../data/sequence_alignments/gene_specific_analysis/l.txt --out_wgs_text ../data/sequence_alignments/gene_specific_analysis/wgs.txt
   ```
 
 
 
-3.  Original alignment is then subsected according to genetic categorization by [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign) (G gene example)
+4.  Original alignment is then subsected according to genetic categorization by [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign) (G gene example)
 
   ```
   goalign subset -i allRABV.fasta -f G.txt --unaligned -o Ggene.fasta
 
   ```
 
-4.  Each gene is then aligned independently by [MAFFT(v7.505)](https://doi.org/10.1093/nar/gkf436) according to the cut reference sequence (Ex: G gene from reference + all RABV sequences that were classified as G gene)
+5.  Each gene is then aligned independently by [MAFFT(v7.505)](https://doi.org/10.1093/nar/gkf436) according to the cut reference sequence (Ex: G gene from reference + all RABV sequences that were classified as G gene)
 ```
 mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments fragments --auto Ggene.fasta > Ggene_aln.fa
 ```
 
-5. [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign) concat was then used to concatenate the aligned sequences back together (without noncoding regions)
+6. [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign) concat was then used to concatenate the aligned sequences back together (without noncoding regions)
 ```
 goalign concat -i Ngene_aln.fa Pgene_aln.fa Mgene_aln.fa Ggene_aln.fa Lgene_aln.fa -o concat_seq_genes.fa
 ```
