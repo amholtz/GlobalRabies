@@ -15,7 +15,7 @@ library(tidyverse)
 library(ggplot2)
 library(plotly)
 library(treeio)
-library(phangorn)fgdh
+library(phangorn)
 library(cepiigeodist)
 library(countrycode)
 library(reshape)

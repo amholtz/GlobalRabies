@@ -22,11 +22,11 @@ library(optparse)
 
 ##Parsing
 
-
-
 option_list = list(
-  make_option(c("-m", "--meta"), type="character", default=NULL, 
+  make_option(c("-d", "--meta"), type="character", default=NULL, 
               help="metadata file path", metavar="character"),
+  make_option(c("-t", "--host_table"), type="character", default=NULL, 
+              help="host species table path", metavar="character"),
   make_option(c("-a", "--aln"), type="character", default=NULL, 
               help="alignment file path", metavar="character"),
   make_option(c("-n", "--out_n_text"), type="character", default=NULL, 
@@ -38,7 +38,9 @@ option_list = list(
   make_option(c("-g", "--out_g_text"), type="character", default=NULL, 
               help="output G gene file path", metavar="character"),
   make_option(c("-l", "--out_l_text"), type="character", default=NULL, 
-              help="output L gene file path", metavar="character")
+              help="output L gene file path", metavar="character"),
+  make_option(c("-w", "--out_wgs_text"), type="character", default=NULL, 
+              help="output wgs gene file path", metavar="character")
 );
 
 
@@ -46,12 +48,9 @@ opt_parser = OptionParser(option_list=option_list)
 opt = parse_args(opt_parser)
 
 
-
-setwd("/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/")
-
 ##
 meta <- read.delim(opt$meta)
-#meta <- read.delim('/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/meta_full_exclusion_clade_simple.tab')
+host_table <- read_csv(opt$host_table)
 meta <- meta %>% filter(!is.na(Country)) %>% filter(!is.na(Collection_Date)) %>% 
   filter(Collection_Date > 1971) %>% filter(Length > 99)
 
@@ -63,26 +62,12 @@ meta$clade_simple <- ifelse(str_detect(meta$Clade, "Bats"), "Bat_Clade",
                                                         ifelse(str_detect(meta$Clade, "Asian"), "Asian_Clade", meta$Clade))))))
 
 
-host_species <- unique(meta$Host)
 
-x <- taxize::tax_name(host_species, get = 'family', db = 'ncbi')
-family <- x
-names(family)[2] <- 'species'
-family <- family[-1]
-family$order <- taxize::tax_name(family$family, get = 'order', db = 'ncbi')
-
-family$keep <- ifelse(family$species == 'Canis lupus familiaris', 'dog',
-                      ifelse(family$species == 'Canis lupus', 'wolf',
-                             ifelse(family$species == 'Vulpes vulpes', 'fox',
-                                    ifelse(family$order$order == 'Chiroptera', 'bat',
-                                           family$family))))
-
-meta$host_simple <- ifelse(meta$Host %in% family$species, family$keep, "other")
+meta_test <- left_join(meta, host_table, by = 'Host')
 
 
 ##
 
-#aln = read.fasta("/Users/aholtz/Dropbox/rabies/new_classification/with_keeplength_RABV.fasta")
 aln = read.fasta(opt$aln)
 
 # Convert alignment

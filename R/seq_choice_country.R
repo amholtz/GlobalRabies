@@ -14,7 +14,6 @@ library(tidyr)
 library(ggplot2)
 library(stringr)
 library(plyr)
-library(scales)
 library(countrycode)
 
 setwd("/Volumes/NGS_Viroscreen/aholtz/euroME/GlobalRabies/total/alignment/better_alignment/complete_tree/complete_dating/canine")

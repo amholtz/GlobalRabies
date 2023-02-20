@@ -7,17 +7,24 @@ Despite the rapid growth in viral sequencing, statistical methods face challenge
 
 
 ---
-# Work Flow Description
+# Introduction
+
+The following work were performed with [MAFFT(v7.505)](https://doi.org/10.1093/nar/gkf436), [FastTree(v2.1.11)](https://doi.org/10.1371/journal.pone.0009490), [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign), [Gotree(v0.4.4)](https://github.com/evolbioinfo/gotree), [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007), [HyPhy(v2.5.40)](https://github.com/veg/hyphy), [IQTREE2(v2.2.2.2)](10.1093/molbev/msaa015), [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068), [PastML(v.1.9.34)](10.1093/molbev/msz131), and [iTol](https://itol.embl.de/tree/1579917420235811657296942#). In addition custom scripts in R and Python were used, which can be found in R and Python folders. R version 4.2.1 was used with the following packages, dplyr, tidyverse, ggplot2, plotly, treeio, phangorn, cepiigeogist, countrycode, reshape, data.table, DT, optparse, lubridate, seqinR, readr, taxize, rworldmap, googleVis,rgdal, scales, wesanderson, ape, and Quartet. Python version 3.8 was used with the following packages numpy, pandas, random, pastml.tree, and collections   
+
+The intermediate data files can be found in the data folder. To reproduce the analyses from scatch follow the instructions below.
+
+
+### Set up
 
 Data can either be downloaded from a link or found in [data folder](https://github.com/amholtz/GlobalRabies/tree/main/data). Large alignment files can be downloaded [here](https://www.dropbox.com/scl/fo/nnaz349rkwqew3qsf2fhp/h?dl=0&rlkey=bd0b65ql5ewy8szn29j4wndvu)
-### Set up
-1. Download fasta and metadata file from [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Lyssavirus%20rabies,%20taxid:11292) or downloadable [here](https://www.dropbox.com/scl/fo/nnaz349rkwqew3qsf2fhp/h?dl=0&rlkey=bd0b65ql5ewy8szn29j4wndvu)
-2. Initial Data cleaning was done using [clean_rabv.R](https://github.com/amholtz/GlobalRabies/blob/main/R/clean_RABV.R) to remove sequences with data integrity issues (see methods)
+
+Initial sequence dataset was downloaded from [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Lyssavirus%20rabies,%20taxid:11292) by the searching for taxid:11292. Download fasta and metadata file (also available [here)](https://www.dropbox.com/scl/fo/nnaz349rkwqew3qsf2fhp/h?dl=0&rlkey=bd0b65ql5ewy8szn29j4wndvu) and save in data folder as allRABV.fasta
+
 
 ### Sequence alignment
 1.  Global alignment by [MAFFT(v7.505)](https://doi.org/10.1093/nar/gkf436)
 ```
-mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments fragments --auto allRABV.fasta > allRABV_aligned.fasta
+mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments fragments --auto allRABV.fasta > with_keeplength_RABV.fasta
 ```
 2.  NC_001542, reference genome was cut at the positions in the table below and sequences were categorized into separate gene specific fasta files from the position cut offs which represent the start codon to the end of the coding region of the gene (mRNA). Sequences were added to the fasta gene files they belonged (for example, WGS will appear in each of the 5 gene FA files since they contain each of the five genes)  ([clean_rabv.R](https://github.com/amholtz/GlobalRabies/blob/main/R/clean_RABV.R)). The reference gene (from above step) was added to these files.
 
@@ -30,7 +37,7 @@ mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments 
   | L protein | 5418           | 11846        |
 
   ```
-Rscript --vanilla clean_rabv.R --meta ../data/meta_full_exclusion_clade_simple.tab --aln ../data/with_keeplength_RABV.fasta --out_wgs_text ../data/sequence_alignments/gene_specific_analysis/wgs.txt --out_n ../data/sequence_alignments/gene_specific_analysis/n.txt --out_p ../data/sequence_alignments/gene_specific_analysis/p.txt --out_m ../data/sequence_alignments/gene_specific_analysis/m.txt --out_g ../data/sequence_alignments/gene_specific_analysis/g.txt --out_l ../data/sequence_alignments/gene_specific_analysis/l.txt
+Rscript --vanilla clean_RABV.R --meta ../data/meta_full_exclusion_clade_simple.tab --aln ../data/with_keeplength_RABV.fasta --out_n_text ../data/sequence_alignments/gene_specific_analysis/n.txt --out_p_text ../data/sequence_alignments/gene_specific_analysis/p.txt --out_m_text ../data/sequence_alignments/gene_specific_analysis/m.txt --out_g_text ../data/sequence_alignments/gene_specific_analysis/g.txt --out_l_text ../data/sequence_alignments/gene_specific_analysis/l.txt --out_wgs_text ../data/sequence_alignments/gene_specific_analysis/wgs.txt
   ```
 
 
@@ -59,7 +66,7 @@ goalign concat -i Ngene_aln.fa Pgene_aln.fa Mgene_aln.fa Ggene_aln.fa Lgene_aln.
 ```
 ~/FastTreeMP -gtr -gamma -nt concat_seq_genes.fasta > genewise_aln_RABV.nwk
 ```
-2.  Canine Cluster Subsected- Sequences IDs under cluster defining node were identified in [iTOL](https://doi.org/10.1093/nar/gkab301) and saved as a text file (canine_ids.txt) using [Gotree(v0.4.4)][https://github.com/evolbioinfo/gotree]
+2.  Canine Cluster Subsected- Sequences IDs under cluster defining node were identified in [iTOL](https://doi.org/10.1093/nar/gkab301) and saved as a text file (canine_ids.txt) using [Gotree(v0.4.4)](https://github.com/evolbioinfo/gotree)
 ```
 gotree prune -i genewise_aln_RABV.nwk -f canine_ids.txt -r -o RABV_canine10209.nwk
 ```
@@ -86,7 +93,7 @@ Evolutionary rate: 0.000199876 [0.000194762; 0.000221632]
 lsd2 -i TempestRooted_RABV_canine.nwk -d canine_lsd2_dates.txt -o TempestRooted1327_WGSRate_OutRem.date.nwk -e 5 -s 10860 -f 1000 -w rate.txt
 ```
 
-### Purification and Diversifying Selection
+### Purification and Diversifying Selection was performed using [HyPhy(v2.5.40)](https://github.com/veg/hyphy)
 
 ```
 $mpirun -np 6 HYPHYMPI meme --alignment NT_macse_out.fa --tree troupin_tree.nwk
@@ -121,7 +128,7 @@ python3 py_subsampling.py --input_tree TempestRooted1327_WGSRate_OutRem.date.nwk
   goalign subset -i concat_seq_genes.fasta -f subsampled_5500_5.txt --unaligned -o subsampled_5000_5.fa
 
   ```
-2.  IQTREE2 Reconstruction (Example: Subsample 5)
+2.  Phylogenetic Reconstruction by [IQTREE2(v2.2.2.2)](10.1093/molbev/msaa015) GTR+I+G4 and partioning (Example: Subsample 5)
 ```
 iqtree2 -s subsampled_5000_5.fa -st DNA -nt 8 -alrt 0 -m GTR+I+G4 -B 1000 -p gene_partition.txt
 ```

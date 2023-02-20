@@ -1,0 +1,314 @@
+Host,host_simple
+NA,NA
+Canis lupus familiaris,dog
+Canidae,Canidae
+Bos taurus,Bovidae
+Bubalus bubalis,Bovidae
+Equus asinus,Equidae
+Chiroptera,NA
+Bos taurus,NA
+Homo sapiens,Hominidae
+Mellivora capensis,Mustelidae
+Felis catus,Felidae
+Canis lupus familiaris,NA
+Capra hircus,Bovidae
+Simiiformes,NA
+Hyaenidae,Hyaenidae
+Felis catus,NA
+Pteropus giganteus,bat
+Canis mesomelas,Canidae
+Nyctinomops,bat
+Canis lupus,wolf
+Capra aegagrus,Bovidae
+Desmodus rotundus,bat
+Mephitis mephitis,Mephitidae
+Canis latrans,Canidae
+Procyon lotor,Procyonidae
+Vulpes vulpes,fox
+Tadarida brasiliensis,bat
+Dasypterus ega,bat
+Myotis sp.,bat
+Histiotus,bat
+Eptesicus,bat
+Canis aureus,Canidae
+Ovis aries,Bovidae
+Marmota monax,Sciuridae
+Mephitidae,Mephitidae
+Canis,Canidae
+Nyctereutes procyonoides,Canidae
+Mus musculus,NA
+Proteles cristata,Hyaenidae
+Otocyon megalotis,Canidae
+Canis lupus,NA
+Equus caballus,Equidae
+Urocyon cinereoargenteus,Canidae
+Lontra canadensis,Mustelidae
+Potos flavus,Procyonidae
+Cervidae,Cervidae
+Vulpes lagopus,Canidae
+Camelus,Camelidae
+Ursus maritimus,Ursidae
+Feliformia,NA
+Mus musculus,Muridae
+Meles leucurus,Mustelidae
+Bos grunniens,Bovidae
+Vulpes corsac,Canidae
+Primates,NA
+Artibeus lituratus,bat
+Myotis nigricans,bat
+Molossus molossus,bat
+Martes,Mustelidae
+Sus scrofa,Suidae
+Canis adustus,Canidae
+Artibeus planirostris,bat
+Axis axis,Cervidae
+Papio ursinus,Cercopithecidae
+Herpestidae,Herpestidae
+Philantomba monticola,Bovidae
+Caracal caracal,Felidae
+Lutrinae,Mustelidae
+Rangifer tarandus,Cervidae
+Panthera pardus,NA
+Melogale moschata,Mustelidae
+Callithrix jacchus,Cebidae
+Eptesicus serotinus,bat
+Melursus ursinus,Ursidae
+Mus,NA
+Canis sp.,Canidae
+Canidae,NA
+Civettictis civetta,Viverridae
+Viverridae,Viverridae
+Caprinae,Bovidae
+Ovis,Bovidae
+Dasypus novemcinctus,NA
+Melogale,Mustelidae
+Boselaphus tragocamelus,Bovidae
+Myotis lucifugus,bat
+Myotis evotis,bat
+Eptesicus fuscus,bat
+Lasionycteris noctivagans,bat
+Myotis septentrionalis,bat
+Myotis californicus,bat
+Myotis yumanensis,bat
+Myotis keenii,bat
+Myotis volans,bat
+Myotis leibii,bat
+Corynorhinus townsendii,bat
+Myotis ciliolabrum,bat
+Elephas maximus,Elephantidae
+Lycaon pictus,Canidae
+Molossus,bat
+Artibeus,bat
+Ursus thibetanus laniger,Ursidae
+Rusa unicolor,Cervidae
+Homo sapiens,NA
+Stenodermatinae,bat
+Felis silvestris,Felidae
+Sciuridae,Sciuridae
+Vulpes lagopus,NA
+Canis latrans,NA
+Mephitidae,NA
+Urocyon cinereoargenteus,NA
+Procyon lotor,NA
+Cerdocyon thous,Canidae
+Desmodus rotundus,NA
+Sciuridae,NA
+Capra hircus,NA
+Vulpes vulpes,NA
+Gliridae,Gliridae
+Bubalus bubalis,NA
+Hyaenidae,NA
+Mustelidae,Mustelidae
+Spilogale,Mephitidae
+Nasua narica,Procyonidae
+Eptesicus furinalis,bat
+Nyctinomops laticaudatus,bat
+Cervus elaphus,Cervidae
+Meles meles,Mustelidae
+Ursus arctos,Ursidae
+Gallus gallus,Phasianidae
+Dama dama,Cervidae
+Canis simensis,Canidae
+Mammalia,NA
+Lasiurus borealis,bat
+Perimyotis subflavus,bat
+Myotis velifer,bat
+Aeorestes cinereus,bat
+Dasypterus intermedius,bat
+Dasypterus xanthinus,bat
+Nycticeius humeralis,bat
+Parastrellus hesperus,bat
+Chrysocyon brachyurus,Canidae
+Equus asinus x caballus,NA
+Bos primigenius,Bovidae
+Equus ferus,Equidae
+Cynictis penicillata,Herpestidae
+Rodentia,NA
+Mephitis,Mephitidae
+Mephitis macroura,Mephitidae
+Ovis aries,NA
+Canis,NA
+Equus caballus,NA
+Capra,Bovidae
+Sapajus apella,NA
+Nyctereutes procyonoides,NA
+Spilogale,NA
+Puma concolor,Felidae
+Lynx rufus,Felidae
+Castoridae,Castoridae
+Pecari tajacu,Tayassuidae
+Equus,Equidae
+Tadarida brasiliensis,NA
+Histiotus montanus,bat
+Aeorestes cinereus,NA
+Herpestidae,NA
+Lasiurus borealis,NA
+Conepatus,Mephitidae
+Connochaetes taurinus,Bovidae
+Tragelaphus strepsiceros,Bovidae
+Suricata suricatta,Herpestidae
+Lynx lynx,Felidae
+Atilax paludinosus,Herpestidae
+Galerella sanguinea,Herpestidae
+Felis silvestris lybica,Felidae
+Galerella pulverulenta,Herpestidae
+Myotis austroriparius,bat
+Lasiurus seminolus,bat
+Sus scrofa,NA
+Dasypterus ega,NA
+Spilogale putorius,Mephitidae
+Bassariscus astutus,Procyonidae
+Mephitis mephitis,NA
+Antrozous pallidus,bat
+Eptesicus diminutus,bat
+Carnivora,NA
+Rattus,Muridae
+Lynx,Felidae
+Eptesicus brasiliensis,bat
+Myotis levis,bat
+Eumops bonariensis,bat
+Lasiurus blossevillii,bat
+Histiotus velatus,bat
+Marmota monax,NA
+Myotis albescens,bat
+Glossophaga soricina,bat
+Procyon,Procyonidae
+Paradoxurus zeylonensis,Viverridae
+Cynomops abrasus,bat
+Molossus rufus,bat
+Artibeus jamaicensis,bat
+Eumops glaucinus,bat
+Artibeus lituratus,NA
+Myotis chiloensis,NA
+Histiotus macrotus,NA
+Myotis nigricans,NA
+Molossus molossus,NA
+Eptesicus furinalis,NA
+Lasiurus blossevillii,NA
+Eumops glaucinus,NA
+Histiotus macrotus,bat
+Myotis chiloensis,bat
+Cervidae,NA
+Diphylla ecaudata,bat
+Camelus bactrianus,Camelidae
+Otocolobus manul,Felidae
+Myotis thysanodes,bat
+Molossops neglectus,bat
+Myotis riparius,bat
+Felis nigripes,Felidae
+Genetta genetta,Viverridae
+Tadarida brasiliensis mexicana,bat
+Fratercula corniculata,NA
+Cynomops,bat
+Molossidae,bat
+Ursus sp.,Ursidae
+Artibeus,NA
+Artibeus fimbriatus,NA
+Artibeus planirostris,NA
+Dusicyon,NA
+Camelus dromedarius,Camelidae
+Mustela putorius furo,Mustelidae
+Cynomops abrasus,NA
+Eumops auripendulus,NA
+Nyctinomops laticaudatus,NA
+Cervus nippon,Cervidae
+Cerdocyon thous,NA
+Lycalopex vetulus,NA
+Panthera pardus,Felidae
+Ichneumia albicauda,Herpestidae
+Camelus,NA
+Canis mesomelas,NA
+Eptesicus fuscus,NA
+Lama glama,Camelidae
+Crocuta crocuta,Hyaenidae
+Otocyon megalotis,NA
+Vulpes chama,Canidae
+Lynx,NA
+Eumops perotis,NA
+Diphylla ecaudata,NA
+Martes foina,Mustelidae
+Vulpes corsac,NA
+Felis sp.,NA
+Myotis daubentonii,NA
+Plecotus auritus,NA
+marmosets,NA
+Meles meles,NA
+Tadarida brasiliensis mexicana,NA
+Lasiurus sp.,NA
+Procyon cancrivorus,NA
+Callithrix jacchus,NA
+Lasionycteris noctivagans,NA
+Myotis sp.,NA
+Nyctinomops macrotis,NA
+Tragelaphus,Bovidae
+Tragelaphus oryx,Bovidae
+Genetta,Viverridae
+Marmotini,Sciuridae
+Equus asinus,NA
+Molossus rufus,NA
+Lynx rufus,NA
+Bovidae,Bovidae
+Canis simensis,NA
+Urocitellus undulatus,NA
+Genetta genetta,NA
+Marmotini,NA
+Vulpes chama,NA
+Puma concolor,NA
+Spilogale putorius,NA
+Cuniculus paca,NA
+Eumops patagonicus,NA
+Histiotus montanus,NA
+Myotis,NA
+Genetta,NA
+Cephalophinae,NA
+Felis silvestris,NA
+Viverridae,NA
+Panthera tigris,NA
+Gallus gallus,NA
+Antrozous pallidus,NA
+Corynorhinus townsendii,NA
+Myotis californicus,NA
+Parastrellus hesperus,NA
+Euderma maculatum,NA
+Myotis velifer,NA
+Myotis lucifugus,NA
+Myotis yumanensis,NA
+Dasypterus intermedius,NA
+Nycticeius humeralis,NA
+Elephas maximus,NA
+Cynictis penicillata,NA
+Histiotus,NA
+Myotis evotis,NA
+Perimyotis subflavus,NA
+Myotis austroriparius,NA
+Felidae,NA
+Galerella sanguinea,NA
+Suricata suricatta,NA
+Civettictis civetta,NA
+Mellivora capensis,NA
+Crocuta crocuta,NA
+Ichneumia albicauda,NA
+Vulpes,NA
+Lycaon pictus,NA
+Cervus nippon,NA
+Bovidae,NA
