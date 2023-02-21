@@ -18,7 +18,7 @@ The intermediate data files can be found in the data folder. To reproduce the an
 
 Data can either be downloaded from a link or found in [data folder](https://github.com/amholtz/GlobalRabies/tree/main/data). Large alignment files can be downloaded [here](https://www.dropbox.com/scl/fo/nnaz349rkwqew3qsf2fhp/h?dl=0&rlkey=bd0b65ql5ewy8szn29j4wndvu)
 
-Initial sequence dataset was downloaded from [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Lyssavirus%20rabies,%20taxid:11292) by the searching for taxid:11292. Download fasta and metadata file (also available [here)](https://www.dropbox.com/scl/fo/nnaz349rkwqew3qsf2fhp/h?dl=0&rlkey=bd0b65ql5ewy8szn29j4wndvu) and save in data folder as allRABV.fasta
+Initial sequence dataset was downloaded from [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Lyssavirus%20rabies,%20taxid:11292) by the searching for taxid:11292. Download [fasta](https://www.dropbox.com/s/qflcjo106h2tnw6/allRABV.fasta?dl=0) and [metadata file](https://github.com/amholtz/GlobalRabies/blob/main/data/meta_full_exclusion_clade_simple.tab) and save in data folder as allRABV.fasta
 
 
 ### Sequence alignment
@@ -68,16 +68,24 @@ goalign concat -i Ngene_aln.fa Pgene_aln.fa Mgene_aln.fa Ggene_aln.fa Lgene_aln.
 ![Alt text](https://github.com/amholtz/GlobalRabies/blob/main/concatenation_genes.png)
 
 ### Phylogenetic Tree Reconstruction & Dating
-1. [FastTree(v2.1.11)](https://doi.org/10.1371/journal.pone.0009490) reconstruction on all sequences - [iTol link to tree result](https://itol.embl.de/tree/15799174202126551652369486#)
+1. A global phylogenetic tree was reconstructed using [FastTree(v2.1.11)](https://doi.org/10.1371/journal.pone.0009490)  on all sequences - [iTol link to tree result](https://itol.embl.de/tree/15799174202126551652369486#)
 ```
 ~/FastTreeMP -gtr -gamma -nt concat_seq_genes.fasta > genewise_aln_RABV.nwk
 ```
-2.  Canine Cluster Subsected- Sequences IDs under cluster defining node were identified in [iTOL](https://doi.org/10.1093/nar/gkab301) and saved as a text file (canine_ids.txt) using [Gotree(v0.4.4)](https://github.com/evolbioinfo/gotree)
+2.  Canine Cluster Subsected- Sequences IDs under cluster defining node were identified (n=10209) in [iTOL](https://doi.org/10.1093/nar/gkab301) and saved as a text file [(canine_ids.txt)](https://github.com/amholtz/GlobalRabies/blob/main/data/canine_ids.txt)
+
+3. A subset alignment of canine-mediate sequences was selected from the original alignment [(concat_seq_genes.fasta)](https://www.dropbox.com/s/517xr3gl38ysi43/concat_seq_genes.fasta?dl=0) using [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign)
 ```
-gotree prune -i genewise_aln_RABV.nwk -f canine_ids.txt -r -o RABV_canine10209.nwk
+goalign subset -i concat_seq_genes.fasta -f canine_ids.txt -o canine.fa
 ```
 
-3. Rooting via [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007) residual-mean square function to infer the best-fitting root)
+
+3. A phylogenetic tree of all canine-mediated sequences ([canine.fa](https://www.dropbox.com/s/xji8hmmzykae27x/canine.fa?dl=0)) was reconstructed using [FastTree(v2.1.11)](https://doi.org/10.1371/journal.pone.0009490)
+```
+~/FastTreeMP -gtr -gamma -nt canine.fa > RABV_canine10209.nwk
+```
+
+4. Rooting was accomlished via [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007) by residual-mean square function. Date file ([Tempest_fullCanine.tab](https://github.com/amholtz/GlobalRabies/blob/main/data/Tempest_fullCanine.tab)) is adapted to [Tempest format](https://beast.community/tempest_tutorial)  from our [metadata file](https://github.com/amholtz/GlobalRabies/blob/main/data/meta_full_exclusion_clade_simple.tab)
 
   **Input**: [RABV_canine10209.nwk](https://github.com/amholtz/GlobalRabies/blob/main/data/RABV_canine10209.nwk), [Tempest_fullCanine.tab](https://github.com/amholtz/GlobalRabies/blob/main/data/Tempest_fullCanine.tab)
 
@@ -114,7 +122,7 @@ $mpirun -np 6 HYPHYMPI fel --alignment NT_macse_out.fa --tree troupin_tree.nwk -
 
 #### Ancestral Character Reconstruction on Country Level (Full Tree) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
 ```
-pastml -t TempestRooted1327_WGSRate_OutRem.date.nwk -d meta_RABV_cleaned_clade_gene.tab -c Country --prediction_method MPPA --root_date 1356.74 --html_compressed HTML_compressed_canine_MPPA_nexus_100.html --upload_to_itol -o canine_MPPA_nexus_pastML --parameters --tip_size_threshold 100
+pastml -t TempestRooted1327_WGSRate_OutRem.date.nwk -d meta_RABV_cleaned_clade_gene.tab -c Country --prediction_method MPPA --root_date 1356.74 --html_compressed HTML_compressed_canine_MPPA_nexus_100.html --upload_to_itol -o canine_MPPA_nexus_pastML --tip_size_threshold 100
 ```
 **[iTol Tree with ACR Estimation annotations](https://itol.embl.de/tree/1579917420235811657296942#)** & **[PastML Visualization- ACR Country Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Country/Full_Tree)**
 
