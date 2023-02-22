@@ -193,7 +193,7 @@ Consensus tree was created by comparing country estimations for each node across
 ```
 Rscript --vanilla ACR_Sub_comparison.R --meta ../data/meta_full_exclusion_clade_simple.tab --path ../data/ACR_Results/Country/ --prefix consensus_TEST
 ```
-#### Ancestral Character Reconstructions by [PastML(v.1.9.34)](10.1093/molbev/msz131) on consensus tree
+## Ancestral Character Reconstructions by [PastML(v.1.9.34)](10.1093/molbev/msz131) on consensus tree
 
 ###### 1. Country Level (Consensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
 
