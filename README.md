@@ -66,30 +66,30 @@ mafft --reorder --keeplength --maxambiguous 0.05 --addfragments ../data/sequence
 
 6. [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign) concat was then used to concatenate the aligned sequences back together (without noncoding regions)
 ```
-goalign concat -i Ngene_aln.fa Pgene_aln.fa Mgene_aln.fa Ggene_aln.fa Lgene_aln.fa -o concat_seq_genes.fa
+goalign concat -i ../data/sequence_alignments/gene_specific_analysis/Ngene_aln.fa ../data/sequence_alignments/gene_specific_analysis/Pgene_aln.fa ../data/sequence_alignments/gene_specific_analysis/Mgene_aln.fa ../data/sequence_alignments/gene_specific_analysis/Ggene_aln.fa ../data/sequence_alignments/gene_specific_analysis/Lgene_aln.fa -o ../data/concat_seq_genes.fasta
 ```
+Note: Download [concat_seq_genes](https://www.dropbox.com/s/517xr3gl38ysi43/concat_seq_genes.fasta?dl=0)
 
 ![Alt text](https://github.com/amholtz/GlobalRabies/blob/main/concatenation_genes.png)
 
 ### Phylogenetic Tree Reconstruction & Dating
 1. A global phylogenetic tree was reconstructed using [FastTree(v2.1.11)](https://doi.org/10.1371/journal.pone.0009490)  on all sequences - [iTol link to tree result](https://itol.embl.de/tree/15799174202126551652369486#)
 ```
-~/FastTreeMP -gtr -gamma -nt concat_seq_genes.fasta > genewise_aln_RABV.nwk
+~/FastTreeMP -gtr -gamma -nt ../data/concat_seq_genes.fasta > ../data/genewise_aln_RABV_test.nwk
 ```
 2.  Canine Cluster Subsected- Sequences IDs under cluster defining node were identified (n=10209) in [iTOL](https://doi.org/10.1093/nar/gkab301) and saved as a text file [(canine_ids.txt)](https://github.com/amholtz/GlobalRabies/blob/main/data/canine_ids.txt)
 
-3. A subset alignment of canine-mediate sequences was selected from the original alignment [(concat_seq_genes.fasta)](https://www.dropbox.com/s/517xr3gl38ysi43/concat_seq_genes.fasta?dl=0) using [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign)
+3. A subset alignment of canine-mediate sequences (n=10209) was selected from the original alignment [(concat_seq_genes.fasta)](https://www.dropbox.com/s/517xr3gl38ysi43/concat_seq_genes.fasta?dl=0) using [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign)
 ```
-goalign subset -i concat_seq_genes.fasta -f canine_ids.txt -o canine.fa
+goalign subset -i ../data/concat_seq_genes.fasta -f ../data/canine_ids.txt -o ../data/canine.fa
 ```
-
 
 3. A phylogenetic tree of all canine-mediated sequences ([canine.fa](https://www.dropbox.com/s/xji8hmmzykae27x/canine.fa?dl=0)) was reconstructed using [FastTree(v2.1.11)](https://doi.org/10.1371/journal.pone.0009490)
 ```
-~/FastTreeMP -gtr -gamma -nt canine.fa > RABV_canine10209.nwk
+~/FastTreeMP -gtr -gamma -nt ../data/canine.fa > ../data/RABV_canine10209_test.nwk
 ```
 
-4. Rooting was accomlished via [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007) by residual-mean square function. Date file ([Tempest_fullCanine.tab](https://github.com/amholtz/GlobalRabies/blob/main/data/Tempest_fullCanine.tab)) is adapted to [Tempest format](https://beast.community/tempest_tutorial)  from our [metadata file](https://github.com/amholtz/GlobalRabies/blob/main/data/meta_full_exclusion_clade_simple.tab)
+4. Rooting was accomplished via [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007) by residual-mean square function. Date file ([Tempest_fullCanine.tab](https://github.com/amholtz/GlobalRabies/blob/main/data/Tempest_fullCanine.tab)) is adapted to [Tempest format](https://beast.community/tempest_tutorial)  from our [metadata file](https://github.com/amholtz/GlobalRabies/blob/main/data/meta_full_exclusion_clade_simple.tab)
 
   **Input**: [RABV_canine10209.nwk](https://github.com/amholtz/GlobalRabies/blob/main/data/RABV_canine10209.nwk), [Tempest_fullCanine.tab](https://github.com/amholtz/GlobalRabies/blob/main/data/Tempest_fullCanine.tab)
 
@@ -98,17 +98,17 @@ goalign subset -i concat_seq_genes.fasta -f canine_ids.txt -o canine.fa
 4.  Canine Tree Dating - Evolutionary rate from tree of just canine-WGS
 ###### Pruning Canine Tree for just WGS by [Gotree(v0.4.4)](https://github.com/evolbioinfo/gotree)
 ```
-gotree prune -i TempestRooted_RABV_canine.nwk -f wgs.txt -r -o wgs_TempestRooted1327_canine.nwk
+gotree prune -i ../data/TempestRooted_RABV_canine.nwk -f ../data/sequence_alignments/gene_specific_analysis/wgs.txt -r -o ../data/wgs_TempestRooted1327_canine.nwk
 ```
 ###### Evolutionary Rate from WGS Pruned Tree estimated by [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068)
 ```
-lsd2 -i wgs_TempestRooted1327_canine.nwk -d canine_lsd2_dates.txt -o wgs_TempestRooted1327_canine_CI.result -e 3 -s 10860 -f 1000
+lsd2 -i ../data/wgs_TempestRooted1327_canine.nwk -d ../data/canine_lsd2_dates.txt -o ../data/wgs_TempestRooted1327_canine_CI_TEST.result -e 3 -s 10860 -f 1000
 ```
 Evolutionary rate: 0.000199876 [0.000194762; 0.000221632]
 
-5. Rate used on entire canine-RABV Tree
+5. Rate applied on entire canine-RABV Tree with [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068)
 ```
-lsd2 -i TempestRooted_RABV_canine.nwk -d canine_lsd2_dates.txt -o TempestRooted1327_WGSRate_OutRem.date.nwk -e 5 -s 10860 -f 1000 -w rate.txt
+lsd2 -i ../data/TempestRooted_RABV_canine.nwk -d ../data/canine_lsd2_dates.txt -o ../data/TempestRooted1327_WGSRate_OutRem.date.nwk -e 5 -s 10860 -f 1000 -w rate.txt
 ```
 
 ### Purification and Diversifying Selection was performed using [HyPhy(v2.5.40)](https://github.com/veg/hyphy)
@@ -126,15 +126,15 @@ $mpirun -np 6 HYPHYMPI fel --alignment NT_macse_out.fa --tree troupin_tree.nwk -
 
 #### Ancestral Character Reconstruction on Country Level (Full Tree) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
 ```
-pastml -t TempestRooted1327_WGSRate_OutRem.date.nwk -d meta_RABV_cleaned_clade_gene.tab -c Country --prediction_method MPPA --root_date 1356.74 --html_compressed HTML_compressed_canine_MPPA_nexus_100.html --upload_to_itol -o canine_MPPA_nexus_pastML --tip_size_threshold 100
+pastml -t ../data/TempestRooted1327_WGSRate_OutRem.date.nwk -d meta_RABV_cleaned_clade_gene.tab -c Country --prediction_method MPPA --root_date 1356.74 --html_compressed HTML_compressed_canine_MPPA_nexus_100.html --upload_to_itol -o canine_MPPA_nexus_pastML --tip_size_threshold 100
 ```
 **[iTol Tree with ACR Estimation annotations](https://itol.embl.de/tree/1579917420235811657296942#)** & **[PastML Visualization- ACR Country Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Country/Full_Tree)**
 
 #### Subsampling by country
-Subsampling was done using the custom script [py_subsampling.py](https://github.com/amholtz/GlobalRabies/blob/main/python/py_subsampling.py)
 
+1.  Smart-Subsampling by country was performed using the custom script [py_subsampling.py](https://github.com/amholtz/GlobalRabies/blob/main/python/py_subsampling.py)
 ```
-python3 py_subsampling.py --input_tree TempestRooted1327_WGSRate_OutRem.date.nwk --input_locs meta_RABV_cleaned_clade_gene.tab --size 5500 --output_ids subsampled_5500_1 subsampled_5500_2 subsampled_5500_3 subsampled_5500_4 subsampled_5500_5
+python3 py_subsampling.py --input_tree ../data/TempestRooted1327_WGSRate_OutRem.date.nwk --input_locs ../data/meta_RABV_cleaned_clade_gene.tab --size 5500 --output_ids subsampled_5500_1 subsampled_5500_2 subsampled_5500_3 subsampled_5500_4 subsampled_5500_5
 ```
 
 
@@ -143,12 +143,12 @@ python3 py_subsampling.py --input_tree TempestRooted1327_WGSRate_OutRem.date.nwk
 1. Subsection of alignment for subsample 5 sequence IDs by [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign)
 
   ```
-  goalign subset -i concat_seq_genes.fasta -f subsampled_5500_5.txt --unaligned -o subsampled_5000_5.fa
+  goalign subset -i ../data/concat_seq_genes.fasta -f ../data/subsampled_5500_5.txt -o ../data/subsample5.fa
 
   ```
 2.  Phylogenetic Reconstruction by [IQTREE2(v2.2.2.2)](10.1093/molbev/msaa015) GTR+I+G4 and partioning (Example: Subsample 5)
 ```
-iqtree2 -s subsampled_5000_5.fa -st DNA -nt 8 -alrt 0 -m GTR+I+G4 -B 1000 -p gene_partition.txt
+iqtree2 -s ../data/subsample5.fa -st DNA -nt 8 -alrt 0 -m GTR+I+G4 -B 1000 -p ../data/gene_partition.txt -pre ../data/subsample5.fa
 ```
   **Output:**[subsample5.fa.treefile](https://github.com/amholtz/GlobalRabies/blob/main/data/subsample5.fa.treefile)
 
@@ -158,12 +158,11 @@ iqtree2 -s subsampled_5000_5.fa -st DNA -nt 8 -alrt 0 -m GTR+I+G4 -B 1000 -p gen
 
   **Output**:[TempEstRooted_subsampled_5000_5.fa.treefile](https://github.com/amholtz/GlobalRabies/blob/main/data/TempEstRooted_subsampled_5000_5.fa.treefile)
 
-4.  LSD2 Dating (Example: Subsample 5)
+4.  Rate from WGS [(rate.txt)](https://github.com/amholtz/GlobalRabies/blob/main/data/rate.txt) applied on Subsample 5 Tree with [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068)
 ```
 lsd2 -i TempEstRooted_subsampled_5000_5.fa.treefile -d fullCanine_lsd2.tab -s 10860 -o sub1_CI -f 1000 -e 3 -w rate.txt
 ```
-  **Output:**[TempEstRooted_subsampled_5000_5_OutRem.nwk.result.nwk](https://github.com/amholtz/GlobalRabies/blob/main/data/TempEstRooted_subsampled_5000_5_OutRem.nwk.result.nwk)
-  **Output:**[TempEstRooted_subsampled_5000_5_OutRem.nwk.result](https://github.com/amholtz/GlobalRabies/blob/main/data/TempEstRooted_subsampled_5000_5_OutRem.nwk.result)
+
 
 #### Comparing Subsampled tree reconstructions by Triplet Distance Calculations (Example: Subsample 5)
 
@@ -176,9 +175,7 @@ gotree prune -i TempestRooted_RABV_canine.nwk -f subsampled_5500_5.txt -r -o ful
 gotree resolve -i full_tree_Sub5Tips.nwk -o full_tree_Sub5Tips.nwk_bi.nwk  
 ```
 
-
 3.  Calculate Triplet Distance with full-tree by custom script [triplet_distance.R](https://github.com/amholtz/GlobalRabies/blob/main/R/triplet_distance.R)
-
 ```
 Rscript --vanilla triplet_distance.R --subtree ../data/TempEstRooted_subsampled_5000_5.fa.treefile --fulltree ../data/full_tree_Sub5Tips_bi.nwk --tips 5484 -o ../data/subsample5_tripletdistance.csv
 ```
@@ -190,16 +187,15 @@ pastml -t TempEstRooted_subsampled_5000_5_OutRem.nwk.result.nwk -d meta_RABV_cle
 ```
 **[iTol Tree with ACR Estimation annotations](https://itol.embl.de/tree/15799174109116831658497579)** & **[PastML Visualization- ACR Country Results](https://github.com/amholtz/GlobalRabies/blob/main/data/ACR_Results/Country/Sub5)**
 
-#### Country Level ACR Consensus Tree
+#### Consensus tree was created from the aggregation of ACR results on the country level
 Consensus tree was created by comparing country estimations for each node across all subsamples and the full canine tree following custom script [ACR_Sub_comparsion.R](https://github.com/amholtz/GlobalRabies/blob/main/R/ACR_Sub_comparison.R)
 
 ```
-Rscript --vanilla ACR_Sub_comparison.R --meta ../data/meta_full_exclusion_clade_simple.tab --path ../data/ACR_Results/Country/ --prefix consensus
+Rscript --vanilla ACR_Sub_comparison.R --meta ../data/meta_full_exclusion_clade_simple.tab --path ../data/ACR_Results/Country/ --prefix consensus_TEST
 ```
+#### Ancestral Character Reconstructions by [PastML(v.1.9.34)](10.1093/molbev/msz131) on consensus tree
 
-
-
-###### Ancestral Character Reconstruction on Country Level (Consensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
+###### 1. Country Level (Consensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
 
 ```
 pastml -t consensus_tree6096.nwk --prediction_method COPY --root_date 1356.74 -o canine_AdaptedFullSUBSTATE_pastML -d consensus_inSUB_Full_Sub_states_2Col.tab --upload_to_itol --columns Country_Full agg --html_compressed FullSubAdapted_2Col_50.html --tip_size_threshold 50 --colours manual_colours.character_Country_Full.tab colours.character_agg.tab
@@ -207,20 +203,20 @@ pastml -t consensus_tree6096.nwk --prediction_method COPY --root_date 1356.74 -o
 **[PastML Visualization- ACR Country Consensus Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Country/Consensus_Tree)**
 
 
-#### Ancestral Character Reconstruction on Regional Level (Consensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
+###### 2. Ancestral Character Reconstruction on Regional Level (Consensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
 ```
 pastml -t consensus_tree6096.nwk -d meta_full_exclusion_clade_simple.tab -c region23 --prediction_method MPPA --root_date 1356.74 --html_compressed pastml_compressed_visualisation_region23.html --upload_to_itol -o pastml_region23 --tip_size_threshold 100
 ```
 **[PastML Visualization- ACR Regional Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Region)**
 
-#### Ancestral Character Reconstruction on Colony Level (Consensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
+###### 3. Ancestral Character Reconstruction on Colony Level (Consensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
 ```
 pastml -t consensus_tree6096.nwk -d meta_full_exclusion_clade_simple.tab -c colony --prediction_method MPPA --root_date 1356.74 --html_compressed pastml_compressed_visualisation_colony.html --upload_to_itol -o pastml_colony --tip_size_threshold 100
 ```
 **[PastML Visualization- ACR Colony Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Colony)**
 
 
-#### Ancestral Character Reconstruction on Clade Level (Concensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
+###### 4. Ancestral Character Reconstruction on Clade Level (Concensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
 ```
 pastml -t consensus_tree6096.nwk -d meta_full_exclusion_clade_simple.tab -c clade --prediction_method MPPA --root_date 1356.74 --html_compressed pastml_compressed_visualisation_clade.html --upload_to_itol -o pastml_clade --tip_size_threshold 100
 ```
@@ -231,8 +227,7 @@ pastml -t consensus_tree6096.nwk -d meta_full_exclusion_clade_simple.tab -c clad
 Human-mediated transmission were inferred using the custom script [introduction_events_FullTree.R](https://github.com/amholtz/GlobalRabies/blob/main/R/introduction_events_FullTree.R)
 
 ```
-Rscript --vanilla introduction_events_FullTree.R
---meta ../data/meta_full_exclusion_clade_simple.tab --tree ../data/ACR_Results/Country/Full_Tree/named.tree_TempestRooted1327_WGSRate_OutRem.date.nexus --annotations ../data/ACR_Results/Country/Full_Tree/combined_ancestral_states.tab" --probabilities ../data/ACR_Results/Country/Full_Tree/marginal_probabilities.character_Country.model_F81.tab --newick ../data/ACR_Results/Country/Full_Tree/named.tree_TempestRooted1327_WGSRate_OutRem.date.nwk --prefix fulltree
+Rscript --vanilla introduction_events_FullTree.R --meta ../data/meta_full_exclusion_clade_simple.tab --tree ../data/ACR_Results/Country/Full_Tree/named.tree_TempestRooted1327_WGSRate_OutRem.date.nexus --annotations ../data/ACR_Results/Country/Full_Tree/combined_ancestral_states.tab --probabilities ../data/ACR_Results/Country/Full_Tree/marginal_probabilities.character_Country.model_F81.tab --newick ../data/ACR_Results/Country/Full_Tree/named.tree_TempestRooted1327_WGSRate_OutRem.date.nwk --prefix fulltree
 ```
 
 

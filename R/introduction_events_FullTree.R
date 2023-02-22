@@ -32,7 +32,7 @@ option_list = list(
               help="pastml annotations file path", metavar="character"),
   make_option(c("-p", "--probabilities"), type="character", default=NULL, 
               help="pastml probabilities file path", metavar="character"),
-  make_option(c("-p", "--prefix"), type="character", default=NULL, 
+  make_option(c("-x", "--prefix"), type="character", default=NULL, 
               help="prefix to identify the tree", metavar="character")
 );
 
@@ -44,6 +44,8 @@ meta <- read.delim(opt$meta)
 tree <- read.nexus(opt$tree)
 annotations_full <- read.delim(opt$annotations)
 probabilities_full <- read.delim(opt$probabilities)
+
+
 textfile <- readLines(opt$newick)
 
 
@@ -124,12 +126,12 @@ textfile  <- gsub(pattern = 'value=', replace = '', x = textfile)
 textfile  <- gsub(pattern = 'Country=', replace = '', x = textfile)
 
 text <- as.data.frame(textfile)
-fileConn<-file(paste0("./ACR_Results/Country/Full_Tree/", opt$prefix, "_annotations_table.csv"))
+fileConn<-file(paste0("../data/ACR_Results/Country/Full_Tree/", opt$prefix, "_annotations_table.csv"))
 writeLines(text$textfile, fileConn)
 
 ##This file written can now be opened in R as a dataframe :)
 
-annotations <- read_csv(paste0("./ACR_Results/Country/Full_Tree/", opt$prefix, "_annotations_table.csv"), col_names = FALSE)
+annotations <- read_csv(paste0("../data/ACR_Results/Country/Full_Tree/", opt$prefix, "_annotations_table.csv"), col_names = FALSE)
 
 annotations <- select(annotations, -X2, -X4)
 annotations_child <- annotations
@@ -199,7 +201,7 @@ print(paste0("Keeping only countries with transmission over sea or ocean (Morocc
 
 
 
-write.csv(annotations_intro_nonneigh, paste0('./ACR_Results/Country/Full_Tree/', opt$prefix, '_introtable.csv'), row.names = FALSE)
+write.csv(annotations_intro_nonneigh, paste0('../data/ACR_Results/Country/Full_Tree/', opt$prefix, '_introtable.csv'), row.names = FALSE)
 
 
 
