@@ -197,30 +197,33 @@ Rscript --vanilla ACR_Sub_comparison.R --meta ../data/meta_full_exclusion_clade_
 
 ###### 1. Country Level (Consensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
 
+**[PastML Visualization- ACR Country Consensus Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Country/Consensus_Tree)**
 ```
 pastml -t consensus_tree6096.nwk --prediction_method COPY --root_date 1356.74 -o canine_AdaptedFullSUBSTATE_pastML -d consensus_inSUB_Full_Sub_states_2Col.tab --upload_to_itol --columns Country_Full agg --html_compressed FullSubAdapted_2Col_50.html --tip_size_threshold 50 --colours manual_colours.character_Country_Full.tab colours.character_agg.tab
 ```
-**[PastML Visualization- ACR Country Consensus Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Country/Consensus_Tree)**
+
 
 
 ###### 2. Ancestral Character Reconstruction on Regional Level (Consensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
+**[PastML Visualization- ACR Regional Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Region)**
 ```
 pastml -t consensus_tree6096.nwk -d meta_full_exclusion_clade_simple.tab -c region23 --prediction_method MPPA --root_date 1356.74 --html_compressed pastml_compressed_visualisation_region23.html --upload_to_itol -o pastml_region23 --tip_size_threshold 100
 ```
-**[PastML Visualization- ACR Regional Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Region)**
+
 
 ###### 3. Ancestral Character Reconstruction on Colony Level (Consensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
+**[PastML Visualization- ACR Colony Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Colony)**
+
 ```
 pastml -t consensus_tree6096.nwk -d meta_full_exclusion_clade_simple.tab -c colony --prediction_method MPPA --root_date 1356.74 --html_compressed pastml_compressed_visualisation_colony.html --upload_to_itol -o pastml_colony --tip_size_threshold 100
 ```
-**[PastML Visualization- ACR Colony Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Colony)**
-
 
 ###### 4. Ancestral Character Reconstruction on Clade Level (Concensus) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
+**[PastML Visualization- ACR Clade Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Clade)**
+
 ```
 pastml -t consensus_tree6096.nwk -d meta_full_exclusion_clade_simple.tab -c clade --prediction_method MPPA --root_date 1356.74 --html_compressed pastml_compressed_visualisation_clade.html --upload_to_itol -o pastml_clade --tip_size_threshold 100
 ```
-**[PastML Visualization- ACR Clade Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Clade)**
 
 
 ### Human-Mediated Introductions
