@@ -9,22 +9,22 @@ Despite the rapid growth in viral sequencing, statistical methods face challenge
 ---
 # Introduction
 
-The following work were performed with [MAFFT(v7.505)](https://doi.org/10.1093/nar/gkf436), [FastTree(v2.1.11)](https://doi.org/10.1371/journal.pone.0009490), [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign), [Gotree(v0.4.4)](https://github.com/evolbioinfo/gotree), [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007), [HyPhy(v2.5.40)](https://github.com/veg/hyphy), [IQTREE2(v2.2.2.2)](10.1093/molbev/msaa015), [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068), [PastML(v.1.9.34)](10.1093/molbev/msz131), and [iTol](https://itol.embl.de/tree/1579917420235811657296942#). In addition custom scripts in R and Python were used, which can be found in R and Python folders. R version 4.2.1 was used with the following packages, dplyr, tidyverse, ggplot2, plotly, treeio, phangorn, cepiigeogist, countrycode, reshape, data.table, DT, optparse, lubridate, seqinR, readr, taxize, rworldmap, googleVis,rgdal, scales, wesanderson, ape, and Quartet. Python version 3.8 was used with the following packages numpy, pandas, random, pastml.tree, and collections   
+The following work was performed with [MAFFT(v7.505)](https://doi.org/10.1093/nar/gkf436), [FastTree(v2.1.11)](https://doi.org/10.1371/journal.pone.0009490), [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign), [Gotree(v0.4.4)](https://github.com/evolbioinfo/gotree), [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007), [HyPhy(v2.5.40)](https://github.com/veg/hyphy), [IQTREE2(v2.2.2.2)](10.1093/molbev/msaa015), [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068), [PastML(v.1.9.34)](10.1093/molbev/msz131), and [iTol](https://itol.embl.de/tree/1579917420235811657296942#). In addition custom scripts in R and Python were used, which can be found in [R](https://github.com/amholtz/GlobalRabies/tree/main/R) and [Python](https://github.com/amholtz/GlobalRabies/tree/main/python) folders. R version 4.2.1 was used with the following packages, dplyr, tidyverse, ggplot2, plotly, treeio, phangorn, cepiigeogist, countrycode, reshape, data.table, DT, optparse, lubridate, seqinR, readr, taxize, rworldmap, googleVis,rgdal, scales, wesanderson, ape, and Quartet. Python version 3.8 was used with the following packages numpy, pandas, random, pastml.tree, and collections   
 
-The intermediate data files can be found in the data folder. To reproduce the analyses from scatch follow the instructions below.
+The intermediate data files can be found in the [data folder](https://github.com/amholtz/GlobalRabies/tree/main/data). To reproduce the analyses from scratch follow the instructions below.
 
 
 ### Set up
 
-Data can either be downloaded from a link or found in [data folder](https://github.com/amholtz/GlobalRabies/tree/main/data). Large alignment files can be downloaded [here](https://www.dropbox.com/scl/fo/nnaz349rkwqew3qsf2fhp/h?dl=0&rlkey=bd0b65ql5ewy8szn29j4wndvu)
+Data can either be downloaded in the [data folder](https://github.com/amholtz/GlobalRabies/tree/main/data). Large alignment files can be downloaded [here](https://www.dropbox.com/scl/fo/nnaz349rkwqew3qsf2fhp/h?dl=0&rlkey=bd0b65ql5ewy8szn29j4wndvu)
 
-Initial sequence dataset was downloaded from [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Lyssavirus%20rabies,%20taxid:11292) by the searching for taxid:11292. Download [fasta](https://www.dropbox.com/s/qflcjo106h2tnw6/allRABV.fasta?dl=0) and [metadata file](https://github.com/amholtz/GlobalRabies/blob/main/data/meta_full_exclusion_clade_simple.tab) and save in data folder as allRABV.fasta
+Initial sequence dataset was downloaded from [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Lyssavirus%20rabies,%20taxid:11292) by  searching for taxid:11292. Download [fasta](https://www.dropbox.com/s/qflcjo106h2tnw6/allRABV.fasta?dl=0) and [metadata file](https://github.com/amholtz/GlobalRabies/blob/main/data/meta_full_exclusion_clade_simple.tab) and save in data folder as allRABV.fasta
 
 
 ### Sequence alignment
 1.  Global alignment by [MAFFT(v7.505)](https://doi.org/10.1093/nar/gkf436)
 ```
-mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments fragments --auto allRABV.fasta > with_keeplength_RABV.fasta
+mafft --reorder --keeplength --maxambiguous 0.05 --addfragments ../data/allRABV.fasta --auto ../data/rabv_reference_1988.fasta  > with_keeplength_RABV.fasta
 ```
 2. Host species were categorized by family and order to simplify by custom script [species_host_table.R](https://github.com/amholtz/GlobalRabies/blob/main/R/species_host_table.R)
 
@@ -32,7 +32,7 @@ mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments 
 Rscript --vanilla species_host_table.R --meta ../data/meta_full_exclusion_clade_simple.tab --host ../data/species_host_table.csv
 ```
 
-3.  NC_001542, reference genome was cut at the positions in the table below and sequences were categorized into separate gene specific fasta files from the position cut offs which represent the start codon to the end of the coding region of the gene (mRNA). Sequences were added to the fasta gene files they belonged (for example, WGS will appear in each of the 5 gene FA files since they contain each of the five genes)  ([clean_rabv.R](https://github.com/amholtz/GlobalRabies/blob/main/R/clean_RABV.R)). The reference gene (from above step) was added to these files.
+3.  The custom script, ([clean_rabv.R](https://github.com/amholtz/GlobalRabies/blob/main/R/clean_RABV.R)), organized sequences by subgenomic region. NC_001542, the reference genome was cut at the positions in the table below ((and in the file [partition_RABVGenes.txt])) which represent start and stop codons for each gene. As an example, sequences categorized as G gene, contain more than 200 nucleotides between start and stop codons and were saved as a new line in a text file. A quality check was conducted to remove sequences that were (1) missing date and country information, (2) older than 1972, (3) identified as vaccine or laboratory strains, (4) with coding regions shorter than 200 nucleotides. As a result, 14,752 sequences were retained for this study.
 
   | Gene      | Position Start | Position End |
   |-----------|----------------|--------------|
@@ -44,20 +44,24 @@ Rscript --vanilla species_host_table.R --meta ../data/meta_full_exclusion_clade_
 
   ```
 Rscript --vanilla clean_RABV.R --meta ../data/meta_full_exclusion_clade_simple.tab --aln ../data/with_keeplength_RABV.fasta --host_table ../data/species_host_table.csv  --out_n_text ../data/sequence_alignments/gene_specific_analysis/n.txt --out_p_text ../data/sequence_alignments/gene_specific_analysis/p.txt --out_m_text ../data/sequence_alignments/gene_specific_analysis/m.txt --out_g_text ../data/sequence_alignments/gene_specific_analysis/g.txt --out_l_text ../data/sequence_alignments/gene_specific_analysis/l.txt --out_wgs_text ../data/sequence_alignments/gene_specific_analysis/wgs.txt
+
+
+4. The sequence alignment was  split into 4 different files, representing the coding regions of the 4 genes defined in [partition_RABVGenes.txt].
+  ```
+  goalign split -i ../data/with_keeplength_RABV.fasta --partition ../data/sequence_alignments/gene_specific_analysis/partition_RABVGenes.txt --out-prefix ../data/sequence_alignments/gene_specific_analysis/cutalign_
   ```
 
-
-
-4.  Original alignment is then subsected according to genetic categorization by [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign) (G gene example)
+5.  Each gene-specific alignment is then subsected for sequences grouped in step 3 using [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign) along with WGS  (G gene example)
 
   ```
-  goalign subset -i allRABV.fasta -f G.txt --unaligned -o Ggene.fasta
+  cat ../data/sequence_alignments/gene_specific_analysis/G.txt ../data/sequence_alignments/gene_specific_analysis/wgs.txt > ../data/sequence_alignments/gene_specific_analysis/G_wgs.txt
 
+  goalign subset -i ../data/sequence_alignments/gene_specific_analysis/cutalign_G.fa -f ../data/sequence_alignments/gene_specific_analysis/G_wgs.txt --unaligned -o ../data/sequence_alignments/gene_specific_analysis/cutalign_G_only.fa
   ```
 
 5.  Each gene is then aligned independently by [MAFFT(v7.505)](https://doi.org/10.1093/nar/gkf436) according to the cut reference sequence (Ex: G gene from reference + all RABV sequences that were classified as G gene)
 ```
-mafft --reorder --keeplength --compactmapout --maxambiguous 0.05 --addfragments fragments --auto Ggene.fasta > Ggene_aln.fa
+mafft --reorder --keeplength --maxambiguous 0.05 --addfragments ../data/sequence_alignments/gene_specific_analysis/cutalign_G_only.fa --auto ../data/sequence_alignments/gene_specific_analysis/Ggene_Ref.fa > ../data/sequence_alignments/gene_specific_analysis/Ggene_aln.fa
 ```
 
 6. [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign) concat was then used to concatenate the aligned sequences back together (without noncoding regions)
