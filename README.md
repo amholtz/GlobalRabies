@@ -158,7 +158,7 @@ iqtree2 -s ../data/subsample5.fa -st DNA -nt 8 -alrt 0 -m GTR+I+G4 -B 1000 -p ..
   **Output**:[TempEstRooted_subsampled_5000_5.fa.nwk](https://github.com/amholtz/GlobalRabies/blob/main/data/TempEstRooted_subsampled_5000_5.fa.nwk)
 
   ![Alt text](https://github.com/amholtz/GlobalRabies/blob/main/Sub5Temp_Outliers.png)
-  **67 Sequences with abnormally long branch lengths are located in TempEst, saved in text file, pruned from tree (sub5_tempest_removed.txt)](https://github.com/amholtz/GlobalRabies/blob/main/data/sub5_tempest_removed.txt
+  **67 Sequences with abnormally long branch lengths are located in TempEst, saved in text file, pruned from tree [(sub5_tempest_removed.txt)](https://github.com/amholtz/GlobalRabies/blob/main/data/sub5_tempest_removed.txt)
 
     ```
     gotree prune -i ../data/TempEstRooted_subsampled_5000_5.fa.nwk -f ../data/sub5_tempest_removed.txt -o ../data/TempEstRooted_subsampled_5000_5_oR.nwk
