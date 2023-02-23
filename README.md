@@ -28,7 +28,7 @@ Initial sequence dataset was downloaded from [NCBI Virus](https://www.ncbi.nlm.n
   ```
 2. Host species were categorized by family and order to simplify by custom script [species_host_table.R](https://github.com/amholtz/GlobalRabies/blob/main/R/species_host_table.R)
   ```
-  Rscript --vanilla species_host_table.R --meta ../data/metadata_edited.tab --host ../data/species_host_table.csv
+  Rscript --vanilla species_host_table.R --meta ../data/metadata.tab --table ../data/species_host_table.csv
   ```
 
 3.  The custom script, ([clean_rabv.R](https://github.com/amholtz/GlobalRabies/blob/main/R/clean_RABV.R)), organized sequences by subgenomic region. NC_001542, the reference genome was cut at the positions in the table below [(partition_RABVGenes.txt)](https://github.com/amholtz/GlobalRabies/blob/main/data/sequence_alignments/gene_specific_analysis/partition_RABVGenes.txt) which represent start and stop codons for each gene. As an example, sequences categorized as G gene, contain more than 200 nucleotides between start and stop codons and were saved as a new line in a text file. A quality check was conducted to remove sequences that were (1) missing date and country information, (2) older than 1972, (3) identified as vaccine or laboratory strains, (4) with coding regions shorter than 200 nucleotides. As a result, 14,752 sequences were retained for this study.
@@ -126,7 +126,7 @@ $mpirun -np 6 HYPHYMPI fel --alignment ../data/selection_model/NT_macse_out.fa -
 
 #### Ancestral Character Reconstruction on Country Level (Full Tree) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
 ```
-pastml -t ../data/TempestRooted1327_WGSRate_OutRem.date.nwk -d meta_RABV_cleaned_clade_gene.tab -c Country --prediction_method MPPA --root_date 1356.74 --html_compressed HTML_compressed_canine_MPPA_nexus_100.html --upload_to_itol -o canine_MPPA_nexus_pastML --tip_size_threshold 100
+pastml -t ../data/TempestRooted1327_WGSRate_OutRem.date.nwk -d metadata_edited.tab -c Country --prediction_method MPPA --root_date 1356.74 --html_compressed HTML_compressed_canine_MPPA_nexus_100.html --upload_to_itol -o canine_MPPA_nexus_pastML --tip_size_threshold 100
 ```
 **[iTol Tree with ACR Estimation annotations](https://itol.embl.de/tree/1579917420235811657296942#)** & **[PastML Visualization- ACR Country Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Country/Full_Tree)**
 
@@ -134,7 +134,7 @@ pastml -t ../data/TempestRooted1327_WGSRate_OutRem.date.nwk -d meta_RABV_cleaned
 
 1.  Smart-Subsampling by country was performed using the custom script [py_subsampling.py](https://github.com/amholtz/GlobalRabies/blob/main/python/py_subsampling.py)
 ```
-python3 py_subsampling.py --input_tree ../data/TempestRooted1327_WGSRate_OutRem.date.nwk --input_locs ../data/meta_RABV_cleaned_clade_gene.tab --size 5500 --output_ids subsampled_5500_1 subsampled_5500_2 subsampled_5500_3 subsampled_5500_4 subsampled_5500_5
+python3 py_subsampling.py --input_tree ../data/TempestRooted1327_WGSRate_OutRem.date.nwk --input_locs ../data/metadata_edited.tab --size 5500 --output_ids subsampled_5500_1 subsampled_5500_2 subsampled_5500_3 subsampled_5500_4 subsampled_5500_5
 ```
 
 
@@ -183,7 +183,7 @@ Rscript --vanilla triplet_distance.R --subtree ../data/TempEstRooted_subsampled_
 #### Ancestral Character Reconstruction on Country Level (Subsample 5) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
 (working directory ~data/ACR_Results/Country/Sub5/)
 ```
-pastml -t ../data/TempEstRooted_subsampled_5000_5_OutRem.nwk.result.nwk -d ../data/meta_RABV_cleaned_clade_gene.tab -c Country --prediction_method MPPA --root_date 1365 --html_compressed HTML_compressed_canine_5000_5_MPPA_nexus_100.html --upload_to_itol -o canine_5000_5_subsample_MPPA_nexus_pastML --tip_size_threshold 100
+pastml -t ../data/TempEstRooted_subsampled_5000_5_OutRem.nwk.result.nwk -d ../data/metadata_edited.tab -c Country --prediction_method MPPA --root_date 1365 --html_compressed HTML_compressed_canine_5000_5_MPPA_nexus_100.html --upload_to_itol -o canine_5000_5_subsample_MPPA_nexus_pastML --tip_size_threshold 100
 ```
 **[iTol Tree with ACR Estimation annotations](https://itol.embl.de/tree/15799174109116831658497579)** & **[PastML Visualization- ACR Country Results](https://github.com/amholtz/GlobalRabies/blob/main/data/ACR_Results/Country/Sub5)**
 
@@ -244,8 +244,3 @@ Rscript --vanilla metadata_exclusioncriteria.R --meta ../data/metadata_edited.ta
 # Get in touch
 
 To report any issues, please [open an isssue](https://github.com/amholtz/GlobalRabies/issues).
-
-
-INCLUDE COLONIAL_POWER_META.R and META_DATA_EXCLUSION.R in Clean_RABV oR MAKE A NEW STEP WHERE YOU ADD TO META_DATA_EXCLUSION
-FINAL STEP AS WELL WHERE YOU SHOW EXCLUSION REASONS AT THE END
-oOR
