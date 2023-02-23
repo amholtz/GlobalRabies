@@ -35,7 +35,7 @@ opt_parser = OptionParser(option_list=option_list)
 opt = parse_args(opt_parser)
 
 fulltree <- read.tree(opt$fulltree)
-subtree <- read.nexus(opt$subtree)
+subtree <- read.tree(opt$subtree)
 
 #Look for misplaced tips between trees
 
