@@ -207,7 +207,7 @@ Rscript --vanilla ACR_Sub_comparison.R --meta ../data/metadata_edited.tab --path
 
 **[PastML Visualization- ACR Country Consensus Results](https://github.com/amholtz/GlobalRabies/tree/main/data/ACR_Results/Country/Consensus_Tree)**
 ```
-pastml -t ../data/ACR_Results/Country/Consensus_Tree/consensus_tree6096.nwkconsensus_tree6096.nwk --prediction_method COPY --root_date 1356.74 -o canine_AdaptedFullSUBSTATE_pastML -d ../data/ACR_Results/Country/Consensus_Tree/consensus_inSUB_Full_Sub_states_2Col.tab --upload_to_itol --columns Country_Full agg --html_compressed ../data/ACR_Results/Country/Consensus_Tree/FullSubAdapted_2Col_50.html --tip_size_threshold 50 --colours manual_colours.character_Country_Full.tab colours.character_agg.tab
+pastml -t ../data/ACR_Results/Country/Consensus_Tree/consensus_tree6096.nwk --prediction_method COPY --root_date 1356.74 -o canine_AdaptedFullSUBSTATE_pastML -d ../data/ACR_Results/Country/Consensus_Tree/consensus_inSUB_Full_Sub_states_2Col.tab --upload_to_itol --columns Country_Full agg --html_compressed ../data/ACR_Results/Country/Consensus_Tree/FullSubAdapted_2Col_50.html --tip_size_threshold 50 --colours manual_colours.character_Country_Full.tab colours.character_agg.tab
 ```
 
 
