@@ -159,7 +159,7 @@ iqtree2 -s ../data/subsample5.fa -st DNA -nt 8 -alrt 0 -m GTR+I+G4 -B 1000 -p ..
 
 4.  Rate from WGS [(rate.txt)](https://github.com/amholtz/GlobalRabies/blob/main/data/rate.txt) applied on Subsample 5 Tree with [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068)
 ```
-lsd2 -i ../data/TempEstRooted_subsampled_5000_5.fa.treefile -d ../data/fullCanine_lsd2.tab -s 10860 -o sub5_CI -f 1000 -e 3 -w rate.txt
+lsd2 -i ../data/TempEstRooted_subsampled_5000_5.fa.treefile -d ../data/fullCanine_lsd2.tab -s 10860 -o sub5_CI_OutRem.date -f 1000 -e 3 -w rate.txt
 ```
 
 
@@ -183,7 +183,7 @@ Rscript --vanilla triplet_distance.R --subtree ../data/TempEstRooted_subsampled_
 #### Ancestral Character Reconstruction on Country Level (Subsample 5) was estimated with [PastML(v.1.9.34)](10.1093/molbev/msz131)
 (working directory ~data/ACR_Results/Country/Sub5/)
 ```
-pastml -t ../data/sub5_CI.nwk -d ../data/metadata_edited.tab -c Country --prediction_method MPPA --root_date 1365 --html_compressed HTML_compressed_canine_5000_5_MPPA_nexus_100.html --upload_to_itol -o canine_5000_5_subsample_MPPA_nexus_pastML --tip_size_threshold 100
+pastml -t ../data/sub5_CI_OutRem.date.nwk -d ../data/metadata_edited.tab -c Country --prediction_method MPPA --root_date 1365 --html_compressed HTML_compressed_canine_5000_5_MPPA_nexus_100.html --upload_to_itol -o canine_5000_5_subsample_MPPA_nexus_pastML --tip_size_threshold 100
 ```
 **[iTol Tree with ACR Estimation annotations](https://itol.embl.de/tree/15799174109116831658497579)** & **[PastML Visualization- ACR Country Results](https://github.com/amholtz/GlobalRabies/blob/main/data/ACR_Results/Country/Sub5)**
 
