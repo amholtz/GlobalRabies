@@ -11,6 +11,8 @@
 
 rm(list=ls())
 library(dplyr)
+library(cepiigeodist)
+library(countrycode)
 library(ggplot2)
 library(seqinr)
 library(readr)
@@ -40,7 +42,9 @@ option_list = list(
   make_option(c("-l", "--out_l_text"), type="character", default=NULL, 
               help="output L gene file path", metavar="character"),
   make_option(c("-w", "--out_wgs_text"), type="character", default=NULL, 
-              help="output wgs gene file path", metavar="character")
+              help="output wgs gene file path", metavar="character"),
+  make_option(c("-o", "--meta_out"), type="character", default=NULL, 
+              help="metadata output file path", metavar="character")
 );
 
 
@@ -50,10 +54,8 @@ opt = parse_args(opt_parser)
 
 ##
 meta <- read.delim(opt$meta)
-host_table <- read_csv(opt$host_table)
-meta <- meta %>% filter(!is.na(Country)) %>% filter(!is.na(Collection_Date)) %>% 
-  filter(Collection_Date > 1971) %>% filter(Length > 99)
 
+## Creating a simpler column for clade definitions
 meta$clade_simple <- ifelse(str_detect(meta$Clade, "Bats"), "Bat_Clade", 
                             ifelse(str_detect(meta$Clade, "Africa_2"), "Africa2_Clade", 
                                    ifelse(str_detect(meta$Clade, "Africa_3"), "Africa3_Clade", 
@@ -62,11 +64,47 @@ meta$clade_simple <- ifelse(str_detect(meta$Clade, "Bats"), "Bat_Clade",
                                                         ifelse(str_detect(meta$Clade, "Asian"), "Asian_Clade", meta$Clade))))))
 
 
+## Creating a simpler column for host species definitions 
+host_table <- read_csv(opt$host_table)
+meta$host_simple <- host_table$host_simple[match(meta$Host, host_table$Host)]
 
-meta_test <- left_join(meta, host_table, by = 'Host')
+## Creating a column for regional definitions
+
+meta$region23<- countryname(meta$Country, destination = "region23")
+
+## Creating a column for colonial history
+
+country_relations <- as.data.frame(cepiigeodist::dist_cepii)
+country_relations$parent_country <- countrycode(country_relations$iso_o, 'iso3c', "country.name")
+country_relations$child_country <- countrycode(country_relations$iso_d, 'iso3c', "country.name")
+
+#Define colonial powers:
+colonial_powers <- c("United Kingdom", "France", "Spain", "Portugal", "Russia")
+
+country_relations <- country_relations %>% select(parent_country,child_country,colony)
+country_relations$parent_country <- str_replace(country_relations$parent_country, 'United States', 'USA')
+country_relations$child_country <- str_replace(country_relations$child_country, 'United States', 'USA')
+
+country_relations <- country_relations %>% filter(parent_country %in% colonial_powers) %>% 
+  filter(colony == 1)
+
+UK_colony <- country_relations %>% filter(parent_country == "United Kingdom") %>% select(child_country) %>%
+  rbind(c("United Kingdom")) %>% 
+  rbind(c("China"))
+
+FR_colony <- country_relations %>% filter(parent_country == "France") %>% select(child_country) %>% rbind(c("France"))
+RU_colony <- country_relations %>% filter(parent_country == "Russia") %>% select(child_country) %>% rbind(c("Russia"))
+PR_colony <- country_relations %>% filter(parent_country == "Portugal") %>% select(child_country) %>% rbind(c("Portugal"))
+SP_colony <- country_relations %>% filter(parent_country == "Spain") %>% select(child_country) %>% rbind(c("Spain"))
+
+meta$colony <- ifelse(meta$Country %in% UK_colony$child_country, 'British Empire', 
+                      ifelse(meta$Country %in% FR_colony$child_country, 'French Empire',
+                             ifelse(meta$Country %in% RU_colony$child_country, 'Russian Empire',
+                                    ifelse(meta$Country %in% SP_colony$child_country, 'Spainish Empire',
+                                           ifelse(meta$Country %in% PR_colony$child_country, 'Portugese Empire', 'Non-colonial')))))
 
 
-##
+## Creating text files for sequence accession numbers that contain nucleotides in a subgenomic region
 
 aln = read.fasta(opt$aln)
 
@@ -156,7 +194,11 @@ meta$fragment <- ifelse(meta$Length > 10000, 'WGS',
                                              ifelse(meta$Accession %in% Ggenes, 'G',
                                                     ifelse(meta$Accession %in% Lgenes, 'L', 'removed'))))))
 
-#write_delim(meta, opt$meta_out, delim = '\t', quote = 'none')
+write_delim(meta, opt$meta_out, delim = '\t', quote = 'none')
+
+## Removing sequences with data quality issues
+meta <- meta %>% filter(!is.na(Country)) %>% filter(!is.na(Collection_Date)) %>% 
+  filter(Collection_Date > 1971) %>% filter(Length > 99)
 
 meta_n <- meta %>% filter(meta$fragment == 'N') %>% select(Accession) %>% 
   write.csv(opt$out_n_text,
@@ -176,9 +218,6 @@ meta_l <- meta %>% filter(meta$fragment == 'L') %>% select(Accession) %>%
 meta_wgs <- meta %>% filter(meta$fragment == 'WGS') %>% select(Accession) %>% 
   write.csv(opt$out_wgs_text,
             row.names = FALSE, quote = FALSE, col.names = FALSE)
-
-
-
 
 
 

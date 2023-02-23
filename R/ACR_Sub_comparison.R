@@ -45,9 +45,6 @@ print("*********************************************")
 print("******This script can take 30 minutes to run*********")
 print("*********************************************")
 
-#opt$path <- "/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/ACR_Results/Country/"
-#opt$meta <- "/Volumes/NGS_Viroscreen/aholtz/euroME/project/GlobalRabies/data/meta_full_exclusion_clade_simple.tab"
-
 meta <- read.delim(opt$meta)
 tree_full <- read.nexus(paste0(opt$path,'Full_Tree/named.tree_TempestRooted1327_WGSRate_OutRem.date.nexus'))
 annotations_full <- read.delim(paste0(opt$path, 'Full_Tree/combined_ancestral_states.tab'))

@@ -12,7 +12,6 @@ library(readr)
 library(treeio)
 library(tidyr)
 library(ggplot2)
-library(plyr)
 library(scales)
 library(countrycode)
 

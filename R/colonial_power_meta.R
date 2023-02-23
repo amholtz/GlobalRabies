@@ -14,7 +14,6 @@
 ## French Empire
 ## Portugese Empire
 
-setwd("/Volumes/NGS_Viroscreen/aholtz/euroME/total/alignment/better_alignment/complete_tree/complete_dating/canine")
 
 library(cepiigeodist)
 library(countrycode)
