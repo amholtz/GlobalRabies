@@ -114,9 +114,9 @@ lsd2 -i ../data/TempestRooted_RABV_canine.nwk -d ../data/canine_lsd2_dates.txt -
 ### Purification and Diversifying Selection was performed using [HyPhy(v2.5.40)](https://github.com/veg/hyphy)
 
 ```
-$mpirun -np 6 HYPHYMPI meme --alignment NT_macse_out.fa --tree troupin_tree.nwk
-$mpirun -np 6 HYPHYMPI absrel --alignment NT_macse_out.fa --tree troupin_tree.nwk
-$mpirun -np 6 HYPHYMPI fel --alignment NT_macse_out.fa --tree troupin_tree.nwk --branches Internal --ci Yes
+$mpirun -np 6 HYPHYMPI meme --alignment ../data/selection_model/NT_macse_out.fa --tree ../data/selection_model/troupin_tree.nwk
+$mpirun -np 6 HYPHYMPI absrel --alignment ../data/selection_model/NT_macse_out.fa --tree ../data/selection_model/troupin_tree.nwk
+$mpirun -np 6 HYPHYMPI fel --alignment ../data/selection_model/NT_macse_out.fa --tree ../data/selection_model/troupin_tree.nwk --branches Internal --ci Yes
 
 ```
 
