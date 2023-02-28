@@ -151,25 +151,27 @@ python3 python/py_subsampling.py --input_tree data/TempestRooted1327_WGSRate_Out
 iqtree2 -s data/subsample5.fa -st DNA -nt 8 -alrt 0 -m GTR+I+G4 -B 1000 -p data/gene_partition.txt -pre data/subsample5.fa
 ```
 
+
+
+CONVERT IQTREE OUTPUT NEXUS TO NEWICK**** THEN MAYBE YOU DON"T NEED TO PRUNE THE TREE. TEST!
+
+
 3. Rooting via [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007) residual-mean square function to infer the best-fitting root)
 
   **Input**:[subsample5.fa.treefile](https://github.com/amholtz/GlobalRabies/blob/main/data/subsample5.fa.treefile), [Tempest_fullCanine.tab](https://github.com/amholtz/GlobalRabies/blob/main/data/Tempest_fullCanine.tab)
 
-  **Output**:[TempEstRooted_subsampled_5000_5.fa.nwk](https://github.com/amholtz/GlobalRabies/blob/main/data/TempEstRooted_subsampled_5000_5.fa.nwk)
+  **Output**:[TempEstRooted_subsampled_5000_5.fa.treefile](https://github.com/amholtz/GlobalRabies/blob/main/data/TempEstRooted_subsampled_5000_5.fa.nwk)
 
-  ![Alt text](https://github.com/amholtz/GlobalRabies/blob/main/Sub5Temp_Outliers.png)
-  **67 Sequences with abnormally long branch lengths are located in TempEst, saved in text file, pruned from tree [(sub5_tempest_removed.txt)](https://github.com/amholtz/GlobalRabies/blob/main/data/sub5_tempest_removed.txt)
+4. Convert Tempest Output Nexus to Newick with [Gotree(v0.4.4)](https://github.com/evolbioinfo/gotree)
 
-    ```
-    gotree prune -i data/TempEstRooted_subsampled_5000_5.fa.nwk -f data/sub5_tempest_removed.txt -o data/TempEstRooted_subsampled_5000_5_oR.nwk
-
-    ```
-
-4.  Rate from WGS [(rate.txt)](https://github.com/amholtz/GlobalRabies/blob/main/data/rate.txt) applied on Subsample 5 Tree with [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068)
 ```
-lsd2 -i data/TempEstRooted_subsampled_5000_5_oR.nwk -d data/fullCanine_lsd2.tab -s 10860 -o sub5_CI_OutRem.date -f 1000 -e 3 -w rate.txt
+gotree reformat newick -i data/TempEstRooted_subsampled_5000_5.fa.treefile --format nexus -o data/TempEstRooted_subsampled_5000_5.fa.nwk
 ```
 
+5.  Rate from WGS [(rate.txt)](https://github.com/amholtz/GlobalRabies/blob/main/data/rate.txt) applied on Subsample 5 Tree with [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068)
+```
+lsd2 -i data/TempEstRooted_subsampled_5000_5.fa.nwk -d data/fullCanine_lsd2.tab -s 10860 -o sub5_CI_OutRem.date -f 1000 -e 3 -w rate.txt
+```
 
 #### Comparing Subsampled tree reconstructions by Triplet Distance Calculations (Example: Subsample 5)
 
