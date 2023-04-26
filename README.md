@@ -151,11 +151,6 @@ python3 python/py_subsampling.py --input_tree data/TempestRooted1327_WGSRate_Out
 iqtree2 -s data/subsample5.fa -st DNA -nt 8 -alrt 0 -m GTR+I+G4 -B 1000 -p data/gene_partition.txt -pre data/subsample5.fa
 ```
 
-
-
-CONVERT IQTREE OUTPUT NEXUS TO NEWICK**** THEN MAYBE YOU DON"T NEED TO PRUNE THE TREE. TEST!
-
-
 3. Rooting via [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007) residual-mean square function to infer the best-fitting root)
 
   **Input**:[subsample5.fa.treefile](https://github.com/amholtz/GlobalRabies/blob/main/data/subsample5.fa.treefile), [Tempest_fullCanine.tab](https://github.com/amholtz/GlobalRabies/blob/main/data/Tempest_fullCanine.tab)
