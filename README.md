@@ -1,6 +1,6 @@
 # About
 
-This repository contains scripts and data that were used to analyze the global spread of canine-rabies virus. The paper can be found here: LINK
+This repository contains scripts and data that were used to analyze the global spread of canine-rabies virus. The preprint can be found here: [ResearchSquare_Holtz_2023](https://www.researchsquare.com/article/rs-2648592/v1)
 
 Despite the rapid growth in viral sequencing, statistical methods face challenges in handling historical viral endemic diseases with vast amounts of underutilized partial sequence data. We propose a phylogenetic pipeline harnessing full genomes as well as partial sequences to investigate historical pathogen spread between countries. Its application to Rabies virus (RABV) yields precise dating and confident estimates of geographic dispersal. By using full genomes and partial sequences, we limit both geographic and genetic bias which often hinder studies that focus on specific genes. Our pipeline reveals an emergence of the present canine-mediated RABV between 1301 and 1401 and estimates regional introductions over a 700-year period. This geographic reconstruction enables us to locate episodes of human-mediated introductions of RABV around the globe and examine the role that European colonization played in its spread. Our work enables phylogeographic reconstruction on large and genetically diverse datasets for many viral pathogens.
 
@@ -16,9 +16,9 @@ The intermediate data files can be found in the [data folder](https://github.com
 
 ### Set up
 
-Data can  be downloaded from the [data folder](https://github.com/amholtz/GlobalRabies/tree/main/data). Large alignment files can be downloaded [here](https://www.dropbox.com/scl/fo/nnaz349rkwqew3qsf2fhp/h?dl=0&rlkey=bd0b65ql5ewy8szn29j4wndvu)
+Data can  be downloaded from the [data folder](https://github.com/amholtz/GlobalRabies/tree/main/data).
 
-Initial sequence dataset was downloaded from [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Lyssavirus%20rabies,%20taxid:11292) by  searching for taxid:11292. Download [fasta](https://www.dropbox.com/s/qflcjo106h2tnw6/allRABV.fasta?dl=0) and save it in data folder as allRABV.fasta
+The initial sequence [dataset](https://github.com/amholtz/GlobalRabies/blob/main/data/allRABV.fasta) was downloaded from [NCBI Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Lyssavirus%20rabies,%20taxid:11292) by  searching for taxid:11292.
 
 
 ### Sequence alignment
@@ -68,7 +68,7 @@ mafft --reorder --keeplength --maxambiguous 0.05 --addfragments data/sequence_al
 ```
 goalign concat -i data/sequence_alignments/gene_specific_analysis/Ngene_aln.fa data/sequence_alignments/gene_specific_analysis/Pgene_aln.fa data/sequence_alignments/gene_specific_analysis/Mgene_aln.fa data/sequence_alignments/gene_specific_analysis/Ggene_aln.fa data/sequence_alignments/gene_specific_analysis/Lgene_aln.fa -o data/concat_seq_genes.fasta
 ```
-Note: Download [concat_seq_genes](https://www.dropbox.com/s/517xr3gl38ysi43/concat_seq_genes.fasta?dl=0)
+Note: Download [concat_seq_genes](https://github.com/amholtz/GlobalRabies/blob/main/data/concat_seq_genes.fasta)
 
 ![Alt text](https://github.com/amholtz/GlobalRabies/blob/main/concatenation_genes.png)
 
@@ -79,23 +79,23 @@ Note: Download [concat_seq_genes](https://www.dropbox.com/s/517xr3gl38ysi43/conc
 ```
 2.  Canine Cluster Subsected- Sequences IDs under cluster defining node were identified (n=10209) in [iTOL](https://doi.org/10.1093/nar/gkab301) and saved as a text file [(canine_ids.txt)](https://github.com/amholtz/GlobalRabies/blob/main/data/canine_ids.txt)
 
-3. A subset alignment of canine-mediate sequences (n=10209) was selected from the original alignment [(concat_seq_genes.fasta)](https://www.dropbox.com/s/517xr3gl38ysi43/concat_seq_genes.fasta?dl=0) using [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign)
+3. A subset alignment of canine-mediate sequences (n=10209) was selected from the original alignment [(concat_seq_genes.fasta)](https://github.com/amholtz/GlobalRabies/blob/main/data/concat_seq_genes.fasta) using [Goalign(v0.3.5)](https://github.com/evolbioinfo/goalign)
 ```
 goalign subset -i data/concat_seq_genes.fasta -f data/canine_ids.txt -o data/canine.fa
 ```
 
-3. A phylogenetic tree of all canine-mediated sequences ([canine.fa](https://www.dropbox.com/s/xji8hmmzykae27x/canine.fa?dl=0)) was reconstructed using [FastTree(v2.1.11)](https://doi.org/10.1371/journal.pone.0009490)
+4. A phylogenetic tree of all canine-mediated sequences ([canine.fa](https://github.com/amholtz/GlobalRabies/blob/main/data/canine.fa)) was reconstructed using [FastTree(v2.1.11)](https://doi.org/10.1371/journal.pone.0009490)
 ```
 ~/FastTreeMP -gtr -gamma -nt data/canine.fa > data/RABV_canine10209.nwk
 ```
 
-4. Rooting was accomplished via [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007) by residual-mean square function. Date file ([Tempest_fullCanine.tab](https://github.com/amholtz/GlobalRabies/blob/main/data/Tempest_fullCanine.tab)) is adapted to [Tempest format](https://beast.community/tempest_tutorial)  from our [metadata file](https://github.com/amholtz/GlobalRabies/blob/main/data/metadata_edited.tab)
+5. Rooting was accomplished via [TempEst(v1.5.3)](https://doi.org/10.1093/ve/vew007) by residual-mean square function. Date file ([Tempest_fullCanine.tab](https://github.com/amholtz/GlobalRabies/blob/main/data/Tempest_fullCanine.tab)) is adapted to [Tempest format](https://beast.community/tempest_tutorial)  from our [metadata file](https://github.com/amholtz/GlobalRabies/blob/main/data/metadata_edited.tab)
 
   **Input**: [RABV_canine10209.nwk](https://github.com/amholtz/GlobalRabies/blob/main/data/RABV_canine10209.nwk), [Tempest_fullCanine.tab](https://github.com/amholtz/GlobalRabies/blob/main/data/Tempest_fullCanine.tab)
 
   **Output**: [TempestRooted_RABV_canine.nwk](https://github.com/amholtz/GlobalRabies/blob/main/data/TempestRooted_RABV_canine.nwk)
 
-4.  Canine Tree Dating - Evolutionary rate from tree of just canine-WGS
+6.  Canine Tree Dating - Evolutionary rate from tree of just canine-WGS
 ###### Pruning Canine Tree for just WGS by [Gotree(v0.4.4)](https://github.com/evolbioinfo/gotree)
 ```
 gotree prune -i data/TempestRooted_RABV_canine.nwk -f data/sequence_alignments/gene_specific_analysis/wgs.txt -r -o data/wgs_TempestRooted1327_canine.nwk
@@ -106,7 +106,7 @@ lsd2 -i data/wgs_TempestRooted1327_canine.nwk -d data/canine_lsd2_dates.txt -o d
 ```
 Evolutionary rate: 0.000199876 [0.000194762; 0.000221632]
 
-5. Rate applied on entire canine-RABV Tree with [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068)
+7. Rate applied on entire canine-RABV Tree with [LSD2(v1.8.8)](https://doi.org/10.1093/sysbio/syv068)
 ```
 lsd2 -i data/TempestRooted_RABV_canine.nwk -d data/canine_lsd2_dates.txt -o data/TempestRooted1327_WGSRate_OutRem.date.nwk -e 5 -s 10860 -f 1000 -w data/rate.txt
 ```
