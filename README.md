@@ -70,7 +70,7 @@ goalign concat -i data/sequence_alignments/gene_specific_analysis/Ngene_aln.fa d
 ```
 Note: Download [concat_seq_genes](https://github.com/amholtz/GlobalRabies/blob/main/data/concat_seq_genes.fasta)
 
-![Alt text](https://github.com/amholtz/GlobalRabies/blob/main/concatenation_genes.png)
+![Alt text](https://github.com/amholtz/GlobalRabies/blob/main/concatenation_genes.png#gh-light-mode-only)
 
 ### Phylogenetic Tree Reconstruction & Dating
 1. A global phylogenetic tree was reconstructed using [FastTree(v2.1.11)](https://doi.org/10.1371/journal.pone.0009490)  on all sequences - [iTol link to tree result](https://itol.embl.de/tree/15799174202126551652369486#)
